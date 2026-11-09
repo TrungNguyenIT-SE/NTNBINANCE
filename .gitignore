@@ -33,11 +33,14 @@ apps/web/coverage/
 npm-debug.log*
 
 # Runtime data: keep directory manifests only
-data/**/*
+data/**
+!data/**/
 !data/**/.gitkeep
-models/**/*
+models/**
+!models/**/
 !models/**/.gitkeep
-var/**/*
+var/**
+!var/**/
 !var/**/.gitkeep
 reports/*.log
 reports/*.json
