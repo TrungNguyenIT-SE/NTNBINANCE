@@ -55,6 +55,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 
 This runs Ruff lint/format check, strict mypy, pytest with coverage threshold, ESLint, Prettier check, TypeScript check, Vitest and frontend production build.
 
+The market-data contract is defined in `docs/DATA_DICTIONARY.md` and
+`docs/DATA_CONTRACT.md`. Run its no-look-ahead invariants independently with:
+
+```powershell
+.venv\Scripts\python.exe -m pytest tests/data_contract --no-cov
+```
+
 ## Smoke test
 
 ```powershell

@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn C hoàn tất / 3 trên 26 giai đoạn / 11,54%**  
+> Trạng thái hiện tại: **Giai đoạn D hoàn tất / 4 trên 26 giai đoạn / 15,38%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -48,7 +48,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] A — Chốt bài toán và phạm vi
 - [x] B — Kiểm kê tài nguyên và khóa ngân sách 0 VNĐ
 - [x] C — Khởi tạo repository và tiêu chuẩn kỹ thuật
-- [ ] D — Đặc tả dữ liệu và hợp đồng thời gian
+- [x] D — Đặc tả dữ liệu và hợp đồng thời gian
 - [ ] E — Thu thập dữ liệu Binance
 - [ ] F — Làm sạch và kiểm định dữ liệu
 - [ ] G — Định nghĩa nhãn dự đoán
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `3/26 giai đoạn = 11,54%`  
-**Giai đoạn đang làm:** `D`  
+**Tiến độ hiện tại:** `4/26 giai đoạn = 15,38%`
+**Giai đoạn đang làm:** `E`
 **Ngày cập nhật:** `09/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -123,18 +123,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### D — Đặc tả dữ liệu và hợp đồng thời gian
 
-- [ ] Viết data dictionary cho OHLCV, mark/index price, funding, OI và metadata.
-- [ ] Quy định UTC cho storage; timezone chỉ đổi ở UI.
-- [ ] Định nghĩa rõ `event_time`, `open_time`, `close_time`, `ingested_at`, `decision_time`.
-- [ ] Quy định chỉ dùng nến `is_closed=true` khi dự đoán.
-- [ ] Định nghĩa unique key, schema version và quality flags.
-- [ ] Định nghĩa raw/clean/feature layer trên Parquet/DuckDB.
-- [ ] Định nghĩa retention cho ảnh, logs, raw data và artifacts.
-- [ ] Viết invariant tests trước khi ingest lớn.
-- [ ] **Hoàn tất D — data contract được khóa.**
+- [x] Viết data dictionary cho OHLCV, mark/index price, funding, OI và metadata.
+- [x] Quy định UTC cho storage; timezone chỉ đổi ở UI.
+- [x] Định nghĩa rõ `event_time`, `open_time`, `close_time`, `ingested_at`, `decision_time`.
+- [x] Quy định chỉ dùng nến `is_closed=true` khi dự đoán.
+- [x] Định nghĩa unique key, schema version và quality flags.
+- [x] Định nghĩa raw/clean/feature layer trên Parquet/DuckDB.
+- [x] Định nghĩa retention cho ảnh, logs, raw data và artifacts.
+- [x] Viết invariant tests trước khi ingest lớn.
+- [x] **Hoàn tất D — data contract được khóa.**
 
 **Exit Gate D:** timestamp semantics không mơ hồ và có test chống dùng nến chưa đóng.  
-**Bằng chứng:** `docs/DATA_DICTIONARY.md`, `docs/DATA_CONTRACT.md`, `tests/data_contract/`
+**Bằng chứng:** `docs/DATA_DICTIONARY.md`, `docs/DATA_CONTRACT.md`, `tests/data_contract/`, `reports/stage-d-contract-validation.md`
 
 ### E — Thu thập dữ liệu Binance
 
