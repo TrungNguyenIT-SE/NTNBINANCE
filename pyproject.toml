@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools==80.10.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntnbinance"
+version = "0.1.0"
+description = "Local-first Binance Futures signal research MVP"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+authors = [{ name = "TrungNguyenIT-SE" }]
+dependencies = [
+    "fastapi==0.162.2",
+    "uvicorn==0.54.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx2==2.16.0",
+    "mypy==2.4.1",
+    "pre-commit==4.7.0",
+    "pytest==9.2.0",
+    "pytest-cov==7.0.0",
+    "ruff==0.17.4",
+]
+
+[project.scripts]
+ntnbinance-api = "ntnbinance.main:run"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-config --strict-markers --cov=ntnbinance --cov-report=term-missing --cov-fail-under=90"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["ntnbinance"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_also = [
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "A", "C4", "DTZ", "PIE", "PT", "RET", "SIM", "RUF"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["src", "tests"]
+warn_unused_configs = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = ["uvicorn"]
+ignore_missing_imports = true

@@ -1,0 +1,9 @@
+profile = "local-release"
+host = "127.0.0.1"
+port = 8000
+debug = false
+log_level = "INFO"
+data_root = "data"
+runtime_root = "var/release"
+max_upload_bytes = 10485760
+workers = 1

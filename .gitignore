@@ -1,0 +1,79 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Node/frontend
+node_modules/
+apps/web/node_modules/
+apps/web/dist/
+apps/web/coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Runtime data: keep directory manifests only
+data/**/*
+!data/**/.gitkeep
+models/**/*
+!models/**/.gitkeep
+var/**/*
+!var/**/.gitkeep
+reports/*.log
+reports/*.json
+reports/*.xml
+reports/*.html
+
+# Databases, market data, model artifacts and uploads
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.duckdb
+*.parquet
+*.arrow
+*.feather
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.safetensors
+*.bin
+uploads/
+
+# IDE / OS
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
