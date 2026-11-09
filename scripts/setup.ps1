@@ -11,6 +11,11 @@ if ($LASTEXITCODE -ne 0) { throw "Python lock installation failed" }
 & ".venv\Scripts\python.exe" -m pip install --disable-pip-version-check --no-deps -e .
 if ($LASTEXITCODE -ne 0) { throw "Local package installation failed" }
 
+if (Test-Path ".git") {
+    & ".venv\Scripts\pre-commit.exe" install --install-hooks --hook-type pre-commit --hook-type pre-push
+    if ($LASTEXITCODE -ne 0) { throw "Pre-commit hook installation failed" }
+}
+
 Push-Location "apps\web"
 try {
     npm ci

@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn B hoàn tất / 2 trên 26 giai đoạn / 7,69%**  
+> Trạng thái hiện tại: **Giai đoạn C hoàn tất / 3 trên 26 giai đoạn / 11,54%**  
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -47,7 +47,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 - [x] A — Chốt bài toán và phạm vi
 - [x] B — Kiểm kê tài nguyên và khóa ngân sách 0 VNĐ
-- [ ] C — Khởi tạo repository và tiêu chuẩn kỹ thuật
+- [x] C — Khởi tạo repository và tiêu chuẩn kỹ thuật
 - [ ] D — Đặc tả dữ liệu và hợp đồng thời gian
 - [ ] E — Thu thập dữ liệu Binance
 - [ ] F — Làm sạch và kiểm định dữ liệu
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `2/26 giai đoạn = 7,69%`  
-**Giai đoạn đang làm:** `C`  
+**Tiến độ hiện tại:** `3/26 giai đoạn = 11,54%`  
+**Giai đoạn đang làm:** `D`  
 **Ngày cập nhật:** `09/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -108,15 +108,15 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### C — Khởi tạo repository và tiêu chuẩn kỹ thuật
 
-- [ ] Tạo cấu trúc `apps/`, `src/`, `tests/`, `data/`, `models/`, `reports/`, `docs/`.
-- [ ] Tạo `.gitignore`; loại `.env`, secret, upload, database và model lớn khỏi Git.
-- [ ] Tạo Python virtual environment và khóa dependency.
-- [ ] Khởi tạo frontend được chọn sau spike React/Vite hoặc Jinja.
-- [ ] Cấu hình formatter, linter, type check, pytest và pre-commit chạy local.
-- [ ] Tạo `README.md` với lệnh setup/run/test.
-- [ ] Tạo config `local-dev`, `local-test`, `local-release`.
-- [ ] Chạy smoke test sạch từ một checkout/thư mục mới.
-- [ ] **Hoàn tất C — repository có thể dựng lại bằng tài liệu.**
+- [x] Tạo cấu trúc `apps/`, `src/`, `tests/`, `data/`, `models/`, `reports/`, `docs/`.
+- [x] Tạo `.gitignore`; loại `.env`, secret, upload, database và model lớn khỏi Git.
+- [x] Tạo Python virtual environment và khóa dependency.
+- [x] Khởi tạo frontend được chọn sau spike React/Vite hoặc Jinja.
+- [x] Cấu hình formatter, linter, type check, pytest và pre-commit chạy local.
+- [x] Tạo `README.md` với lệnh setup/run/test.
+- [x] Tạo config `local-dev`, `local-test`, `local-release`.
+- [x] Chạy smoke test sạch từ một checkout/thư mục mới.
+- [x] **Hoàn tất C — repository có thể dựng lại bằng tài liệu.**
 
 **Exit Gate C:** một lệnh hoặc chuỗi lệnh được tài liệu hóa có thể setup và chạy smoke test.  
 **Bằng chứng:** `README.md`, lockfile, log `reports/setup-smoke.txt`

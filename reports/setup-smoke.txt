@@ -1,0 +1,108 @@
+NTNBINANCE STAGE C — CLEAN CHECKOUT SETUP/QUALITY/SMOKE EVIDENCE
+================================================================
+
+Date: 2026-11-09 (Asia/Saigon)
+Source repository: D:\BINANCE
+Source commit tested: c202a4e
+Clean checkout: D:\BINANCE\temp\stage-c-clean-final2
+Remote configured: https://github.com/TrungNguyenIT-SE/NTNBINANCE.git
+Remote push performed: NO
+
+ENVIRONMENT
+-----------
+OS: Windows 11 64-bit
+Python: 3.14.2
+Node.js: 24.13.0
+npm: 11.6.2
+Python lock: requirements.lock
+Frontend lock: apps/web/package-lock.json
+
+CLEAN-CHECKOUT PROCEDURE
+------------------------
+1. git clone --local --no-hardlinks D:\BINANCE D:\BINANCE\temp\stage-c-clean-final2
+2. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\setup.ps1
+3. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
+4. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\smoke.ps1
+5. npm audit --audit-level=moderate (from apps/web)
+6. git status --short --branch
+
+SETUP RESULT
+------------
+PASS
+
+- Project-local .venv created from scratch.
+- 41 locked Python third-party distributions installed.
+- Local package installed editable with --no-deps after lock installation.
+- Local pre-commit and pre-push hooks installed from the repository configuration.
+- npm ci completed from package-lock.json.
+- npm prune completed.
+- npm install/audit reported 0 vulnerabilities after locked minimatch 11.0.1 override.
+
+PYTHON QUALITY RESULT
+---------------------
+PASS
+
+- Ruff lint: PASS
+- Ruff format check: PASS (14 files formatted)
+- Mypy strict: PASS (5 source files)
+- pip check: PASS (no broken requirements)
+- Pytest: 16 passed
+- Statement/branch coverage: 100%
+- Required threshold: 90%
+- Warnings: 0
+
+FRONTEND QUALITY RESULT
+-----------------------
+PASS
+
+- npm dependency tree: consistent, 12 direct packages
+- ESLint --max-warnings=0: PASS
+- Prettier check: PASS
+- TypeScript project check: PASS
+- Vitest: 1 test file, 5 tests passed
+- Vite production build: PASS
+- Built output: dist/index.html + hashed CSS/JS assets
+- npm audit at Moderate threshold: 0 vulnerabilities
+
+SMOKE RESULT
+------------
+PASS
+
+- Backend /health/live returned {"status": "ok"}.
+- Backend metadata confirmed trading_enabled=false.
+- Frontend production build produced dist/index.html.
+- Final markers:
+  backend-smoke: PASS
+  frontend-smoke: PASS
+  stage-c-smoke: PASS
+
+PROFILE/SAFETY RESULT
+---------------------
+PASS
+
+- local-dev, local-test, local-release are present and tested.
+- Every versioned profile binds to 127.0.0.1.
+- Unknown profile rejected.
+- 0.0.0.0 binding rejected.
+- Path traversal in data root rejected.
+- workers != 1 rejected at Stage C.
+- API metadata declares local-private-research and trading_enabled=false.
+- No Binance trading credential, cloud resource or paid runtime service required.
+
+REPRODUCIBILITY RESULT
+----------------------
+PASS
+
+- Clean checkout was at commit c202a4e.
+- Setup used documented scripts and exact lockfiles.
+- git status after setup/quality/smoke: clean (ignored build/environment files only).
+- Exit Gate C condition satisfied.
+
+NOTES
+-----
+- The GitHub remote was empty when checked and is configured as origin.
+- Commits remain local in Stage C; no external push was required to prove a clean checkout.
+- Earlier clean-checkout attempts found and drove fixes for npm Moderate advisories and Windows JS line-ending normalization. Only the final run above is the acceptance run.
+- Clean test directories are under the Git-ignored D:\BINANCE\temp directory and contain no project secrets or user data.
+
+FINAL VERDICT: PASS — STAGE C EXIT GATE SATISFIED

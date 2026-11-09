@@ -45,7 +45,7 @@ From PowerShell in the repository root:
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts\setup.ps1
 ```
 
-The script creates `.venv`, installs pinned Python dependencies and installs frontend dependencies from `package-lock.json`.
+The script creates `.venv`, installs pinned Python dependencies, installs the local pre-commit/pre-push hooks when `.git` exists, and installs frontend dependencies from `package-lock.json`.
 
 ## Quality gate
 
