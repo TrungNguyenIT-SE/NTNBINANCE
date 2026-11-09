@@ -1,0 +1,76 @@
+<svg width="1440" height="430" viewBox="0 0 1440 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NTNBINANCE</title>
+  <desc id="desc">Point-in-time Binance Futures signal research banner with stylized candlesticks</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0B1830"/>
+      <stop offset="1" stop-color="#101033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="430" y1="108" x2="1010" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="720" y1="275" x2="720" y2="403" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(720 185) rotate(90) scale(300 710)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#A5B4FC" stroke-opacity="0.065"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="430" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1438" height="428" rx="23" stroke="#67E8F9" stroke-opacity="0.2" stroke-width="2"/>
+  <rect width="1440" height="430" rx="24" fill="url(#grid)"/>
+  <rect width="1440" height="430" rx="24" fill="url(#glow)"/>
+
+  <circle cx="94" cy="80" r="74" fill="#22D3EE" fill-opacity="0.06" filter="url(#shadow)"/>
+  <circle cx="1340" cy="348" r="110" fill="#A78BFA" fill-opacity="0.08" filter="url(#shadow)"/>
+
+  <g opacity="0.8">
+    <path d="M47 360C174 350 230 378 337 370C450 360 520 385 622 370C735 350 814 390 910 365C1010 340 1103 230 1200 170C1268 128 1326 134 1392 97" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M47 360C174 350 230 378 337 370C450 360 520 385 622 370C735 350 814 390 910 365C1010 340 1103 230 1200 170C1268 128 1326 134 1392 97V404H47V360Z" fill="url(#fade)"/>
+  </g>
+
+  <g opacity="0.78">
+    <path d="M145 245V345" stroke="#34D399" stroke-width="3"/>
+    <rect x="135" y="274" width="20" height="44" rx="3" fill="#34D399"/>
+    <path d="M185 257V362" stroke="#FB7185" stroke-width="3"/>
+    <rect x="175" y="282" width="20" height="52" rx="3" fill="#FB7185"/>
+    <path d="M225 222V321" stroke="#34D399" stroke-width="3"/>
+    <rect x="215" y="246" width="20" height="48" rx="3" fill="#34D399"/>
+    <path d="M1260 167V260" stroke="#34D399" stroke-width="3"/>
+    <rect x="1250" y="190" width="20" height="43" rx="3" fill="#34D399"/>
+    <path d="M1300 137V232" stroke="#34D399" stroke-width="3"/>
+    <rect x="1290" y="160" width="20" height="46" rx="3" fill="#34D399"/>
+  </g>
+
+  <g transform="translate(720 183)" text-anchor="middle">
+    <text y="-50" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="7">LOCAL-FIRST RESEARCH SYSTEM</text>
+    <text y="33" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="5">NTNBINANCE</text>
+    <rect x="-292" y="57" width="584" height="3" rx="1.5" fill="url(#accent)"/>
+    <text y="104" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500" letter-spacing="1.5">POINT-IN-TIME FUTURES SIGNAL INTELLIGENCE</text>
+    <text y="151" fill="#7DD3FC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="2">LONG  ·  SHORT  ·  NO_TRADE</text>
+  </g>
+
+  <g transform="translate(118 60)">
+    <rect width="52" height="52" rx="15" fill="#0E7490" fill-opacity="0.22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <path d="M15 31L23 23L29 29L39 17" stroke="#67E8F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33 17H39V23" stroke="#67E8F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(1270 306)">
+    <rect width="52" height="52" rx="15" fill="#5B21B6" fill-opacity="0.2" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <path d="M26 13L38 18V27C38 34 33 39 26 42C19 39 14 34 14 27V18L26 13Z" stroke="#C4B5FD" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M21 27L25 31L32 23" stroke="#C4B5FD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
