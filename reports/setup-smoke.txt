@@ -3,8 +3,8 @@ NTNBINANCE STAGE C — CLEAN CHECKOUT SETUP/QUALITY/SMOKE EVIDENCE
 
 Date: 2026-11-09 (Asia/Saigon)
 Source repository: D:\BINANCE
-Source commit tested: c202a4e
-Clean checkout: D:\BINANCE\temp\stage-c-clean-final2
+Source commit tested: 12e9669
+Clean checkout: D:\BINANCE\temp\stage-c-clean-final3
 Remote configured: https://github.com/TrungNguyenIT-SE/NTNBINANCE.git
 Remote push performed: NO
 
@@ -19,7 +19,7 @@ Frontend lock: apps/web/package-lock.json
 
 CLEAN-CHECKOUT PROCEDURE
 ------------------------
-1. git clone --local --no-hardlinks D:\BINANCE D:\BINANCE\temp\stage-c-clean-final2
+1. git clone --local --no-hardlinks D:\BINANCE D:\BINANCE\temp\stage-c-clean-final3
 2. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\setup.ps1
 3. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 4. powershell -NoProfile -ExecutionPolicy Bypass -File scripts\smoke.ps1
@@ -93,7 +93,7 @@ REPRODUCIBILITY RESULT
 ----------------------
 PASS
 
-- Clean checkout was at commit c202a4e.
+- Clean checkout was at commit 12e9669.
 - Setup used documented scripts and exact lockfiles.
 - git status after setup/quality/smoke: clean (ignored build/environment files only).
 - Exit Gate C condition satisfied.
