@@ -6,7 +6,7 @@ Source repository: D:\BINANCE
 Source commit tested: 12e9669
 Clean checkout: D:\BINANCE\temp\stage-c-clean-final3
 Remote configured: https://github.com/TrungNguyenIT-SE/NTNBINANCE.git
-Remote push performed: NO
+Remote push performed: YES — accepted local history published to origin/main after all gates passed
 
 ENVIRONMENT
 -----------
@@ -101,7 +101,7 @@ PASS
 NOTES
 -----
 - The GitHub remote was empty when checked and is configured as origin.
-- Commits remain local in Stage C; no external push was required to prove a clean checkout.
+- Clean-checkout acceptance was proven locally first; only then was the accepted `main` history pushed to origin.
 - Earlier clean-checkout attempts found and drove fixes for npm Moderate advisories and Windows JS line-ending normalization. Only the final run above is the acceptance run.
 - Clean test directories are under the Git-ignored D:\BINANCE\temp directory and contain no project secrets or user data.
 
