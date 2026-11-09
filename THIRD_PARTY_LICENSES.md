@@ -78,7 +78,7 @@ Python lock có 41 third-party distributions ngoài local package và pip; licen
 | `@types/react` | 19.3.0 | MIT | Type declarations | APPROVED |
 | `@types/react-dom` | 19.3.0 | MIT | Type declarations | APPROVED |
 
-Frontend lock chứa 186 package entries tại thời điểm audit; 0 entry thiếu license metadata. License families gồm MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, MPL-2.0 và BlueOak-1.0.0. Lock có thể chứa optional package metadata không được cài sau `npm prune`; release audit phải dựa trên cả lock và installed tree.
+Frontend lock chứa 161 package entries tại thời điểm audit cuối Stage C; 0 entry thiếu license metadata. License families gồm MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, MPL-2.0 và BlueOak-1.0.0. Lock có thể chứa optional package metadata không được cài sau `npm prune`; release audit phải dựa trên cả lock và installed tree.
 
 ## 5. Candidate dependencies chưa cài/chưa phê duyệt
 
