@@ -72,6 +72,22 @@ result:     PASS
 
 Integrity hashes and dataset counts are recorded in `reports/stage-e-manifest-snapshot.md`.
 
+## Clean-checkout reproducibility
+
+Commit `cff6811b4e4b93028822456b946b9d0c6f385243` was cloned into a new local directory and verified from no pre-existing virtual environment or `node_modules`:
+
+```text
+setup from requirements.lock/package-lock.json: PASS
+websockets==17.4 installed: PASS
+pip dependency consistency: PASS
+pytest: 91 passed
+coverage: 94.39%
+frontend check/build: PASS
+backend smoke: PASS
+frontend smoke: PASS
+Git checkout status: clean
+```
+
 ## Limitations and next gate
 
 - This is not evidence of 24-hour continuous WebSocket uptime; a longer soak remains recommended before paper trading.
