@@ -11,12 +11,13 @@ requires-python = ">=3.14,<3.15"
 authors = [{ name = "TrungNguyenIT-SE" }]
 dependencies = [
     "fastapi==0.162.2",
+    "httpx2==2.16.0",
     "uvicorn==0.54.0",
+    "websockets==17.4",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "httpx2==2.16.0",
     "mypy==2.4.1",
     "pre-commit==4.7.0",
     "pytest==9.2.0",
@@ -26,6 +27,7 @@ dev = [
 
 [project.scripts]
 ntnbinance-api = "ntnbinance.main:run"
+ntnbinance-ingest = "ntnbinance.ingestion.cli:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

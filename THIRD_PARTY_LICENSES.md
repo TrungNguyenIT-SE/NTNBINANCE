@@ -1,7 +1,7 @@
 # THIRD-PARTY LICENSE REGISTER
 
-> Version: `0.2 — Stage C locked environment`  
-> Date: `09/11/2026`  
+> Version: `0.3 — Stage E WebSocket dependency review`
+> Date: `11/11/2026`
 > Policy: Chưa có package nào được phê duyệt cho release chỉ dựa trên tên/license trong bảng này. Version pin ở Stage C phải được scan và lưu license text thực tế.
 
 ## 1. Quy tắc phê duyệt dependency
@@ -53,13 +53,14 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | FastAPI | 0.162.2 | MIT | API | APPROVED |
 | Uvicorn | 0.54.0 | BSD-3-Clause | Local ASGI server | APPROVED |
 | httpx2 | 2.16.0 | BSD-3-Clause | Starlette/FastAPI TestClient | APPROVED |
+| websockets | 17.4 | BSD-3-Clause | Binance public market WebSocket client | APPROVED |
 | pytest | 9.2.0 | MIT | Tests | APPROVED |
 | pytest-cov | 7.0.0 | MIT | Coverage gate | APPROVED |
 | Ruff | 0.17.4 | MIT | Lint/format | APPROVED |
 | mypy | 2.4.1 | MIT | Strict type check | APPROVED |
 | pre-commit | 4.7.0 | MIT | Local hooks | APPROVED |
 
-Python lock có 41 third-party distributions ngoài local package và pip; license metadata không có mục `UNKNOWN`. Chi tiết audit được lưu tại `reports/stage-c-license-audit.md`. `requirements.lock` là nguồn version đầy đủ.
+Python lock có 42 third-party distributions ngoài local package và pip; license metadata không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại `reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause). `requirements.lock` là nguồn version đầy đủ.
 
 ### Frontend direct dependencies
 

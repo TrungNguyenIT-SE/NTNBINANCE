@@ -4,10 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-4%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 4 of 26 stages" /></a>
-  <a href="reports/stage-d-contract-validation.md"><img src="https://img.shields.io/badge/STAGE-D%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage D complete" /></a>
-  <img src="https://img.shields.io/badge/TESTS-38%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="38 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-100%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="100 percent coverage" />
+  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-5%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 5 of 26 stages" /></a>
+  <a href="reports/ingestion-qa.md"><img src="https://img.shields.io/badge/STAGE-E%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage E complete" /></a>
+  <img src="https://img.shields.io/badge/TESTS-91%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="91 tests passing" />
+  <img src="https://img.shields.io/badge/COVERAGE-94.39%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="94.39 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage D complete · Stage E next |
+| **Current milestone** | Stage E complete · Stage F next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -79,9 +79,9 @@ flowchart LR
     classDef live fill:#123047,stroke:#22d3ee,color:#ecfeff,stroke-width:2px;
     classDef planned fill:#1e1b4b,stroke:#a78bfa,color:#f5f3ff,stroke-dasharray:5 3;
     classDef store fill:#132e25,stroke:#34d399,color:#ecfdf5;
-    class W,A,V live;
-    class U,B,I,M,G,O planned;
-    class R,C,F store;
+    class B,I,W,A,V live;
+    class U,C,F,M,G,O planned;
+    class R store;
 ```
 
 Solid components have a working foundation. Dashed components describe the gated target architecture and must not be treated as production-ready until their roadmap stages pass.
@@ -213,8 +213,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 38 passed |
-| Statement + branch coverage | ✅ 100% |
+| Pytest | ✅ 91 passed |
+| Statement + branch coverage | ✅ 94.39% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -252,16 +252,16 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 |---|---|---|
 | Product scope & zero-cost constraints | A–B | ✅ Complete |
 | Repository & data contract foundation | C–D | ✅ Complete |
-| Market-data pipeline & quality | E–F | ◉ Next |
+| Market-data pipeline & quality | E–F | ◉ E complete · F next |
 | Labels, splits, baseline & backtest | G–J | ○ Planned |
 | Image + numeric intelligence | K–P | ○ Planned |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `4 / 26 stages` · `15.38%`
+**Overall progress:** `5 / 26 stages` · `19.23%`
 
-**Next gate:** Stage E — resilient Binance public-market-data ingestion
+**Next gate:** Stage F — clean, validate and resample market data
 
 Follow the live checklist in [`plan.md`](plan.md).
 
@@ -292,6 +292,7 @@ See [`ZERO_COST.md`](docs/ZERO_COST.md), [`HARDWARE.md`](docs/HARDWARE.md), [`.g
 | [`plan.md`](plan.md) | Full A–Z execution plan and live checklist |
 | [`DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) | Fields, types, keys, units and source semantics |
 | [`DATA_CONTRACT.md`](docs/DATA_CONTRACT.md) | UTC, availability, storage and retention rules |
+| [`INGESTION.md`](docs/INGESTION.md) | Public REST/WebSocket operations, recovery and raw audit |
 | [`ZERO_COST.md`](docs/ZERO_COST.md) | Enforceable zero-new-cash-cost policy |
 | [`HARDWARE.md`](docs/HARDWARE.md) | Local resource budget and benchmark evidence |
 | [`decisions/`](docs/decisions/) | Versioned architecture and product decisions |

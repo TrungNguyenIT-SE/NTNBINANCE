@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn D hoàn tất / 4 trên 26 giai đoạn / 15,38%**
+> Trạng thái hiện tại: **Giai đoạn E hoàn tất / 5 trên 26 giai đoạn / 19,23%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -49,7 +49,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] B — Kiểm kê tài nguyên và khóa ngân sách 0 VNĐ
 - [x] C — Khởi tạo repository và tiêu chuẩn kỹ thuật
 - [x] D — Đặc tả dữ liệu và hợp đồng thời gian
-- [ ] E — Thu thập dữ liệu Binance
+- [x] E — Thu thập dữ liệu Binance
 - [ ] F — Làm sạch và kiểm định dữ liệu
 - [ ] G — Định nghĩa nhãn dự đoán
 - [ ] H — Chia tập dữ liệu chống leakage
@@ -72,9 +72,9 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `4/26 giai đoạn = 15,38%`
-**Giai đoạn đang làm:** `E`
-**Ngày cập nhật:** `09/11/2026`
+**Tiến độ hiện tại:** `5/26 giai đoạn = 19,23%`
+**Giai đoạn đang làm:** `F`
+**Ngày cập nhật:** `11/11/2026`
 
 ### A — Chốt bài toán và phạm vi
 
@@ -138,18 +138,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### E — Thu thập dữ liệu Binance
 
-- [ ] Viết REST client có timeout, retry hữu hạn, backoff + jitter.
-- [ ] Đọc rate limit động/response headers; xử lý 429/418/5xx.
-- [ ] Backfill OHLCV BTCUSDT và ETHUSDT ở độ phân giải gốc đã chọn.
-- [ ] Thu mark/index price, funding và feature phái sinh có coverage phù hợp.
-- [ ] Viết WebSocket client có heartbeat, reconnect và resubscribe.
-- [ ] Reconcile stream với REST sau reconnect/gap.
-- [ ] Lưu raw append-only kèm source và ingestion timestamp.
-- [ ] Không dùng API trading key; không log credential.
-- [ ] **Hoàn tất E — pipeline ingest chạy lại được và không tạo duplicate.**
+- [x] Viết REST client có timeout, retry hữu hạn, backoff + jitter.
+- [x] Đọc rate limit động/response headers; xử lý 429/418/5xx.
+- [x] Backfill OHLCV BTCUSDT và ETHUSDT ở độ phân giải gốc đã chọn.
+- [x] Thu mark/index price, funding và feature phái sinh có coverage phù hợp.
+- [x] Viết WebSocket client có heartbeat, reconnect và resubscribe.
+- [x] Reconcile stream với REST sau reconnect/gap.
+- [x] Lưu raw append-only kèm source và ingestion timestamp.
+- [x] Không dùng API trading key; không log credential.
+- [x] **Hoàn tất E — pipeline ingest chạy lại được và không tạo duplicate.**
 
 **Exit Gate E:** ingest liên tục 24 giờ thử nghiệm hoặc qua một chu kỳ vận hành tương đương, gap được phát hiện/recover.  
-**Bằng chứng:** `reports/ingestion-qa.md`, manifest raw data, logs thử nghiệm
+**Bằng chứng:** `reports/ingestion-qa.md`, `reports/stage-e-manifest-snapshot.md`, manifest raw local đã audit, `docs/INGESTION.md`, `tests/ingestion/`
 
 ### F — Làm sạch và kiểm định dữ liệu
 
