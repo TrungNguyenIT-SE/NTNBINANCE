@@ -95,6 +95,8 @@ pip check: pass
 frontend lint/format/typecheck/test/build: pass
 ```
 
+A detached clean worktree rebuilt from the committed lockfiles produced the same results; see [`stage-f-clean-checkout.md`](stage-f-clean-checkout.md).
+
 Focused tests are under `tests/data_quality/` and cover parsing, invariants, non-destructive flags, reconciliation, gaps, ordering, clock skew, hand-calculated resampling, mixed/partial bucket rejection, Parquet publication, native comparison and idempotent reprocessing.
 
 ## Gate decision

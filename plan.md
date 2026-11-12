@@ -164,7 +164,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất F — Gate A/Data pass.**
 
 **Exit Gate F:** không có lỗi data Critical; mọi gap ảnh hưởng training được loại/flag có chủ đích.  
-**Bằng chứng:** `reports/data-quality.md`, `docs/DATA_QUALITY.md`, `docs/decisions/0003-stage-f-quality-policy.md`, `tests/data_quality/`; clean run `13f11d10018f9914` đạt 100% coverage trong 42 nhóm quan sát, 12/12 mẫu resample khớp chính xác Binance và reprocess trả `reused=true`.
+**Bằng chứng:** `reports/data-quality.md`, `reports/stage-f-clean-checkout.md`, `docs/DATA_QUALITY.md`, `docs/decisions/0003-stage-f-quality-policy.md`, `tests/data_quality/`; clean run `13f11d10018f9914` đạt 100% coverage trong 42 nhóm quan sát, 12/12 mẫu resample khớp chính xác Binance và reprocess trả `reused=true`.
 
 ### G — Định nghĩa nhãn dự đoán
 
