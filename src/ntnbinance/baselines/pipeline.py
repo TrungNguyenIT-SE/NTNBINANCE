@@ -354,6 +354,9 @@ def _markdown_report(artifact: dict[str, Any], artifact_path: Path) -> str:
             "frontend lint/format/typecheck/test/build: pass",
             "```",
             "",
+            "Clean-checkout setup, packaging, checksum and quality verification are recorded "
+            "in `reports/stage-i-clean-checkout.md`.",
+            "",
         ]
     )
     return "\n".join(lines)

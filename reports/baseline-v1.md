@@ -109,3 +109,5 @@ mypy strict: pass
 pip check: pass
 frontend lint/format/typecheck/test/build: pass
 ```
+
+Clean-checkout setup, packaging, checksum and quality verification are recorded in `reports/stage-i-clean-checkout.md`.
