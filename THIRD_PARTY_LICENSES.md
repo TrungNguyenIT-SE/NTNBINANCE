@@ -1,6 +1,6 @@
 # THIRD-PARTY LICENSE REGISTER
 
-> Version: `0.3 — Stage E WebSocket dependency review`
+> Version: `0.4 — Stage F DuckDB dependency review`
 > Date: `11/11/2026`
 > Policy: Chưa có package nào được phê duyệt cho release chỉ dựa trên tên/license trong bảng này. Version pin ở Stage C phải được scan và lưu license text thực tế.
 
@@ -51,6 +51,7 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | Package | Version | License từ installed artifact metadata | Vai trò | Trạng thái |
 |---|---:|---|---|---|
 | FastAPI | 0.162.2 | MIT | API | APPROVED |
+| DuckDB | 2.0.0 | MIT (license file verified in installed wheel) | Local analytical engine and Parquet writer | APPROVED |
 | Uvicorn | 0.54.0 | BSD-3-Clause | Local ASGI server | APPROVED |
 | httpx2 | 2.16.0 | BSD-3-Clause | Starlette/FastAPI TestClient | APPROVED |
 | websockets | 17.4 | BSD-3-Clause | Binance public market WebSocket client | APPROVED |
@@ -60,7 +61,7 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | mypy | 2.4.1 | MIT | Strict type check | APPROVED |
 | pre-commit | 4.7.0 | MIT | Local hooks | APPROVED |
 
-Python lock có 42 third-party distributions ngoài local package và pip; license metadata không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại `reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause). `requirements.lock` là nguồn version đầy đủ.
+Python lock có 43 third-party distributions ngoài local package và pip; license metadata không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại `reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause), Stage F bổ sung `duckdb==2.0.0` (MIT, xác minh từ license file trong wheel đã cài). `requirements.lock` là nguồn version đầy đủ.
 
 ### Frontend direct dependencies
 
@@ -85,7 +86,7 @@ Frontend lock chứa 161 package entries tại thời điểm audit cuối Stage
 
 | Candidate | Vai trò | License cần xác minh khi pin | Trạng thái |
 |---|---|---|---|
-| DuckDB | Analytics/storage | Verify pinned artifact | PENDING |
+| DuckDB | Analytics/storage | MIT wheel license verified; `2.0.0` pinned | APPROVED |
 | PyArrow | Parquet interchange nếu cần | Verify pinned artifact và bundled components | PENDING |
 | PyTorch | Vision/sequence candidate | Verify pinned artifact + CUDA bundled notices | PENDING |
 | LightGBM | Tabular candidate | Verify pinned artifact | PENDING |

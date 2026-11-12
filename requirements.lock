@@ -9,6 +9,7 @@ click==8.5.1
 colorama==0.4.6
 coverage==7.17.2
 distlib==0.4.4
+duckdb==2.0.0
 fastapi==0.162.2
 filelock==4.2.9
 h11==0.16.0

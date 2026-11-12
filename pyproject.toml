@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.14,<3.15"
 authors = [{ name = "TrungNguyenIT-SE" }]
 dependencies = [
+    "duckdb==2.0.0",
     "fastapi==0.162.2",
     "httpx2==2.16.0",
     "uvicorn==0.54.0",
@@ -28,6 +29,7 @@ dev = [
 [project.scripts]
 ntnbinance-api = "ntnbinance.main:run"
 ntnbinance-ingest = "ntnbinance.ingestion.cli:main"
+ntnbinance-quality = "ntnbinance.data_quality.cli:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

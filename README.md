@@ -4,10 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-5%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 5 of 26 stages" /></a>
-  <a href="reports/ingestion-qa.md"><img src="https://img.shields.io/badge/STAGE-E%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage E complete" /></a>
-  <img src="https://img.shields.io/badge/TESTS-91%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="91 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-94.39%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="94.39 percent coverage" />
+  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-6%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 6 of 26 stages" /></a>
+  <a href="reports/data-quality.md"><img src="https://img.shields.io/badge/STAGE-F%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage F complete" /></a>
+  <img src="https://img.shields.io/badge/TESTS-114%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="114 tests passing" />
+  <img src="https://img.shields.io/badge/COVERAGE-91.09%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.09 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage E complete · Stage F next |
+| **Current milestone** | Stage F complete · Stage G next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -80,8 +80,8 @@ flowchart LR
     classDef planned fill:#1e1b4b,stroke:#a78bfa,color:#f5f3ff,stroke-dasharray:5 3;
     classDef store fill:#132e25,stroke:#34d399,color:#ecfdf5;
     class B,I,W,A,V live;
-    class U,C,F,M,G,O planned;
-    class R store;
+    class U,F,M,G,O planned;
+    class R,C store;
 ```
 
 Solid components have a working foundation. Dashed components describe the gated target architecture and must not be treated as production-ready until their roadmap stages pass.
@@ -179,7 +179,7 @@ Every profile rejects non-loopback hosts. Public exposure is outside the MVP.
 
 ## ◆ Data integrity before prediction accuracy
 
-The Stage D contract makes look-ahead prevention executable instead of leaving it as documentation.
+The Stage F pipeline makes data validation, quarantine and resampling executable instead of leaving them as documentation.
 
 ```text
 schema_version == supported_version
@@ -194,9 +194,10 @@ Late observations, future events, open candles, duplicate keys and unsupported s
 
 ```powershell
 .venv\Scripts\python.exe -m pytest tests\data_contract --no-cov
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\data-quality.ps1
 ```
 
-Read the full [`Data Dictionary`](docs/DATA_DICTIONARY.md), [`Data Contract`](docs/DATA_CONTRACT.md) and [`Stage D validation report`](reports/stage-d-contract-validation.md).
+Read the full [`Data Dictionary`](docs/DATA_DICTIONARY.md), [`Data Contract`](docs/DATA_CONTRACT.md), [`Data-quality policy`](docs/DATA_QUALITY.md) and [`Stage F acceptance report`](reports/data-quality.md).
 
 ---
 
@@ -213,8 +214,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 91 passed |
-| Statement + branch coverage | ✅ 94.39% |
+| Pytest | ✅ 114 passed |
+| Statement + branch coverage | ✅ 91.09% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -252,16 +253,16 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 |---|---|---|
 | Product scope & zero-cost constraints | A–B | ✅ Complete |
 | Repository & data contract foundation | C–D | ✅ Complete |
-| Market-data pipeline & quality | E–F | ◉ E complete · F next |
+| Market-data pipeline & quality | E–F | ✅ Complete |
 | Labels, splits, baseline & backtest | G–J | ○ Planned |
 | Image + numeric intelligence | K–P | ○ Planned |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `5 / 26 stages` · `19.23%`
+**Overall progress:** `6 / 26 stages` · `23.08%`
 
-**Next gate:** Stage F — clean, validate and resample market data
+**Next gate:** Stage G — define and validate prediction labels
 
 Follow the live checklist in [`plan.md`](plan.md).
 
@@ -293,6 +294,7 @@ See [`ZERO_COST.md`](docs/ZERO_COST.md), [`HARDWARE.md`](docs/HARDWARE.md), [`.g
 | [`DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) | Fields, types, keys, units and source semantics |
 | [`DATA_CONTRACT.md`](docs/DATA_CONTRACT.md) | UTC, availability, storage and retention rules |
 | [`INGESTION.md`](docs/INGESTION.md) | Public REST/WebSocket operations, recovery and raw audit |
+| [`DATA_QUALITY.md`](docs/DATA_QUALITY.md) | Validation, quarantine, UTC resampling and idempotent clean publication |
 | [`ZERO_COST.md`](docs/ZERO_COST.md) | Enforceable zero-new-cash-cost policy |
 | [`HARDWARE.md`](docs/HARDWARE.md) | Local resource budget and benchmark evidence |
 | [`decisions/`](docs/decisions/) | Versioned architecture and product decisions |

@@ -39,7 +39,7 @@ Yêu cầu đã được chủ dự án nêu rõ: không tốn bất kỳ khoả
 | Dữ liệu thị trường | Binance public market-data endpoints theo điều khoản/rate limit hiện hành | 0 VNĐ | Planned |
 | Source control | Git local | 0 VNĐ | Available |
 | Backend/data/ML | Open-source/free local packages sau license review | 0 VNĐ | Planned |
-| Database/storage | SQLite, DuckDB, Parquet, private filesystem | 0 VNĐ | Planned |
+| Database/storage | SQLite, DuckDB, Parquet, private filesystem | 0 VNĐ | DuckDB/Parquet active from Stage F; SQLite planned |
 | Frontend | Open-source local build | 0 VNĐ | Planned |
 | Monitoring | Structured log/metrics local | 0 VNĐ | Planned |
 | Security scan | Community/open-source/local tools | 0 VNĐ | Planned |

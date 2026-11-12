@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn E hoàn tất / 5 trên 26 giai đoạn / 19,23%**
+> Trạng thái hiện tại: **Giai đoạn F hoàn tất / 6 trên 26 giai đoạn / 23,08%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -50,7 +50,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] C — Khởi tạo repository và tiêu chuẩn kỹ thuật
 - [x] D — Đặc tả dữ liệu và hợp đồng thời gian
 - [x] E — Thu thập dữ liệu Binance
-- [ ] F — Làm sạch và kiểm định dữ liệu
+- [x] F — Làm sạch và kiểm định dữ liệu
 - [ ] G — Định nghĩa nhãn dự đoán
 - [ ] H — Chia tập dữ liệu chống leakage
 - [ ] I — Xây baseline
@@ -72,9 +72,9 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `5/26 giai đoạn = 19,23%`
-**Giai đoạn đang làm:** `F`
-**Ngày cập nhật:** `11/11/2026`
+**Tiến độ hiện tại:** `6/26 giai đoạn = 23,08%`
+**Giai đoạn đang làm:** `G`
+**Ngày cập nhật:** `13/11/2026`
 
 ### A — Chốt bài toán và phạm vi
 
@@ -153,18 +153,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### F — Làm sạch và kiểm định dữ liệu
 
-- [ ] Test invariant OHLC và volume không âm.
-- [ ] Phát hiện duplicate, missing bar, out-of-order và clock skew.
-- [ ] Gắn quality flag thay vì âm thầm sửa dữ liệu.
-- [ ] Resample 1m/5m sang 15m và 1H theo UTC, chỉ từ nến đóng.
-- [ ] So sánh mẫu resample với dữ liệu Binance cùng interval.
-- [ ] Lập báo cáo coverage theo symbol/ngày/feature.
-- [ ] Quarantine partition lỗi và hỗ trợ reprocess idempotent.
-- [ ] Xác nhận ≥ 99,9% expected bars hoặc giải thích mọi gap bị loại.
-- [ ] **Hoàn tất F — Gate A/Data pass.**
+- [x] Test invariant OHLC và volume không âm.
+- [x] Phát hiện duplicate, missing bar, out-of-order và clock skew.
+- [x] Gắn quality flag thay vì âm thầm sửa dữ liệu.
+- [x] Resample 1m/5m sang 15m và 1H theo UTC, chỉ từ nến đóng.
+- [x] So sánh mẫu resample với dữ liệu Binance cùng interval.
+- [x] Lập báo cáo coverage theo symbol/ngày/feature.
+- [x] Quarantine partition lỗi và hỗ trợ reprocess idempotent.
+- [x] Xác nhận ≥ 99,9% expected bars hoặc giải thích mọi gap bị loại.
+- [x] **Hoàn tất F — Gate A/Data pass.**
 
 **Exit Gate F:** không có lỗi data Critical; mọi gap ảnh hưởng training được loại/flag có chủ đích.  
-**Bằng chứng:** `reports/data-quality.md`, `tests/data_quality/`
+**Bằng chứng:** `reports/data-quality.md`, `docs/DATA_QUALITY.md`, `docs/decisions/0003-stage-f-quality-policy.md`, `tests/data_quality/`; clean run `13f11d10018f9914` đạt 100% coverage trong 42 nhóm quan sát, 12/12 mẫu resample khớp chính xác Binance và reprocess trả `reused=true`.
 
 ### G — Định nghĩa nhãn dự đoán
 
