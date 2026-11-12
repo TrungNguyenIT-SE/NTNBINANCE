@@ -96,3 +96,5 @@ mypy strict: pass
 pip check: pass
 frontend lint/format/typecheck/test/build: pass
 ```
+
+The same software gate and the packaged label CLI passed in a detached clean worktree; see [`stage-g-clean-checkout.md`](stage-g-clean-checkout.md).

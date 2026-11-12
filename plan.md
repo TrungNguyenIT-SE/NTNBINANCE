@@ -179,7 +179,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất G — label v1 có test và review.**
 
 **Exit Gate G:** cùng input + config luôn tạo cùng label; không đọc dữ liệu sau vertical barrier.  
-**Bằng chứng:** `docs/LABEL_SPEC.md`, `docs/decisions/0004-stage-g-label-policy.md`, `configs/labels/triple-barrier-v1.toml`, `tests/labels/`, `reports/label-distribution.md`; label run `8780c5a42857c830` tạo 154 sample duy nhất, run lại `reused=true`, không đọc dữ liệu sau vertical barrier.
+**Bằng chứng:** `docs/LABEL_SPEC.md`, `docs/decisions/0004-stage-g-label-policy.md`, `configs/labels/triple-barrier-v1.toml`, `tests/labels/`, `reports/label-distribution.md`, `reports/stage-g-clean-checkout.md`; label run `8780c5a42857c830` tạo 154 sample duy nhất, run lại `reused=true`, không đọc dữ liệu sau vertical barrier.
 
 ### H — Chia tập dữ liệu chống leakage
 
