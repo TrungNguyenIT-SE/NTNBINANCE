@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn H hoàn tất / 8 trên 26 giai đoạn / 30,77%**
+> Trạng thái hiện tại: **Giai đoạn I hoàn tất / 9 trên 26 giai đoạn / 34,62%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -53,7 +53,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] F — Làm sạch và kiểm định dữ liệu
 - [x] G — Định nghĩa nhãn dự đoán
 - [x] H — Chia tập dữ liệu chống leakage
-- [ ] I — Xây baseline
+- [x] I — Xây baseline
 - [ ] J — Xây backtest đáng tin cậy
 - [ ] K — Đặc tả ảnh đầu vào
 - [ ] L — Xây upload ảnh an toàn
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `8/26 giai đoạn = 30,77%`
-**Giai đoạn đang làm:** `I`
+**Tiến độ hiện tại:** `9/26 giai đoạn = 34,62%`
+**Giai đoạn tiếp theo:** `J`
 **Ngày cập nhật:** `13/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -198,15 +198,15 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### I — Xây baseline
 
-- [ ] Đo majority/random/always-no-trade baseline.
-- [ ] Xây rule baseline: trend 1H + trigger 15m + ATR filter.
-- [ ] Xây Logistic Regression baseline.
-- [ ] Xây LightGBM/XGBoost baseline nếu chạy được trên máy.
-- [ ] Ghi accuracy, macro F1, per-class precision/recall và calibration.
-- [ ] Backtest baseline bằng cùng cost model.
-- [ ] Lưu config, seed, data version và artifact.
-- [ ] Chọn baseline chính để model phức tạp phải vượt qua.
-- [ ] **Hoàn tất I — baseline report được khóa.**
+- [x] Đo majority/random/always-no-trade baseline.
+- [x] Xây rule baseline: trend 1H + trigger 15m + ATR filter.
+- [x] Xây Logistic Regression baseline.
+- [x] Xây LightGBM/XGBoost baseline nếu chạy được trên máy — `xgboost-cpu==3.4.1` đã chạy local.
+- [x] Ghi accuracy, macro F1, per-class precision/recall và calibration.
+- [x] Backtest baseline bằng cùng cost model.
+- [x] Lưu config, seed, data version và artifact.
+- [x] Chọn baseline chính để model phức tạp phải vượt qua — `xgboost_cpu`, chưa chứng minh edge ròng.
+- [x] **Hoàn tất I — baseline report được khóa.**
 
 **Exit Gate I:** kết quả reproduce được từ script; không báo cáo chỉ một metric thuận lợi.  
 **Bằng chứng:** `reports/baseline-v1.md`, `models/baselines/`

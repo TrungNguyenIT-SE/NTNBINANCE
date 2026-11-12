@@ -41,6 +41,7 @@ data/**
 models/**
 !models/**/
 !models/**/.gitkeep
+!models/baselines/*.json
 var/**
 !var/**/
 !var/**/.gitkeep

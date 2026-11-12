@@ -1,7 +1,7 @@
 # THIRD-PARTY LICENSE REGISTER
 
-> Version: `0.4 — Stage F DuckDB dependency review`
-> Date: `11/11/2026`
+> Version: `0.5 — Stage I tabular baseline dependency review`
+> Date: `13/11/2026`
 > Policy: Chưa có package nào được phê duyệt cho release chỉ dựa trên tên/license trong bảng này. Version pin ở Stage C phải được scan và lưu license text thực tế.
 
 ## 1. Quy tắc phê duyệt dependency
@@ -60,8 +60,19 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | Ruff | 0.17.4 | MIT | Lint/format | APPROVED |
 | mypy | 2.4.1 | MIT | Strict type check | APPROVED |
 | pre-commit | 4.7.0 | MIT | Local hooks | APPROVED |
+| scikit-learn | 1.9.1 | BSD-3-Clause (`COPYING` verified) | Scaling, Logistic Regression, metrics | APPROVED |
+| xgboost-cpu | 3.4.1 | Apache-2.0 (`LICENSE` verified) | Local CPU boosted-tree baseline | APPROVED |
+| NumPy | 2.5.4 | BSD-3-Clause + bundled notices | Numeric runtime | APPROVED |
+| SciPy | 1.18.1 | BSD-3-Clause + bundled native-library notices | scikit-learn runtime | APPROVED |
+| joblib / cloudpickle | 1.6.0 / 3.1.2 | BSD-3-Clause | scikit-learn runtime | APPROVED |
+| narwhals | 2.28.0 | MIT | scikit-learn runtime | APPROVED |
+| threadpoolctl | 3.8.0 | BSD-3-Clause | Native thread control | APPROVED |
 
-Python lock có 43 third-party distributions ngoài local package và pip; license metadata không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại `reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause), Stage F bổ sung `duckdb==2.0.0` (MIT, xác minh từ license file trong wheel đã cài). `requirements.lock` là nguồn version đầy đủ.
+Python lock có 51 third-party distributions ngoài local package và pip; license metadata của các
+dependency Stage I không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại
+`reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause), Stage F bổ
+sung `duckdb==2.0.0` (MIT), Stage I bổ sung stack scikit-learn/XGBoost CPU và audit tại
+`reports/stage-i-license-audit.md`. `requirements.lock` là nguồn version đầy đủ.
 
 ### Frontend direct dependencies
 
@@ -89,8 +100,8 @@ Frontend lock chứa 161 package entries tại thời điểm audit cuối Stage
 | DuckDB | Analytics/storage | MIT wheel license verified; `2.0.0` pinned | APPROVED |
 | PyArrow | Parquet interchange nếu cần | Verify pinned artifact và bundled components | PENDING |
 | PyTorch | Vision/sequence candidate | Verify pinned artifact + CUDA bundled notices | PENDING |
-| LightGBM | Tabular candidate | Verify pinned artifact | PENDING |
-| XGBoost | Tabular candidate | Verify pinned artifact | PENDING |
+| LightGBM | Tabular alternative not needed in Stage I because XGBoost CPU passed | Verify if later pinned | PENDING |
+| XGBoost | `xgboost-cpu==3.4.1`, Apache-2.0 wheel verified | Baseline only | APPROVED |
 | OpenCV | Image processing | Verify pinned artifact + bundled codecs | PENDING |
 | Tesseract OCR | OCR candidate | Verify installed distribution/language data | PENDING |
 | Tailwind CSS | Styling candidate | Verify pinned package | PENDING |

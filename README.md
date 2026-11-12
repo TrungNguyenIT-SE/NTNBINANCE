@@ -4,10 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-8%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 8 of 26 stages" /></a>
-  <a href="reports/split-audit.md"><img src="https://img.shields.io/badge/STAGE-H%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage H complete" /></a>
-  <img src="https://img.shields.io/badge/TESTS-138%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="138 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-91.21%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.21 percent coverage" />
+  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-9%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 9 of 26 stages" /></a>
+  <a href="reports/baseline-v1.md"><img src="https://img.shields.io/badge/STAGE-I%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage I complete" /></a>
+  <img src="https://img.shields.io/badge/TESTS-148%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="148 tests passing" />
+  <img src="https://img.shields.io/badge/COVERAGE-91.08%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.08 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage H complete · Stage I next |
+| **Current milestone** | Stage I complete · Stage J next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -214,8 +214,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 138 passed |
-| Statement + branch coverage | ✅ 91.21% |
+| Pytest | ✅ 148 passed |
+| Statement + branch coverage | ✅ 91.08% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -254,15 +254,15 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 | Product scope & zero-cost constraints | A–B | ✅ Complete |
 | Repository & data contract foundation | C–D | ✅ Complete |
 | Market-data pipeline & quality | E–F | ✅ Complete |
-| Labels, splits, baseline & backtest | G–J | ◉ H complete · I next |
+| Labels, splits, baseline & backtest | G–J | ◉ I complete · J next |
 | Image + numeric intelligence | K–P | ○ Planned |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `8 / 26 stages` · `30.77%`
+**Overall progress:** `9 / 26 stages` · `34.62%`
 
-**Next gate:** Stage I — build and lock reproducible baselines
+**Next gate:** Stage J — build and validate the full execution-aware backtest engine
 
 Follow the live checklist in [`plan.md`](plan.md).
 

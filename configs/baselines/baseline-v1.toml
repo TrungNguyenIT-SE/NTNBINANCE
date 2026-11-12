@@ -1,0 +1,26 @@
+version = "1.0.0"
+seed = 20261113
+class_order = ["LONG", "SHORT", "NO_TRADE"]
+feature_version = "1.0.0"
+split_manifest = "data/manifests/split-v1.json"
+label_run_id = "8780c5a42857c830"
+clean_run_id = "13f11d10018f9914"
+label_config = "configs/labels/triple-barrier-v1.toml"
+
+[rule]
+minimum_atr_ratio = 0.001
+maximum_atr_ratio = 0.012
+trigger_atr_fraction = 0.20
+
+[logistic_regression]
+C = 1.0
+max_iter = 2000
+class_weight = "balanced"
+
+[xgboost]
+n_estimators = 50
+max_depth = 2
+learning_rate = 0.05
+subsample = 0.8
+colsample_bytree = 0.8
+n_jobs = 1
