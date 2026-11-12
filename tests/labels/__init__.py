@@ -1,0 +1,1 @@
+"""Stage G label tests."""

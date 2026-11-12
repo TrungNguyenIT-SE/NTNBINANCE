@@ -1,0 +1,30 @@
+version = "1.0.0"
+price_dataset = "trade_klines"
+interval = "15m"
+intrabar_interval = "1m"
+atr_window = 14
+atr_method = "simple_true_range"
+barrier_atr_multiplier = "1.0"
+horizon_bars = 4
+secondary_horizons = [2, 8]
+minimum_net_return = "0.0001"
+taker_fee_rate_per_side = "0.0005"
+half_spread_bps_per_side = "0.5"
+slippage_bps_per_side = "1.0"
+latency_bps_entry = "0.5"
+latency_ms = 1000
+same_intrabar_policy = "NO_TRADE"
+low_volatility_atr_ratio = "0.003"
+high_volatility_atr_ratio = "0.008"
+disallowed_quality_flags = [
+  "CLOCK_SKEW",
+  "INCOMPLETE_BAR",
+  "INVALID_OHLC",
+  "INVALID_VOLUME",
+  "MISSING_BAR_BEFORE",
+  "NEGATIVE_VOLUME",
+  "NULL_REQUIRED_FIELD",
+  "OUT_OF_ORDER",
+  "SOURCE_CONFLICT",
+  "UNKNOWN_SCHEMA",
+]

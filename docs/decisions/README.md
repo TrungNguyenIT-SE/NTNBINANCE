@@ -16,6 +16,7 @@ Thư mục này lưu các quyết định đã được chấp nhận của dự
 | ADR-0001 | Quyết định sản phẩm MVP D01–D08 | ACCEPTED | 09/11/2026 |
 | ADR-0002 | Baseline ingest Stage E: base 1m, public REST + routed WebSocket | ACCEPTED | 11/11/2026 |
 | ADR-0003 | Stage F clean-data, quarantine and UTC resampling policy | ACCEPTED | 11/11/2026 |
+| ADR-0004 | Stage G cost-aware triple-barrier label policy | ACCEPTED | 13/11/2026 |
 
 ## Quy tắc thay đổi
 

@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn F hoàn tất / 6 trên 26 giai đoạn / 23,08%**
+> Trạng thái hiện tại: **Giai đoạn G hoàn tất / 7 trên 26 giai đoạn / 26,92%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -51,7 +51,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] D — Đặc tả dữ liệu và hợp đồng thời gian
 - [x] E — Thu thập dữ liệu Binance
 - [x] F — Làm sạch và kiểm định dữ liệu
-- [ ] G — Định nghĩa nhãn dự đoán
+- [x] G — Định nghĩa nhãn dự đoán
 - [ ] H — Chia tập dữ liệu chống leakage
 - [ ] I — Xây baseline
 - [ ] J — Xây backtest đáng tin cậy
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `6/26 giai đoạn = 23,08%`
-**Giai đoạn đang làm:** `G`
+**Tiến độ hiện tại:** `7/26 giai đoạn = 26,92%`
+**Giai đoạn đang làm:** `H`
 **Ngày cập nhật:** `13/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -168,18 +168,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### G — Định nghĩa nhãn dự đoán
 
-- [ ] Viết `LABEL_SPEC.md` cho triple-barrier.
-- [ ] Chốt ATR/window và upper/lower/vertical barriers bằng train/validation protocol.
-- [ ] Quy định `LONG`, `SHORT`, `NO_TRADE` rõ ràng.
-- [ ] Quy định cách xử lý hai barrier cùng chạm trong một bar.
-- [ ] Đưa fee, spread, slippage, funding và latency giả lập vào net label.
-- [ ] Unit test các case biên bằng dữ liệu nhỏ tính tay.
-- [ ] Version hóa label config; không thay âm thầm.
-- [ ] Kiểm tra phân bố lớp theo thời gian/symbol/regime.
-- [ ] **Hoàn tất G — label v1 có test và review.**
+- [x] Viết `LABEL_SPEC.md` cho triple-barrier.
+- [x] Chốt ATR/window và upper/lower/vertical barriers bằng train/validation protocol.
+- [x] Quy định `LONG`, `SHORT`, `NO_TRADE` rõ ràng.
+- [x] Quy định cách xử lý hai barrier cùng chạm trong một bar.
+- [x] Đưa fee, spread, slippage, funding và latency giả lập vào net label.
+- [x] Unit test các case biên bằng dữ liệu nhỏ tính tay.
+- [x] Version hóa label config; không thay âm thầm.
+- [x] Kiểm tra phân bố lớp theo thời gian/symbol/regime.
+- [x] **Hoàn tất G — label v1 có test và review.**
 
 **Exit Gate G:** cùng input + config luôn tạo cùng label; không đọc dữ liệu sau vertical barrier.  
-**Bằng chứng:** `docs/LABEL_SPEC.md`, `tests/labels/`, `reports/label-distribution.md`
+**Bằng chứng:** `docs/LABEL_SPEC.md`, `docs/decisions/0004-stage-g-label-policy.md`, `configs/labels/triple-barrier-v1.toml`, `tests/labels/`, `reports/label-distribution.md`; label run `8780c5a42857c830` tạo 154 sample duy nhất, run lại `reused=true`, không đọc dữ liệu sau vertical barrier.
 
 ### H — Chia tập dữ liệu chống leakage
 
