@@ -1,0 +1,11 @@
+version = "1.0.0"
+label_version = "1.0.0"
+base_interval_minutes = 15
+prediction_horizon_minutes = 60
+embargo_minutes = 60
+validation_fraction = "0.17"
+final_holdout_fraction = "0.17"
+walk_forward_folds = 3
+minimum_train_timestamps = 16
+final_holdout_open_stage = "W"
+final_holdout_authorized_role = "PROJECT_OWNER"

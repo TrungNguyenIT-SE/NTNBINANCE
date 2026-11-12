@@ -1,0 +1,1454 @@
+{
+  "assignments": {
+    "030ca854be96cf14354d1dbf50a06b80eaf99eee56cb554c4c8bf378075d137d": {
+      "decision_time_ms": 1794276000000,
+      "origin_sample_id": "030ca854be96cf14354d1dbf50a06b80eaf99eee56cb554c4c8bf378075d137d",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794279600000
+    },
+    "08febf31d3ec74a9827908c248473570909d9bdb83d4559ae89d618b5969ba85": {
+      "decision_time_ms": 1794321000000,
+      "origin_sample_id": "08febf31d3ec74a9827908c248473570909d9bdb83d4559ae89d618b5969ba85",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794324600000
+    },
+    "098f20b670bf4d3f54cbf648232fb077a34a85742ceb8323541100f261945a7a": {
+      "decision_time_ms": 1794297600000,
+      "origin_sample_id": "098f20b670bf4d3f54cbf648232fb077a34a85742ceb8323541100f261945a7a",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794301200000
+    },
+    "0b972f3611e6eb23e447f3079c5a736f110b3bac970efe90c58381788f0b8a84": {
+      "decision_time_ms": 1794273300000,
+      "origin_sample_id": "0b972f3611e6eb23e447f3079c5a736f110b3bac970efe90c58381788f0b8a84",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794276900000
+    },
+    "0bebe9bb0f0ed2ab9337d9ece7f9bf30b9bb5bdbb2cc3368949216ccfb45df13": {
+      "decision_time_ms": 1794325500000,
+      "origin_sample_id": "0bebe9bb0f0ed2ab9337d9ece7f9bf30b9bb5bdbb2cc3368949216ccfb45df13",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794329100000
+    },
+    "0dc762e5f5cc25b45f501a1f44ef4d15f1a822f42f20986a5b9c43cfda6860d1": {
+      "decision_time_ms": 1794269700000,
+      "origin_sample_id": "0dc762e5f5cc25b45f501a1f44ef4d15f1a822f42f20986a5b9c43cfda6860d1",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794273300000
+    },
+    "0e1af84b590d5cfcdf9f6ac98e10c8b73f19232de3bd7e0915a8e139e1f9cb4f": {
+      "decision_time_ms": 1794299400000,
+      "origin_sample_id": "0e1af84b590d5cfcdf9f6ac98e10c8b73f19232de3bd7e0915a8e139e1f9cb4f",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794303000000
+    },
+    "0edc111099951c0042d2ba01988af600a599d61af87427c66db1e115458d9f77": {
+      "decision_time_ms": 1794285000000,
+      "origin_sample_id": "0edc111099951c0042d2ba01988af600a599d61af87427c66db1e115458d9f77",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794288600000
+    },
+    "0f26fbfb39b2d6a49787fbcb8b78ca8f6cac9cf18e66cdfa595aecf996c84e3c": {
+      "decision_time_ms": 1794272400000,
+      "origin_sample_id": "0f26fbfb39b2d6a49787fbcb8b78ca8f6cac9cf18e66cdfa595aecf996c84e3c",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794276000000
+    },
+    "1019757bbb9abf94f70e39e818739e2ac2e543971b8392aafbd518a728585cb5": {
+      "decision_time_ms": 1794317400000,
+      "origin_sample_id": "1019757bbb9abf94f70e39e818739e2ac2e543971b8392aafbd518a728585cb5",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794321000000
+    },
+    "1832b33558f0e958544e71165c1501723eca27a82aa31de770b034e39cc0566b": {
+      "decision_time_ms": 1794326400000,
+      "origin_sample_id": "1832b33558f0e958544e71165c1501723eca27a82aa31de770b034e39cc0566b",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794330000000
+    },
+    "185f66a54e683e63bcf751e664cf0c8c9e359f81c264b3fa4b733875f3eadab2": {
+      "decision_time_ms": 1794274200000,
+      "origin_sample_id": "185f66a54e683e63bcf751e664cf0c8c9e359f81c264b3fa4b733875f3eadab2",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794277800000
+    },
+    "1b77badd38eaa65e6e91f8f441187bec2a9264d0909048906736ded2f247872e": {
+      "decision_time_ms": 1794315600000,
+      "origin_sample_id": "1b77badd38eaa65e6e91f8f441187bec2a9264d0909048906736ded2f247872e",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794319200000
+    },
+    "1c9317da03f28baa57921fe24c681ca1b2a0dee90e4998a62d1cb668db40e648": {
+      "decision_time_ms": 1794281400000,
+      "origin_sample_id": "1c9317da03f28baa57921fe24c681ca1b2a0dee90e4998a62d1cb668db40e648",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794285000000
+    },
+    "1fcbb597913426442ae1c69f765901d3392b4c3e2addb6c45d33724c6e504dd8": {
+      "decision_time_ms": 1794263400000,
+      "origin_sample_id": "1fcbb597913426442ae1c69f765901d3392b4c3e2addb6c45d33724c6e504dd8",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794267000000
+    },
+    "217b75d9ab72234d485082edf5964eadaa6a677645b02ef479534ad3b6d9ecdf": {
+      "decision_time_ms": 1794282300000,
+      "origin_sample_id": "217b75d9ab72234d485082edf5964eadaa6a677645b02ef479534ad3b6d9ecdf",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794285900000
+    },
+    "2281175cc385f2d954d2568ed72cc2494d8d820186c8e87eef962b43a224fe89": {
+      "decision_time_ms": 1794316500000,
+      "origin_sample_id": "2281175cc385f2d954d2568ed72cc2494d8d820186c8e87eef962b43a224fe89",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794320100000
+    },
+    "2460f14038ee25624d4c8c03d0bd91cbcd64f94964e3853019c98512c17350ce": {
+      "decision_time_ms": 1794305700000,
+      "origin_sample_id": "2460f14038ee25624d4c8c03d0bd91cbcd64f94964e3853019c98512c17350ce",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794309300000
+    },
+    "24bc24f80c16fb18ba489dec9c7d3f4b482c32ffabf7f99f4012dd5e989b9abf": {
+      "decision_time_ms": 1794283200000,
+      "origin_sample_id": "24bc24f80c16fb18ba489dec9c7d3f4b482c32ffabf7f99f4012dd5e989b9abf",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794286800000
+    },
+    "25cbaccfcf94ab5a00066daa09d0924f4f555f00b4759a7e8b740a15f0c5ed4b": {
+      "decision_time_ms": 1794278700000,
+      "origin_sample_id": "25cbaccfcf94ab5a00066daa09d0924f4f555f00b4759a7e8b740a15f0c5ed4b",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794282300000
+    },
+    "260540a6604a16819daf468ab26e6672e325efe020b33cf7c967c6eeb2f32cbe": {
+      "decision_time_ms": 1794305700000,
+      "origin_sample_id": "260540a6604a16819daf468ab26e6672e325efe020b33cf7c967c6eeb2f32cbe",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794309300000
+    },
+    "26effa33ad6e5350b2a3eee8c25255990eb29de6ccbb2f912e044ce76131269f": {
+      "decision_time_ms": 1794279600000,
+      "origin_sample_id": "26effa33ad6e5350b2a3eee8c25255990eb29de6ccbb2f912e044ce76131269f",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794283200000
+    },
+    "274ab2fa99cb430114f216938cbe1af0700eabb187eb52949ac8efacc620f2d2": {
+      "decision_time_ms": 1794303900000,
+      "origin_sample_id": "274ab2fa99cb430114f216938cbe1af0700eabb187eb52949ac8efacc620f2d2",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794307500000
+    },
+    "293faf360d6a2eced7a55064e6adc6745e37d11aaf223f4ea50d9f6d3c84695f": {
+      "decision_time_ms": 1794294000000,
+      "origin_sample_id": "293faf360d6a2eced7a55064e6adc6745e37d11aaf223f4ea50d9f6d3c84695f",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794297600000
+    },
+    "2d08153801141f01e1d03948d31ed68e20ad2dc91d0255d0b1183d19087c3057": {
+      "decision_time_ms": 1794297600000,
+      "origin_sample_id": "2d08153801141f01e1d03948d31ed68e20ad2dc91d0255d0b1183d19087c3057",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794301200000
+    },
+    "2dbc612b97a436123419640fe9515893bf45cd0157a46b11c96116f789d76dec": {
+      "decision_time_ms": 1794264300000,
+      "origin_sample_id": "2dbc612b97a436123419640fe9515893bf45cd0157a46b11c96116f789d76dec",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794267900000
+    },
+    "31efaeb0a48dad36525ba53547e88fa0fcdfe3e7ac0b45a9b8c012391130e02a": {
+      "decision_time_ms": 1794270600000,
+      "origin_sample_id": "31efaeb0a48dad36525ba53547e88fa0fcdfe3e7ac0b45a9b8c012391130e02a",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794274200000
+    },
+    "32df66203e80dbc21a9c1d40248c348751b68503f8571e64eead1e7710812926": {
+      "decision_time_ms": 1794311100000,
+      "origin_sample_id": "32df66203e80dbc21a9c1d40248c348751b68503f8571e64eead1e7710812926",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794314700000
+    },
+    "34448dd212a9372403c28b1e770162e1ca515b045c80e8d8c8e4b0e55dfacf06": {
+      "decision_time_ms": 1794277800000,
+      "origin_sample_id": "34448dd212a9372403c28b1e770162e1ca515b045c80e8d8c8e4b0e55dfacf06",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794281400000
+    },
+    "3498d531dd6b8faff288e21f936bc8aff67ac9f7d44d7419aaf45c702f884443": {
+      "decision_time_ms": 1794288600000,
+      "origin_sample_id": "3498d531dd6b8faff288e21f936bc8aff67ac9f7d44d7419aaf45c702f884443",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794292200000
+    },
+    "35e2845e0d16808056cd6c392617a0292d0f1f332f9f82e5e117db9ec82aca5b": {
+      "decision_time_ms": 1794315600000,
+      "origin_sample_id": "35e2845e0d16808056cd6c392617a0292d0f1f332f9f82e5e117db9ec82aca5b",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794319200000
+    },
+    "3b2281cc1ceb4619c4fb16ffa0b55115d88c8b2f227b43d1e1ed2a954a9e34d1": {
+      "decision_time_ms": 1794281400000,
+      "origin_sample_id": "3b2281cc1ceb4619c4fb16ffa0b55115d88c8b2f227b43d1e1ed2a954a9e34d1",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794285000000
+    },
+    "3ba285526b9563980ed18738477d8cbf1e2746a205e6f7103cc7069b36963f41": {
+      "decision_time_ms": 1794312000000,
+      "origin_sample_id": "3ba285526b9563980ed18738477d8cbf1e2746a205e6f7103cc7069b36963f41",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794315600000
+    },
+    "3c04fe5f62720c16117823ba571d93c219918558bd7dfd0558bae9401fd524ee": {
+      "decision_time_ms": 1794269700000,
+      "origin_sample_id": "3c04fe5f62720c16117823ba571d93c219918558bd7dfd0558bae9401fd524ee",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794273300000
+    },
+    "3ed0b4f6f112b772b37b961073f4a6cd4929d1a67b56c22210b444e51ad555f5": {
+      "decision_time_ms": 1794285000000,
+      "origin_sample_id": "3ed0b4f6f112b772b37b961073f4a6cd4929d1a67b56c22210b444e51ad555f5",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794288600000
+    },
+    "3ee33464d9e3f7cf21280cee40349551c9dd6f99eb0374ffb26a59dceebd579c": {
+      "decision_time_ms": 1794301200000,
+      "origin_sample_id": "3ee33464d9e3f7cf21280cee40349551c9dd6f99eb0374ffb26a59dceebd579c",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794304800000
+    },
+    "4248177ca00eb9d0105b822ac9d54f3572ecb64c0c93b9107ac5995f23cb448f": {
+      "decision_time_ms": 1794276900000,
+      "origin_sample_id": "4248177ca00eb9d0105b822ac9d54f3572ecb64c0c93b9107ac5995f23cb448f",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794280500000
+    },
+    "439b017e339d9a5eab973b28b3af9c6f3e172e535c9c7e4b049b1135d2924120": {
+      "decision_time_ms": 1794311100000,
+      "origin_sample_id": "439b017e339d9a5eab973b28b3af9c6f3e172e535c9c7e4b049b1135d2924120",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794314700000
+    },
+    "458f1f094e49ab41d3a5180a4bece3f95afda2924a465da0ebcb2d75a1db2e13": {
+      "decision_time_ms": 1794300300000,
+      "origin_sample_id": "458f1f094e49ab41d3a5180a4bece3f95afda2924a465da0ebcb2d75a1db2e13",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794303900000
+    },
+    "4ad4cbacc75fed1e89896a5c71033205f0ddcba4721198c1a92962a0cb02f2da": {
+      "decision_time_ms": 1794317400000,
+      "origin_sample_id": "4ad4cbacc75fed1e89896a5c71033205f0ddcba4721198c1a92962a0cb02f2da",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794321000000
+    },
+    "4e405505de1c0009ad4113ac7a296c4af645e717301d8b22a3b71f01e784a1d8": {
+      "decision_time_ms": 1794271500000,
+      "origin_sample_id": "4e405505de1c0009ad4113ac7a296c4af645e717301d8b22a3b71f01e784a1d8",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794275100000
+    },
+    "519863ed68738c2bcee43ce176ce83771c32c8979ed48478168be2613c1058ba": {
+      "decision_time_ms": 1794280500000,
+      "origin_sample_id": "519863ed68738c2bcee43ce176ce83771c32c8979ed48478168be2613c1058ba",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794284100000
+    },
+    "51ef0c718971c37b06abe4182588b1c628830ab037d2f5eedf914c873aa1ea8b": {
+      "decision_time_ms": 1794277800000,
+      "origin_sample_id": "51ef0c718971c37b06abe4182588b1c628830ab037d2f5eedf914c873aa1ea8b",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794281400000
+    },
+    "5269519290bf32d295b72adae80dc8d6f0e6df8af9d93e0c7bd3bcaf5f588328": {
+      "decision_time_ms": 1794324600000,
+      "origin_sample_id": "5269519290bf32d295b72adae80dc8d6f0e6df8af9d93e0c7bd3bcaf5f588328",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794328200000
+    },
+    "55c3676899b048255b93435bd87920d167b82c8917234aa6f8a704431878bd24": {
+      "decision_time_ms": 1794289500000,
+      "origin_sample_id": "55c3676899b048255b93435bd87920d167b82c8917234aa6f8a704431878bd24",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794293100000
+    },
+    "563d70ebfed51e0f3cf0f7b63e45e372fa511afb3162bfcd631f22c251c3a603": {
+      "decision_time_ms": 1794260700000,
+      "origin_sample_id": "563d70ebfed51e0f3cf0f7b63e45e372fa511afb3162bfcd631f22c251c3a603",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794264300000
+    },
+    "56cb54b41bfea37bb5250f34f6ca68bc9e249de72dd4e7ff87ba081d2d97491d": {
+      "decision_time_ms": 1794287700000,
+      "origin_sample_id": "56cb54b41bfea37bb5250f34f6ca68bc9e249de72dd4e7ff87ba081d2d97491d",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794291300000
+    },
+    "56cd958e341c94c5d02a95d05b7534cc72d1a3a8db84f10254ab9365864450d2": {
+      "decision_time_ms": 1794268800000,
+      "origin_sample_id": "56cd958e341c94c5d02a95d05b7534cc72d1a3a8db84f10254ab9365864450d2",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794272400000
+    },
+    "56f5028605ffaa3cf5d79c2c7baf1c0e14f5ba2ce31d70d407419c0b07f4a6ca": {
+      "decision_time_ms": 1794321000000,
+      "origin_sample_id": "56f5028605ffaa3cf5d79c2c7baf1c0e14f5ba2ce31d70d407419c0b07f4a6ca",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794324600000
+    },
+    "59d2deaccf87f727008ceadd5d1eeef53efa31890feab516ca3da7fbec4c6917": {
+      "decision_time_ms": 1794272400000,
+      "origin_sample_id": "59d2deaccf87f727008ceadd5d1eeef53efa31890feab516ca3da7fbec4c6917",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794276000000
+    },
+    "5c27dffb8e89f37155e79798664356e4ae09cc7a957fd273bdad6c6f9b783595": {
+      "decision_time_ms": 1794326400000,
+      "origin_sample_id": "5c27dffb8e89f37155e79798664356e4ae09cc7a957fd273bdad6c6f9b783595",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794330000000
+    },
+    "5d3d96990083691ed45440aec6b428344318b98d4ed0da620cd3eb389eb1bafe": {
+      "decision_time_ms": 1794296700000,
+      "origin_sample_id": "5d3d96990083691ed45440aec6b428344318b98d4ed0da620cd3eb389eb1bafe",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794300300000
+    },
+    "5fe916bed76fb42c5bccdc0c9fe4d324316f4dc3d2a8a211dc67cee3b654a773": {
+      "decision_time_ms": 1794327300000,
+      "origin_sample_id": "5fe916bed76fb42c5bccdc0c9fe4d324316f4dc3d2a8a211dc67cee3b654a773",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794330900000
+    },
+    "6121bb012c77732eab8321cead43b9c38a5617655a80660acaadaafce18da4d0": {
+      "decision_time_ms": 1794267900000,
+      "origin_sample_id": "6121bb012c77732eab8321cead43b9c38a5617655a80660acaadaafce18da4d0",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794271500000
+    },
+    "62cc75c81e14ecf3b3fc0986942b3c50e6280f1920b187b63f1d757f93fd3e26": {
+      "decision_time_ms": 1794262500000,
+      "origin_sample_id": "62cc75c81e14ecf3b3fc0986942b3c50e6280f1920b187b63f1d757f93fd3e26",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794266100000
+    },
+    "6bd9e80817ef10479db55c445165a9da9a24bbfc9472444710c87ae04549baf2": {
+      "decision_time_ms": 1794267000000,
+      "origin_sample_id": "6bd9e80817ef10479db55c445165a9da9a24bbfc9472444710c87ae04549baf2",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794270600000
+    },
+    "6c1a67dfc91be5e2b7ffd650155d714be0bbde7c3305be27a3e68d5c4283dc49": {
+      "decision_time_ms": 1794275100000,
+      "origin_sample_id": "6c1a67dfc91be5e2b7ffd650155d714be0bbde7c3305be27a3e68d5c4283dc49",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794278700000
+    },
+    "6d564765e853b4ced95dc531835eb177b4f2b392d60079848f44211db1d33292": {
+      "decision_time_ms": 1794328200000,
+      "origin_sample_id": "6d564765e853b4ced95dc531835eb177b4f2b392d60079848f44211db1d33292",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794331800000
+    },
+    "6e79770e7fa8e21779a4d51899df65177bad9088cdbcf3262aab7682059b6522": {
+      "decision_time_ms": 1794314700000,
+      "origin_sample_id": "6e79770e7fa8e21779a4d51899df65177bad9088cdbcf3262aab7682059b6522",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794318300000
+    },
+    "7143a0625a2234953f3a42ffaeab94e794f7d5da57cdee40d43e02b0cc95e5bc": {
+      "decision_time_ms": 1794306600000,
+      "origin_sample_id": "7143a0625a2234953f3a42ffaeab94e794f7d5da57cdee40d43e02b0cc95e5bc",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794310200000
+    },
+    "748208b43ba23725f12d2717c5614b793c074b48bf3a7dc01afb987d38c168f3": {
+      "decision_time_ms": 1794325500000,
+      "origin_sample_id": "748208b43ba23725f12d2717c5614b793c074b48bf3a7dc01afb987d38c168f3",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794329100000
+    },
+    "75708e09ee4d9e7799f412c59c25e82002f1b25daad18250521a6a2b18e5838d": {
+      "decision_time_ms": 1794308400000,
+      "origin_sample_id": "75708e09ee4d9e7799f412c59c25e82002f1b25daad18250521a6a2b18e5838d",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794312000000
+    },
+    "75eb82ef327cf6e332d5ea941d4747593f1efca7b8169c631c48fd7d6df5470f": {
+      "decision_time_ms": 1794321900000,
+      "origin_sample_id": "75eb82ef327cf6e332d5ea941d4747593f1efca7b8169c631c48fd7d6df5470f",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794325500000
+    },
+    "775505b3b4f5c3edb5ea4187802bf98068e764d212de439cd210091faea2f03c": {
+      "decision_time_ms": 1794324600000,
+      "origin_sample_id": "775505b3b4f5c3edb5ea4187802bf98068e764d212de439cd210091faea2f03c",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794328200000
+    },
+    "77e71bfb22234f144dc952604db880911c5a52a64776f73fb5847feac5c21272": {
+      "decision_time_ms": 1794298500000,
+      "origin_sample_id": "77e71bfb22234f144dc952604db880911c5a52a64776f73fb5847feac5c21272",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794302100000
+    },
+    "795cea8b540d46479af8711d62847ff06571b53d887bd30838c6137fcd684d50": {
+      "decision_time_ms": 1794290400000,
+      "origin_sample_id": "795cea8b540d46479af8711d62847ff06571b53d887bd30838c6137fcd684d50",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794294000000
+    },
+    "7cd817efd4ebae3f0fbb183b48ef2ef1a2d61e8b4fc088a7a842967de3813d05": {
+      "decision_time_ms": 1794302100000,
+      "origin_sample_id": "7cd817efd4ebae3f0fbb183b48ef2ef1a2d61e8b4fc088a7a842967de3813d05",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794305700000
+    },
+    "7e6b296d46f9eae92dc5be33e7ba81c891e78113e4a72cb0bfa2779ec1376370": {
+      "decision_time_ms": 1794278700000,
+      "origin_sample_id": "7e6b296d46f9eae92dc5be33e7ba81c891e78113e4a72cb0bfa2779ec1376370",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794282300000
+    },
+    "7efe0a4182d44f265ec03bf46c317c3b5a06424e144a7f3a00302d7920f8be4e": {
+      "decision_time_ms": 1794328200000,
+      "origin_sample_id": "7efe0a4182d44f265ec03bf46c317c3b5a06424e144a7f3a00302d7920f8be4e",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794331800000
+    },
+    "818b10d9865ae2bb5a4698efccad21b276027fd06d281534240bc021c517e365": {
+      "decision_time_ms": 1794268800000,
+      "origin_sample_id": "818b10d9865ae2bb5a4698efccad21b276027fd06d281534240bc021c517e365",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794272400000
+    },
+    "81960ee77f2f485cf5159fbc70e168be6e701fb78c771eec669dbbd3c42ca873": {
+      "decision_time_ms": 1794260700000,
+      "origin_sample_id": "81960ee77f2f485cf5159fbc70e168be6e701fb78c771eec669dbbd3c42ca873",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794264300000
+    },
+    "84b968df03c393f7491ce445a1065a4452fe33daf4b7d99de73e03018de64639": {
+      "decision_time_ms": 1794271500000,
+      "origin_sample_id": "84b968df03c393f7491ce445a1065a4452fe33daf4b7d99de73e03018de64639",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794275100000
+    },
+    "86b7a3753ed3fda39ee9f4aef357478a12f5ad9f7eb349b95635882137ba1bda": {
+      "decision_time_ms": 1794303900000,
+      "origin_sample_id": "86b7a3753ed3fda39ee9f4aef357478a12f5ad9f7eb349b95635882137ba1bda",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794307500000
+    },
+    "86e04600955ae578cdac8a7cf04be091d0fa35807df24a9385078d9c77bb410b": {
+      "decision_time_ms": 1794270600000,
+      "origin_sample_id": "86e04600955ae578cdac8a7cf04be091d0fa35807df24a9385078d9c77bb410b",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794274200000
+    },
+    "8ee7bde2380249585fa29b6c18df842df8d1821e8f01c0efcfabf255bc26fe06": {
+      "decision_time_ms": 1794288600000,
+      "origin_sample_id": "8ee7bde2380249585fa29b6c18df842df8d1821e8f01c0efcfabf255bc26fe06",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794292200000
+    },
+    "8fc13195ca1ee30ba3c74b8de9253f06a75fb5527809a6bcf350283f2a669aa7": {
+      "decision_time_ms": 1794327300000,
+      "origin_sample_id": "8fc13195ca1ee30ba3c74b8de9253f06a75fb5527809a6bcf350283f2a669aa7",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794330900000
+    },
+    "900d8af95a176eba1cb13bc583cc8ffd1df43d260830e2337414a3077271d071": {
+      "decision_time_ms": 1794293100000,
+      "origin_sample_id": "900d8af95a176eba1cb13bc583cc8ffd1df43d260830e2337414a3077271d071",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794296700000
+    },
+    "911e8d56c0198fbc96463fedd6230931fc83ffcdd417bc5058fdda17031ed1e1": {
+      "decision_time_ms": 1794290400000,
+      "origin_sample_id": "911e8d56c0198fbc96463fedd6230931fc83ffcdd417bc5058fdda17031ed1e1",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794294000000
+    },
+    "9461394e5c2572f44cb140b91a8fa0d735691708ff6b22c1cab8cba7ef705c8a": {
+      "decision_time_ms": 1794302100000,
+      "origin_sample_id": "9461394e5c2572f44cb140b91a8fa0d735691708ff6b22c1cab8cba7ef705c8a",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794305700000
+    },
+    "94cf846a904633dce0b5baa9807f69ebab529a5804012135f7f4bc5a177771d0": {
+      "decision_time_ms": 1794303000000,
+      "origin_sample_id": "94cf846a904633dce0b5baa9807f69ebab529a5804012135f7f4bc5a177771d0",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794306600000
+    },
+    "97a5f3b132f5030678e962f2e2f0ce4cdde020ea255886379df3e2e55fc64fef": {
+      "decision_time_ms": 1794320100000,
+      "origin_sample_id": "97a5f3b132f5030678e962f2e2f0ce4cdde020ea255886379df3e2e55fc64fef",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794323700000
+    },
+    "9cd8a0931e1fe4a2afc4ca7dc7910dad6dbd4fc28cd6f0ed60db297a5f75abd4": {
+      "decision_time_ms": 1794307500000,
+      "origin_sample_id": "9cd8a0931e1fe4a2afc4ca7dc7910dad6dbd4fc28cd6f0ed60db297a5f75abd4",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794311100000
+    },
+    "9d4374b08c08aca1d2333db1785d7afaff7d2210e8aee14fba015ed3eada158a": {
+      "decision_time_ms": 1794300300000,
+      "origin_sample_id": "9d4374b08c08aca1d2333db1785d7afaff7d2210e8aee14fba015ed3eada158a",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794303900000
+    },
+    "a18fa129199273ec20af20a5ee91f17fcb453c908d12a2895f20b3cdc72c1853": {
+      "decision_time_ms": 1794310200000,
+      "origin_sample_id": "a18fa129199273ec20af20a5ee91f17fcb453c908d12a2895f20b3cdc72c1853",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794313800000
+    },
+    "a3238122d7226344019393fd7866a99fa217430d28a8b435b6ef74d804e2083d": {
+      "decision_time_ms": 1794283200000,
+      "origin_sample_id": "a3238122d7226344019393fd7866a99fa217430d28a8b435b6ef74d804e2083d",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794286800000
+    },
+    "a32a3c267303c718acf77437e6f9b8e469c0dd4e0ebdbb7ce81ba6ffaccfad40": {
+      "decision_time_ms": 1794280500000,
+      "origin_sample_id": "a32a3c267303c718acf77437e6f9b8e469c0dd4e0ebdbb7ce81ba6ffaccfad40",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794284100000
+    },
+    "a37792702e9aac3c6eb04a00eb19b07035eccc4962587b17c7fff9e3528359da": {
+      "decision_time_ms": 1794291300000,
+      "origin_sample_id": "a37792702e9aac3c6eb04a00eb19b07035eccc4962587b17c7fff9e3528359da",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794294900000
+    },
+    "a7bd159f54e8fdc5e743cda9cfbac5637d9f6c4eee928d84cbfd4a86c8efbe44": {
+      "decision_time_ms": 1794276000000,
+      "origin_sample_id": "a7bd159f54e8fdc5e743cda9cfbac5637d9f6c4eee928d84cbfd4a86c8efbe44",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794279600000
+    },
+    "a93f3880906df8d474c3f305a463a27888b89361c202e2ad3fc31cb88ad0c6ba": {
+      "decision_time_ms": 1794294900000,
+      "origin_sample_id": "a93f3880906df8d474c3f305a463a27888b89361c202e2ad3fc31cb88ad0c6ba",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794298500000
+    },
+    "a948298da1b6a2736f20ce17481d771628567d742cc61cac788ce876bac97391": {
+      "decision_time_ms": 1794314700000,
+      "origin_sample_id": "a948298da1b6a2736f20ce17481d771628567d742cc61cac788ce876bac97391",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794318300000
+    },
+    "a9cbb5d5d767ced2aaca70e35dcabf7a9377502c682ff11c9b0220c91d72dee9": {
+      "decision_time_ms": 1794264300000,
+      "origin_sample_id": "a9cbb5d5d767ced2aaca70e35dcabf7a9377502c682ff11c9b0220c91d72dee9",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794267900000
+    },
+    "aa631ad2f19d821cf64a3df49631a22eb6b42743741e3b7c083e2758c10cd5b4": {
+      "decision_time_ms": 1794322800000,
+      "origin_sample_id": "aa631ad2f19d821cf64a3df49631a22eb6b42743741e3b7c083e2758c10cd5b4",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794326400000
+    },
+    "ac280df8728898d866c2e804195c626188fd5479b8c35e1f71e556e6b03ade8b": {
+      "decision_time_ms": 1794318300000,
+      "origin_sample_id": "ac280df8728898d866c2e804195c626188fd5479b8c35e1f71e556e6b03ade8b",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794321900000
+    },
+    "ac5d89379a91ea5ef8e0b73a3a2c4d1e3c77304e1eec87a47ed35c9822e954f2": {
+      "decision_time_ms": 1794276900000,
+      "origin_sample_id": "ac5d89379a91ea5ef8e0b73a3a2c4d1e3c77304e1eec87a47ed35c9822e954f2",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794280500000
+    },
+    "acc26f01f7aa94136f1597bb5673d903a87734e0f7770af28097f68957926dc5": {
+      "decision_time_ms": 1794275100000,
+      "origin_sample_id": "acc26f01f7aa94136f1597bb5673d903a87734e0f7770af28097f68957926dc5",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794278700000
+    },
+    "ad392826581dba84dc13a7a578438e2b12b752fa4d000b17360629a2eb2d63a0": {
+      "decision_time_ms": 1794294000000,
+      "origin_sample_id": "ad392826581dba84dc13a7a578438e2b12b752fa4d000b17360629a2eb2d63a0",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794297600000
+    },
+    "b01769a98af7887b4cef40e604c23c5c3f10e86034c4efa208127568321fa0c7": {
+      "decision_time_ms": 1794294900000,
+      "origin_sample_id": "b01769a98af7887b4cef40e604c23c5c3f10e86034c4efa208127568321fa0c7",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794298500000
+    },
+    "b051b183608d419be967d83c94a61145c36844db184ad5b7ddc731ca5fcae4c3": {
+      "decision_time_ms": 1794266100000,
+      "origin_sample_id": "b051b183608d419be967d83c94a61145c36844db184ad5b7ddc731ca5fcae4c3",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794269700000
+    },
+    "b11d505b61d267fba66ea31695f60d3e14b60a76e5b68c0da35cbccbbf8397d8": {
+      "decision_time_ms": 1794316500000,
+      "origin_sample_id": "b11d505b61d267fba66ea31695f60d3e14b60a76e5b68c0da35cbccbbf8397d8",
+      "partition": "EMBARGO_VALIDATION_TEST",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794320100000
+    },
+    "b487615407de3ea16b9cb04bb276c8002e0b3d62230bf25be24f885f39b67aef": {
+      "decision_time_ms": 1794312900000,
+      "origin_sample_id": "b487615407de3ea16b9cb04bb276c8002e0b3d62230bf25be24f885f39b67aef",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794316500000
+    },
+    "b4ff0c788edec9cb846e1dda9bee27a57d64678b6b5f84ea64eba3ba4f2daf5b": {
+      "decision_time_ms": 1794263400000,
+      "origin_sample_id": "b4ff0c788edec9cb846e1dda9bee27a57d64678b6b5f84ea64eba3ba4f2daf5b",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794267000000
+    },
+    "b78d60d497d728a67b71d9c056431033a9b876c4bb36b562b4e543ee99b45c2b": {
+      "decision_time_ms": 1794318300000,
+      "origin_sample_id": "b78d60d497d728a67b71d9c056431033a9b876c4bb36b562b4e543ee99b45c2b",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794321900000
+    },
+    "b7b04ecea3db3cbf210abe57dc72f786081c39933cfae67e5a08641b8eaf19cd": {
+      "decision_time_ms": 1794304800000,
+      "origin_sample_id": "b7b04ecea3db3cbf210abe57dc72f786081c39933cfae67e5a08641b8eaf19cd",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794308400000
+    },
+    "b82399f5c91428f63b1fc48acd0cc98bbda9d14a9848b75cb595abc0646d5864": {
+      "decision_time_ms": 1794320100000,
+      "origin_sample_id": "b82399f5c91428f63b1fc48acd0cc98bbda9d14a9848b75cb595abc0646d5864",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794323700000
+    },
+    "b8bd2d45c742f4162d7a29fbd5f31370f83e57e19acd8062992841184d06a737": {
+      "decision_time_ms": 1794323700000,
+      "origin_sample_id": "b8bd2d45c742f4162d7a29fbd5f31370f83e57e19acd8062992841184d06a737",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794327300000
+    },
+    "ba810277a13518e09444f7432dc6cc68cfce7433faa0bd4fbad95ae80ca19c04": {
+      "decision_time_ms": 1794286800000,
+      "origin_sample_id": "ba810277a13518e09444f7432dc6cc68cfce7433faa0bd4fbad95ae80ca19c04",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794290400000
+    },
+    "bb8ed74d5454302572d13fd5a684e5c3f1e7dd5a2913a64852fedb33f43a3f0f": {
+      "decision_time_ms": 1794312900000,
+      "origin_sample_id": "bb8ed74d5454302572d13fd5a684e5c3f1e7dd5a2913a64852fedb33f43a3f0f",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794316500000
+    },
+    "bcb81c5f534ebf448edad58943e3de045b535aa3bdb59efc5c5ff40b9069666c": {
+      "decision_time_ms": 1794273300000,
+      "origin_sample_id": "bcb81c5f534ebf448edad58943e3de045b535aa3bdb59efc5c5ff40b9069666c",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794276900000
+    },
+    "bd7ca1bf6332079971195e58c1c812de98323fd5df0e58bb809e7f01777995e1": {
+      "decision_time_ms": 1794289500000,
+      "origin_sample_id": "bd7ca1bf6332079971195e58c1c812de98323fd5df0e58bb809e7f01777995e1",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794293100000
+    },
+    "be0f81df7b46033d468b56f236231ca195eec3fe920096d86c2d3942c22f7f02": {
+      "decision_time_ms": 1794304800000,
+      "origin_sample_id": "be0f81df7b46033d468b56f236231ca195eec3fe920096d86c2d3942c22f7f02",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794308400000
+    },
+    "be7ed36aa185d072a4d219725a4997d4f8024853b9d224fdb5e1462f62e05927": {
+      "decision_time_ms": 1794329100000,
+      "origin_sample_id": "be7ed36aa185d072a4d219725a4997d4f8024853b9d224fdb5e1462f62e05927",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794332700000
+    },
+    "be7f6fc6c227c74b952f7f0ec148d84765ca3f424fad70d1d6dc1c9fbe1904ec": {
+      "decision_time_ms": 1794282300000,
+      "origin_sample_id": "be7f6fc6c227c74b952f7f0ec148d84765ca3f424fad70d1d6dc1c9fbe1904ec",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794285900000
+    },
+    "bef96221897dfc36e10d32e326177a3d9eca9ccd3c6cb27e44b5fdd0533f9407": {
+      "decision_time_ms": 1794296700000,
+      "origin_sample_id": "bef96221897dfc36e10d32e326177a3d9eca9ccd3c6cb27e44b5fdd0533f9407",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794300300000
+    },
+    "c046f1d869b1c9dfbd183ea9fee37c83dd0f6cfbd88cea34fb8ca7097690e970": {
+      "decision_time_ms": 1794267000000,
+      "origin_sample_id": "c046f1d869b1c9dfbd183ea9fee37c83dd0f6cfbd88cea34fb8ca7097690e970",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794270600000
+    },
+    "c18b0f93ac4d631086db11d652913946f22e71ffb76fb0aef5965a03a598a504": {
+      "decision_time_ms": 1794286800000,
+      "origin_sample_id": "c18b0f93ac4d631086db11d652913946f22e71ffb76fb0aef5965a03a598a504",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794290400000
+    },
+    "c4b02679413efb21b443358eac2bcbf8937aaad2e1cebda482367d30f305f8ab": {
+      "decision_time_ms": 1794309300000,
+      "origin_sample_id": "c4b02679413efb21b443358eac2bcbf8937aaad2e1cebda482367d30f305f8ab",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794312900000
+    },
+    "c8a472e4cd2a24d208e83bec7ee228f1d54051fa602b6ecd8b992df7e41156d2": {
+      "decision_time_ms": 1794313800000,
+      "origin_sample_id": "c8a472e4cd2a24d208e83bec7ee228f1d54051fa602b6ecd8b992df7e41156d2",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794317400000
+    },
+    "ca957cbb6ff6bca0429fbff06ecef6a168609eb66ce78ce412c431acb8a59b5a": {
+      "decision_time_ms": 1794309300000,
+      "origin_sample_id": "ca957cbb6ff6bca0429fbff06ecef6a168609eb66ce78ce412c431acb8a59b5a",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794312900000
+    },
+    "cad7f1c5fba3e8a93dabe01089c19a5c22f799168f19afe72e4f90386d860d10": {
+      "decision_time_ms": 1794285900000,
+      "origin_sample_id": "cad7f1c5fba3e8a93dabe01089c19a5c22f799168f19afe72e4f90386d860d10",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794289500000
+    },
+    "cdaca36cab31600c4afbd933b655bf97e3d7ad21b4ac146a7a670364fd01eeaf": {
+      "decision_time_ms": 1794266100000,
+      "origin_sample_id": "cdaca36cab31600c4afbd933b655bf97e3d7ad21b4ac146a7a670364fd01eeaf",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794269700000
+    },
+    "ce1b72e61062ac155ed1b9ef389ccd87d7a2f8c35d6a73a753ad3a08becc059e": {
+      "decision_time_ms": 1794313800000,
+      "origin_sample_id": "ce1b72e61062ac155ed1b9ef389ccd87d7a2f8c35d6a73a753ad3a08becc059e",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794317400000
+    },
+    "d1ff1ed16d3b340a89a71d772906976129b0987b902fed4fe4d791e91b80572f": {
+      "decision_time_ms": 1794292200000,
+      "origin_sample_id": "d1ff1ed16d3b340a89a71d772906976129b0987b902fed4fe4d791e91b80572f",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794295800000
+    },
+    "d27aba66d2165625d2de1264a2851b95f4170a4489c9c8e993cceb7c8f01e315": {
+      "decision_time_ms": 1794293100000,
+      "origin_sample_id": "d27aba66d2165625d2de1264a2851b95f4170a4489c9c8e993cceb7c8f01e315",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794296700000
+    },
+    "d2aafbfad518e7249218987dbdb7cb59dcc2bbcdad6ab6a394335245ca1e00b0": {
+      "decision_time_ms": 1794308400000,
+      "origin_sample_id": "d2aafbfad518e7249218987dbdb7cb59dcc2bbcdad6ab6a394335245ca1e00b0",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794312000000
+    },
+    "d35609ebaed9fe0a022b0d4fb474053489142f382cf911a5f0dbf48f4ff9edbe": {
+      "decision_time_ms": 1794284100000,
+      "origin_sample_id": "d35609ebaed9fe0a022b0d4fb474053489142f382cf911a5f0dbf48f4ff9edbe",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794287700000
+    },
+    "d4c8c31404f172e437b5a02cff63f70f6ecc1789410ce3d662da0e95e5fdaad5": {
+      "decision_time_ms": 1794321900000,
+      "origin_sample_id": "d4c8c31404f172e437b5a02cff63f70f6ecc1789410ce3d662da0e95e5fdaad5",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794325500000
+    },
+    "d5fdb3b86f18c7de3ecbb0f7020e71205117a09a00d2d36edb05f82b8403fac1": {
+      "decision_time_ms": 1794274200000,
+      "origin_sample_id": "d5fdb3b86f18c7de3ecbb0f7020e71205117a09a00d2d36edb05f82b8403fac1",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794277800000
+    },
+    "d9ec4121830a29591105e85ec960b4fc650196160688b83ef36eebb3058df173": {
+      "decision_time_ms": 1794303000000,
+      "origin_sample_id": "d9ec4121830a29591105e85ec960b4fc650196160688b83ef36eebb3058df173",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794306600000
+    },
+    "da646a50efb6284e4e27d17131d6719c0846e3908efbcfacedb9e428b80a22c2": {
+      "decision_time_ms": 1794284100000,
+      "origin_sample_id": "da646a50efb6284e4e27d17131d6719c0846e3908efbcfacedb9e428b80a22c2",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794287700000
+    },
+    "db4c8118a863bf7a6581acf46acbea9ba197b6e66e7d84db7b110de7f3f91ba5": {
+      "decision_time_ms": 1794292200000,
+      "origin_sample_id": "db4c8118a863bf7a6581acf46acbea9ba197b6e66e7d84db7b110de7f3f91ba5",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794295800000
+    },
+    "de5ea6582d425b19a9d53dd13878b47e7bcc9e3953f69991e8f7939e264ec2a3": {
+      "decision_time_ms": 1794306600000,
+      "origin_sample_id": "de5ea6582d425b19a9d53dd13878b47e7bcc9e3953f69991e8f7939e264ec2a3",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794310200000
+    },
+    "df798604d5a1ab5a2ba06c95bb5357aaee78174e3774f3c77d8c415a153020ee": {
+      "decision_time_ms": 1794291300000,
+      "origin_sample_id": "df798604d5a1ab5a2ba06c95bb5357aaee78174e3774f3c77d8c415a153020ee",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794294900000
+    },
+    "e010ffa82bdc1a1786e2b304b4bd172d83a8a455f7d5cc2a551e4311d03e19ca": {
+      "decision_time_ms": 1794279600000,
+      "origin_sample_id": "e010ffa82bdc1a1786e2b304b4bd172d83a8a455f7d5cc2a551e4311d03e19ca",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794283200000
+    },
+    "e102d9ca9d03f7a37f24cc09684b7b0e81061d5e822d4376c0984488b60e0bce": {
+      "decision_time_ms": 1794310200000,
+      "origin_sample_id": "e102d9ca9d03f7a37f24cc09684b7b0e81061d5e822d4376c0984488b60e0bce",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794313800000
+    },
+    "e3282719a46a85452ffb89b88df8fe5dc6c1a56bfa2ff3f45643da041fc735c0": {
+      "decision_time_ms": 1794312000000,
+      "origin_sample_id": "e3282719a46a85452ffb89b88df8fe5dc6c1a56bfa2ff3f45643da041fc735c0",
+      "partition": "VALIDATION",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794315600000
+    },
+    "e53e971512f5da734d647f0dd996ab8e410c40f300ee2cd5693c43389bc88a1f": {
+      "decision_time_ms": 1794267900000,
+      "origin_sample_id": "e53e971512f5da734d647f0dd996ab8e410c40f300ee2cd5693c43389bc88a1f",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794271500000
+    },
+    "e6739de8972db6a960dbc5a428e87bfaddd5d3f52941baf4957561c52164b778": {
+      "decision_time_ms": 1794261600000,
+      "origin_sample_id": "e6739de8972db6a960dbc5a428e87bfaddd5d3f52941baf4957561c52164b778",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794265200000
+    },
+    "e9b2c13f6ea0d54f3cd4151056754ca07fe698595da4cea5df4fb1d378dfb32f": {
+      "decision_time_ms": 1794307500000,
+      "origin_sample_id": "e9b2c13f6ea0d54f3cd4151056754ca07fe698595da4cea5df4fb1d378dfb32f",
+      "partition": "VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794311100000
+    },
+    "e9b55b09668ca3eb7adcccdfcebc9546a80d3a1cc49854110a817c89c3864fd0": {
+      "decision_time_ms": 1794319200000,
+      "origin_sample_id": "e9b55b09668ca3eb7adcccdfcebc9546a80d3a1cc49854110a817c89c3864fd0",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794322800000
+    },
+    "ed1c4b391d6d2ea3af89b7eadc78e3ac4ae25d5c7fbc6b6e40525cc20742775e": {
+      "decision_time_ms": 1794319200000,
+      "origin_sample_id": "ed1c4b391d6d2ea3af89b7eadc78e3ac4ae25d5c7fbc6b6e40525cc20742775e",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794322800000
+    },
+    "ed524198847754b5ef81758bb6ab2470fc425db434aa3af201dd86fc79ace716": {
+      "decision_time_ms": 1794299400000,
+      "origin_sample_id": "ed524198847754b5ef81758bb6ab2470fc425db434aa3af201dd86fc79ace716",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794303000000
+    },
+    "ee1b80cb4e4b68fb3324219ac4443805f51e89bbac9e2c7327e1cf788ad3e746": {
+      "decision_time_ms": 1794287700000,
+      "origin_sample_id": "ee1b80cb4e4b68fb3324219ac4443805f51e89bbac9e2c7327e1cf788ad3e746",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794291300000
+    },
+    "f06236716bf646e05ad4060f81478aad8f2c352512c1be231053006a3a52d8e6": {
+      "decision_time_ms": 1794329100000,
+      "origin_sample_id": "f06236716bf646e05ad4060f81478aad8f2c352512c1be231053006a3a52d8e6",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794332700000
+    },
+    "f2043509cfe1de43be3719db60df9e59b1fa5145e7f2cc5f40860d8f4c47194b": {
+      "decision_time_ms": 1794298500000,
+      "origin_sample_id": "f2043509cfe1de43be3719db60df9e59b1fa5145e7f2cc5f40860d8f4c47194b",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794302100000
+    },
+    "f2aed578d358efee984a47d6b106e1b955721e7b9bf1481bbb8b03ec23e7ae43": {
+      "decision_time_ms": 1794261600000,
+      "origin_sample_id": "f2aed578d358efee984a47d6b106e1b955721e7b9bf1481bbb8b03ec23e7ae43",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794265200000
+    },
+    "f3f880b594f918e0c5afcb1655a458024a455922a7ec0cb06fddbcbdc0978e90": {
+      "decision_time_ms": 1794262500000,
+      "origin_sample_id": "f3f880b594f918e0c5afcb1655a458024a455922a7ec0cb06fddbcbdc0978e90",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794266100000
+    },
+    "f6db4bee9770fb8c69c262e9c65b358730e4074cea258976ddfef2ff953ad58a": {
+      "decision_time_ms": 1794301200000,
+      "origin_sample_id": "f6db4bee9770fb8c69c262e9c65b358730e4074cea258976ddfef2ff953ad58a",
+      "partition": "PURGED_TRAIN_VALIDATION",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794304800000
+    },
+    "f7413bcd0770e60ff5699688fee6947439f267b0a7abd467a2a70a358829bb05": {
+      "decision_time_ms": 1794322800000,
+      "origin_sample_id": "f7413bcd0770e60ff5699688fee6947439f267b0a7abd467a2a70a358829bb05",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794326400000
+    },
+    "f7af7dfd0403e5931f319b50251351eed551449405123c6b6c9d8444eb73c3a0": {
+      "decision_time_ms": 1794295800000,
+      "origin_sample_id": "f7af7dfd0403e5931f319b50251351eed551449405123c6b6c9d8444eb73c3a0",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794299400000
+    },
+    "f9487a93ff8c0a9708a027fa8210534981809ae028078d629940342c3d001426": {
+      "decision_time_ms": 1794295800000,
+      "origin_sample_id": "f9487a93ff8c0a9708a027fa8210534981809ae028078d629940342c3d001426",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794299400000
+    },
+    "fa6028694efbf500404c572a1764ec3106f53356182269f18a9f2e6eee65b448": {
+      "decision_time_ms": 1794285900000,
+      "origin_sample_id": "fa6028694efbf500404c572a1764ec3106f53356182269f18a9f2e6eee65b448",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794289500000
+    },
+    "fbfd96a0a500281ea9cd8c4dc6151053631cdb2870907b6288a7195b5d51904a": {
+      "decision_time_ms": 1794323700000,
+      "origin_sample_id": "fbfd96a0a500281ea9cd8c4dc6151053631cdb2870907b6288a7195b5d51904a",
+      "partition": "FINAL_HOLDOUT",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794327300000
+    },
+    "fc40a1dbd421df4903f168c37ffdfa331c45697d00aa86cbf51d5d1584f68e2d": {
+      "decision_time_ms": 1794265200000,
+      "origin_sample_id": "fc40a1dbd421df4903f168c37ffdfa331c45697d00aa86cbf51d5d1584f68e2d",
+      "partition": "TRAIN",
+      "symbol": "ETHUSDT",
+      "vertical_barrier_time_ms": 1794268800000
+    },
+    "fe4b34cbe22c687ba326d15db98b3b568c1c19c8bbe8536bdf1a8f0c11269a96": {
+      "decision_time_ms": 1794265200000,
+      "origin_sample_id": "fe4b34cbe22c687ba326d15db98b3b568c1c19c8bbe8536bdf1a8f0c11269a96",
+      "partition": "TRAIN",
+      "symbol": "BTCUSDT",
+      "vertical_barrier_time_ms": 1794268800000
+    }
+  },
+  "audit": {
+    "decision_gap_train_validation_ms": 3600000,
+    "decision_gap_validation_holdout_ms": 3600000,
+    "embargo_required_ms": 3600000,
+    "symbol_universe": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "unique_timestamps": 77
+  },
+  "config": {
+    "base_interval_minutes": 15,
+    "embargo_minutes": 60,
+    "final_holdout_authorized_role": "PROJECT_OWNER",
+    "final_holdout_fraction": "0.17",
+    "final_holdout_open_stage": "W",
+    "label_version": "1.0.0",
+    "minimum_train_timestamps": 16,
+    "prediction_horizon_minutes": 60,
+    "validation_fraction": "0.17",
+    "version": "1.0.0",
+    "walk_forward_folds": 3
+  },
+  "config_hash": "c4d8d299c1ad57ef7b9d00fa4d8496c88b86dce6d9638e04ffd237cc583fe27e",
+  "counts": {
+    "EMBARGO_VALIDATION_TEST": 6,
+    "FINAL_HOLDOUT": 26,
+    "PURGED_TRAIN_VALIDATION": 6,
+    "TRAIN": 90,
+    "VALIDATION": 26
+  },
+  "development_distribution": {
+    "TRAIN": {
+      "LONG": 31,
+      "NO_TRADE": 18,
+      "SHORT": 41
+    },
+    "VALIDATION": {
+      "LONG": 6,
+      "NO_TRADE": 7,
+      "SHORT": 13
+    }
+  },
+  "final_holdout": {
+    "authorized_role": "PROJECT_OWNER",
+    "first_open_stage": "W",
+    "membership_sha256": "83606d4e4c905949e3b753e7df80dc51099c23dabf8922a7f5590d6a4cdf9528",
+    "opened": false,
+    "status": "SEALED"
+  },
+  "label_jsonl_sha256": "ca156100916c3d4d32e17711c5f25697317de8aeb900865da8f0d65852666e55",
+  "label_manifest_sha256": "ad360f7a0cbe983d22bff5889638648c9435a7037b890bb24a2649cd4f47c0af",
+  "source_label_run_id": "8780c5a42857c830",
+  "split_engine_version": "1.0.0",
+  "split_version": "1.0.0",
+  "walk_forward_folds": [
+    {
+      "fold": 1,
+      "purged_ids": [
+        "51ef0c718971c37b06abe4182588b1c628830ab037d2f5eedf914c873aa1ea8b",
+        "34448dd212a9372403c28b1e770162e1ca515b045c80e8d8c8e4b0e55dfacf06",
+        "7e6b296d46f9eae92dc5be33e7ba81c891e78113e4a72cb0bfa2779ec1376370",
+        "25cbaccfcf94ab5a00066daa09d0924f4f555f00b4759a7e8b740a15f0c5ed4b",
+        "e010ffa82bdc1a1786e2b304b4bd172d83a8a455f7d5cc2a551e4311d03e19ca",
+        "26effa33ad6e5350b2a3eee8c25255990eb29de6ccbb2f912e044ce76131269f"
+      ],
+      "train_ids": [
+        "563d70ebfed51e0f3cf0f7b63e45e372fa511afb3162bfcd631f22c251c3a603",
+        "81960ee77f2f485cf5159fbc70e168be6e701fb78c771eec669dbbd3c42ca873",
+        "e6739de8972db6a960dbc5a428e87bfaddd5d3f52941baf4957561c52164b778",
+        "f2aed578d358efee984a47d6b106e1b955721e7b9bf1481bbb8b03ec23e7ae43",
+        "f3f880b594f918e0c5afcb1655a458024a455922a7ec0cb06fddbcbdc0978e90",
+        "62cc75c81e14ecf3b3fc0986942b3c50e6280f1920b187b63f1d757f93fd3e26",
+        "b4ff0c788edec9cb846e1dda9bee27a57d64678b6b5f84ea64eba3ba4f2daf5b",
+        "1fcbb597913426442ae1c69f765901d3392b4c3e2addb6c45d33724c6e504dd8",
+        "a9cbb5d5d767ced2aaca70e35dcabf7a9377502c682ff11c9b0220c91d72dee9",
+        "2dbc612b97a436123419640fe9515893bf45cd0157a46b11c96116f789d76dec",
+        "fe4b34cbe22c687ba326d15db98b3b568c1c19c8bbe8536bdf1a8f0c11269a96",
+        "fc40a1dbd421df4903f168c37ffdfa331c45697d00aa86cbf51d5d1584f68e2d",
+        "b051b183608d419be967d83c94a61145c36844db184ad5b7ddc731ca5fcae4c3",
+        "cdaca36cab31600c4afbd933b655bf97e3d7ad21b4ac146a7a670364fd01eeaf",
+        "6bd9e80817ef10479db55c445165a9da9a24bbfc9472444710c87ae04549baf2",
+        "c046f1d869b1c9dfbd183ea9fee37c83dd0f6cfbd88cea34fb8ca7097690e970",
+        "e53e971512f5da734d647f0dd996ab8e410c40f300ee2cd5693c43389bc88a1f",
+        "6121bb012c77732eab8321cead43b9c38a5617655a80660acaadaafce18da4d0",
+        "818b10d9865ae2bb5a4698efccad21b276027fd06d281534240bc021c517e365",
+        "56cd958e341c94c5d02a95d05b7534cc72d1a3a8db84f10254ab9365864450d2",
+        "3c04fe5f62720c16117823ba571d93c219918558bd7dfd0558bae9401fd524ee",
+        "0dc762e5f5cc25b45f501a1f44ef4d15f1a822f42f20986a5b9c43cfda6860d1",
+        "86e04600955ae578cdac8a7cf04be091d0fa35807df24a9385078d9c77bb410b",
+        "31efaeb0a48dad36525ba53547e88fa0fcdfe3e7ac0b45a9b8c012391130e02a",
+        "84b968df03c393f7491ce445a1065a4452fe33daf4b7d99de73e03018de64639",
+        "4e405505de1c0009ad4113ac7a296c4af645e717301d8b22a3b71f01e784a1d8",
+        "0f26fbfb39b2d6a49787fbcb8b78ca8f6cac9cf18e66cdfa595aecf996c84e3c",
+        "59d2deaccf87f727008ceadd5d1eeef53efa31890feab516ca3da7fbec4c6917",
+        "0b972f3611e6eb23e447f3079c5a736f110b3bac970efe90c58381788f0b8a84",
+        "bcb81c5f534ebf448edad58943e3de045b535aa3bdb59efc5c5ff40b9069666c",
+        "185f66a54e683e63bcf751e664cf0c8c9e359f81c264b3fa4b733875f3eadab2",
+        "d5fdb3b86f18c7de3ecbb0f7020e71205117a09a00d2d36edb05f82b8403fac1",
+        "acc26f01f7aa94136f1597bb5673d903a87734e0f7770af28097f68957926dc5",
+        "6c1a67dfc91be5e2b7ffd650155d714be0bbde7c3305be27a3e68d5c4283dc49",
+        "a7bd159f54e8fdc5e743cda9cfbac5637d9f6c4eee928d84cbfd4a86c8efbe44",
+        "030ca854be96cf14354d1dbf50a06b80eaf99eee56cb554c4c8bf378075d137d",
+        "ac5d89379a91ea5ef8e0b73a3a2c4d1e3c77304e1eec87a47ed35c9822e954f2",
+        "4248177ca00eb9d0105b822ac9d54f3572ecb64c0c93b9107ac5995f23cb448f"
+      ],
+      "validation_ids": [
+        "a32a3c267303c718acf77437e6f9b8e469c0dd4e0ebdbb7ce81ba6ffaccfad40",
+        "519863ed68738c2bcee43ce176ce83771c32c8979ed48478168be2613c1058ba",
+        "3b2281cc1ceb4619c4fb16ffa0b55115d88c8b2f227b43d1e1ed2a954a9e34d1",
+        "1c9317da03f28baa57921fe24c681ca1b2a0dee90e4998a62d1cb668db40e648",
+        "217b75d9ab72234d485082edf5964eadaa6a677645b02ef479534ad3b6d9ecdf",
+        "be7f6fc6c227c74b952f7f0ec148d84765ca3f424fad70d1d6dc1c9fbe1904ec",
+        "a3238122d7226344019393fd7866a99fa217430d28a8b435b6ef74d804e2083d",
+        "24bc24f80c16fb18ba489dec9c7d3f4b482c32ffabf7f99f4012dd5e989b9abf",
+        "da646a50efb6284e4e27d17131d6719c0846e3908efbcfacedb9e428b80a22c2",
+        "d35609ebaed9fe0a022b0d4fb474053489142f382cf911a5f0dbf48f4ff9edbe",
+        "3ed0b4f6f112b772b37b961073f4a6cd4929d1a67b56c22210b444e51ad555f5",
+        "0edc111099951c0042d2ba01988af600a599d61af87427c66db1e115458d9f77",
+        "cad7f1c5fba3e8a93dabe01089c19a5c22f799168f19afe72e4f90386d860d10",
+        "fa6028694efbf500404c572a1764ec3106f53356182269f18a9f2e6eee65b448",
+        "ba810277a13518e09444f7432dc6cc68cfce7433faa0bd4fbad95ae80ca19c04",
+        "c18b0f93ac4d631086db11d652913946f22e71ffb76fb0aef5965a03a598a504",
+        "56cb54b41bfea37bb5250f34f6ca68bc9e249de72dd4e7ff87ba081d2d97491d",
+        "ee1b80cb4e4b68fb3324219ac4443805f51e89bbac9e2c7327e1cf788ad3e746",
+        "8ee7bde2380249585fa29b6c18df842df8d1821e8f01c0efcfabf255bc26fe06",
+        "3498d531dd6b8faff288e21f936bc8aff67ac9f7d44d7419aaf45c702f884443",
+        "55c3676899b048255b93435bd87920d167b82c8917234aa6f8a704431878bd24",
+        "bd7ca1bf6332079971195e58c1c812de98323fd5df0e58bb809e7f01777995e1",
+        "911e8d56c0198fbc96463fedd6230931fc83ffcdd417bc5058fdda17031ed1e1",
+        "795cea8b540d46479af8711d62847ff06571b53d887bd30838c6137fcd684d50",
+        "a37792702e9aac3c6eb04a00eb19b07035eccc4962587b17c7fff9e3528359da",
+        "df798604d5a1ab5a2ba06c95bb5357aaee78174e3774f3c77d8c415a153020ee"
+      ]
+    },
+    {
+      "fold": 2,
+      "purged_ids": [
+        "55c3676899b048255b93435bd87920d167b82c8917234aa6f8a704431878bd24",
+        "bd7ca1bf6332079971195e58c1c812de98323fd5df0e58bb809e7f01777995e1",
+        "911e8d56c0198fbc96463fedd6230931fc83ffcdd417bc5058fdda17031ed1e1",
+        "795cea8b540d46479af8711d62847ff06571b53d887bd30838c6137fcd684d50",
+        "a37792702e9aac3c6eb04a00eb19b07035eccc4962587b17c7fff9e3528359da",
+        "df798604d5a1ab5a2ba06c95bb5357aaee78174e3774f3c77d8c415a153020ee"
+      ],
+      "train_ids": [
+        "563d70ebfed51e0f3cf0f7b63e45e372fa511afb3162bfcd631f22c251c3a603",
+        "81960ee77f2f485cf5159fbc70e168be6e701fb78c771eec669dbbd3c42ca873",
+        "e6739de8972db6a960dbc5a428e87bfaddd5d3f52941baf4957561c52164b778",
+        "f2aed578d358efee984a47d6b106e1b955721e7b9bf1481bbb8b03ec23e7ae43",
+        "f3f880b594f918e0c5afcb1655a458024a455922a7ec0cb06fddbcbdc0978e90",
+        "62cc75c81e14ecf3b3fc0986942b3c50e6280f1920b187b63f1d757f93fd3e26",
+        "b4ff0c788edec9cb846e1dda9bee27a57d64678b6b5f84ea64eba3ba4f2daf5b",
+        "1fcbb597913426442ae1c69f765901d3392b4c3e2addb6c45d33724c6e504dd8",
+        "a9cbb5d5d767ced2aaca70e35dcabf7a9377502c682ff11c9b0220c91d72dee9",
+        "2dbc612b97a436123419640fe9515893bf45cd0157a46b11c96116f789d76dec",
+        "fe4b34cbe22c687ba326d15db98b3b568c1c19c8bbe8536bdf1a8f0c11269a96",
+        "fc40a1dbd421df4903f168c37ffdfa331c45697d00aa86cbf51d5d1584f68e2d",
+        "b051b183608d419be967d83c94a61145c36844db184ad5b7ddc731ca5fcae4c3",
+        "cdaca36cab31600c4afbd933b655bf97e3d7ad21b4ac146a7a670364fd01eeaf",
+        "6bd9e80817ef10479db55c445165a9da9a24bbfc9472444710c87ae04549baf2",
+        "c046f1d869b1c9dfbd183ea9fee37c83dd0f6cfbd88cea34fb8ca7097690e970",
+        "e53e971512f5da734d647f0dd996ab8e410c40f300ee2cd5693c43389bc88a1f",
+        "6121bb012c77732eab8321cead43b9c38a5617655a80660acaadaafce18da4d0",
+        "818b10d9865ae2bb5a4698efccad21b276027fd06d281534240bc021c517e365",
+        "56cd958e341c94c5d02a95d05b7534cc72d1a3a8db84f10254ab9365864450d2",
+        "3c04fe5f62720c16117823ba571d93c219918558bd7dfd0558bae9401fd524ee",
+        "0dc762e5f5cc25b45f501a1f44ef4d15f1a822f42f20986a5b9c43cfda6860d1",
+        "86e04600955ae578cdac8a7cf04be091d0fa35807df24a9385078d9c77bb410b",
+        "31efaeb0a48dad36525ba53547e88fa0fcdfe3e7ac0b45a9b8c012391130e02a",
+        "84b968df03c393f7491ce445a1065a4452fe33daf4b7d99de73e03018de64639",
+        "4e405505de1c0009ad4113ac7a296c4af645e717301d8b22a3b71f01e784a1d8",
+        "0f26fbfb39b2d6a49787fbcb8b78ca8f6cac9cf18e66cdfa595aecf996c84e3c",
+        "59d2deaccf87f727008ceadd5d1eeef53efa31890feab516ca3da7fbec4c6917",
+        "0b972f3611e6eb23e447f3079c5a736f110b3bac970efe90c58381788f0b8a84",
+        "bcb81c5f534ebf448edad58943e3de045b535aa3bdb59efc5c5ff40b9069666c",
+        "185f66a54e683e63bcf751e664cf0c8c9e359f81c264b3fa4b733875f3eadab2",
+        "d5fdb3b86f18c7de3ecbb0f7020e71205117a09a00d2d36edb05f82b8403fac1",
+        "acc26f01f7aa94136f1597bb5673d903a87734e0f7770af28097f68957926dc5",
+        "6c1a67dfc91be5e2b7ffd650155d714be0bbde7c3305be27a3e68d5c4283dc49",
+        "a7bd159f54e8fdc5e743cda9cfbac5637d9f6c4eee928d84cbfd4a86c8efbe44",
+        "030ca854be96cf14354d1dbf50a06b80eaf99eee56cb554c4c8bf378075d137d",
+        "ac5d89379a91ea5ef8e0b73a3a2c4d1e3c77304e1eec87a47ed35c9822e954f2",
+        "4248177ca00eb9d0105b822ac9d54f3572ecb64c0c93b9107ac5995f23cb448f",
+        "51ef0c718971c37b06abe4182588b1c628830ab037d2f5eedf914c873aa1ea8b",
+        "34448dd212a9372403c28b1e770162e1ca515b045c80e8d8c8e4b0e55dfacf06",
+        "7e6b296d46f9eae92dc5be33e7ba81c891e78113e4a72cb0bfa2779ec1376370",
+        "25cbaccfcf94ab5a00066daa09d0924f4f555f00b4759a7e8b740a15f0c5ed4b",
+        "e010ffa82bdc1a1786e2b304b4bd172d83a8a455f7d5cc2a551e4311d03e19ca",
+        "26effa33ad6e5350b2a3eee8c25255990eb29de6ccbb2f912e044ce76131269f",
+        "a32a3c267303c718acf77437e6f9b8e469c0dd4e0ebdbb7ce81ba6ffaccfad40",
+        "519863ed68738c2bcee43ce176ce83771c32c8979ed48478168be2613c1058ba",
+        "3b2281cc1ceb4619c4fb16ffa0b55115d88c8b2f227b43d1e1ed2a954a9e34d1",
+        "1c9317da03f28baa57921fe24c681ca1b2a0dee90e4998a62d1cb668db40e648",
+        "217b75d9ab72234d485082edf5964eadaa6a677645b02ef479534ad3b6d9ecdf",
+        "be7f6fc6c227c74b952f7f0ec148d84765ca3f424fad70d1d6dc1c9fbe1904ec",
+        "a3238122d7226344019393fd7866a99fa217430d28a8b435b6ef74d804e2083d",
+        "24bc24f80c16fb18ba489dec9c7d3f4b482c32ffabf7f99f4012dd5e989b9abf",
+        "da646a50efb6284e4e27d17131d6719c0846e3908efbcfacedb9e428b80a22c2",
+        "d35609ebaed9fe0a022b0d4fb474053489142f382cf911a5f0dbf48f4ff9edbe",
+        "3ed0b4f6f112b772b37b961073f4a6cd4929d1a67b56c22210b444e51ad555f5",
+        "0edc111099951c0042d2ba01988af600a599d61af87427c66db1e115458d9f77",
+        "cad7f1c5fba3e8a93dabe01089c19a5c22f799168f19afe72e4f90386d860d10",
+        "fa6028694efbf500404c572a1764ec3106f53356182269f18a9f2e6eee65b448",
+        "ba810277a13518e09444f7432dc6cc68cfce7433faa0bd4fbad95ae80ca19c04",
+        "c18b0f93ac4d631086db11d652913946f22e71ffb76fb0aef5965a03a598a504",
+        "56cb54b41bfea37bb5250f34f6ca68bc9e249de72dd4e7ff87ba081d2d97491d",
+        "ee1b80cb4e4b68fb3324219ac4443805f51e89bbac9e2c7327e1cf788ad3e746",
+        "8ee7bde2380249585fa29b6c18df842df8d1821e8f01c0efcfabf255bc26fe06",
+        "3498d531dd6b8faff288e21f936bc8aff67ac9f7d44d7419aaf45c702f884443"
+      ],
+      "validation_ids": [
+        "d1ff1ed16d3b340a89a71d772906976129b0987b902fed4fe4d791e91b80572f",
+        "db4c8118a863bf7a6581acf46acbea9ba197b6e66e7d84db7b110de7f3f91ba5",
+        "d27aba66d2165625d2de1264a2851b95f4170a4489c9c8e993cceb7c8f01e315",
+        "900d8af95a176eba1cb13bc583cc8ffd1df43d260830e2337414a3077271d071",
+        "293faf360d6a2eced7a55064e6adc6745e37d11aaf223f4ea50d9f6d3c84695f",
+        "ad392826581dba84dc13a7a578438e2b12b752fa4d000b17360629a2eb2d63a0",
+        "b01769a98af7887b4cef40e604c23c5c3f10e86034c4efa208127568321fa0c7",
+        "a93f3880906df8d474c3f305a463a27888b89361c202e2ad3fc31cb88ad0c6ba",
+        "f9487a93ff8c0a9708a027fa8210534981809ae028078d629940342c3d001426",
+        "f7af7dfd0403e5931f319b50251351eed551449405123c6b6c9d8444eb73c3a0",
+        "5d3d96990083691ed45440aec6b428344318b98d4ed0da620cd3eb389eb1bafe",
+        "bef96221897dfc36e10d32e326177a3d9eca9ccd3c6cb27e44b5fdd0533f9407",
+        "098f20b670bf4d3f54cbf648232fb077a34a85742ceb8323541100f261945a7a",
+        "2d08153801141f01e1d03948d31ed68e20ad2dc91d0255d0b1183d19087c3057",
+        "f2043509cfe1de43be3719db60df9e59b1fa5145e7f2cc5f40860d8f4c47194b",
+        "77e71bfb22234f144dc952604db880911c5a52a64776f73fb5847feac5c21272",
+        "ed524198847754b5ef81758bb6ab2470fc425db434aa3af201dd86fc79ace716",
+        "0e1af84b590d5cfcdf9f6ac98e10c8b73f19232de3bd7e0915a8e139e1f9cb4f",
+        "458f1f094e49ab41d3a5180a4bece3f95afda2924a465da0ebcb2d75a1db2e13",
+        "9d4374b08c08aca1d2333db1785d7afaff7d2210e8aee14fba015ed3eada158a",
+        "3ee33464d9e3f7cf21280cee40349551c9dd6f99eb0374ffb26a59dceebd579c",
+        "f6db4bee9770fb8c69c262e9c65b358730e4074cea258976ddfef2ff953ad58a",
+        "7cd817efd4ebae3f0fbb183b48ef2ef1a2d61e8b4fc088a7a842967de3813d05",
+        "9461394e5c2572f44cb140b91a8fa0d735691708ff6b22c1cab8cba7ef705c8a",
+        "94cf846a904633dce0b5baa9807f69ebab529a5804012135f7f4bc5a177771d0",
+        "d9ec4121830a29591105e85ec960b4fc650196160688b83ef36eebb3058df173"
+      ]
+    },
+    {
+      "fold": 3,
+      "purged_ids": [
+        "3ee33464d9e3f7cf21280cee40349551c9dd6f99eb0374ffb26a59dceebd579c",
+        "f6db4bee9770fb8c69c262e9c65b358730e4074cea258976ddfef2ff953ad58a",
+        "7cd817efd4ebae3f0fbb183b48ef2ef1a2d61e8b4fc088a7a842967de3813d05",
+        "9461394e5c2572f44cb140b91a8fa0d735691708ff6b22c1cab8cba7ef705c8a",
+        "94cf846a904633dce0b5baa9807f69ebab529a5804012135f7f4bc5a177771d0",
+        "d9ec4121830a29591105e85ec960b4fc650196160688b83ef36eebb3058df173"
+      ],
+      "train_ids": [
+        "563d70ebfed51e0f3cf0f7b63e45e372fa511afb3162bfcd631f22c251c3a603",
+        "81960ee77f2f485cf5159fbc70e168be6e701fb78c771eec669dbbd3c42ca873",
+        "e6739de8972db6a960dbc5a428e87bfaddd5d3f52941baf4957561c52164b778",
+        "f2aed578d358efee984a47d6b106e1b955721e7b9bf1481bbb8b03ec23e7ae43",
+        "f3f880b594f918e0c5afcb1655a458024a455922a7ec0cb06fddbcbdc0978e90",
+        "62cc75c81e14ecf3b3fc0986942b3c50e6280f1920b187b63f1d757f93fd3e26",
+        "b4ff0c788edec9cb846e1dda9bee27a57d64678b6b5f84ea64eba3ba4f2daf5b",
+        "1fcbb597913426442ae1c69f765901d3392b4c3e2addb6c45d33724c6e504dd8",
+        "a9cbb5d5d767ced2aaca70e35dcabf7a9377502c682ff11c9b0220c91d72dee9",
+        "2dbc612b97a436123419640fe9515893bf45cd0157a46b11c96116f789d76dec",
+        "fe4b34cbe22c687ba326d15db98b3b568c1c19c8bbe8536bdf1a8f0c11269a96",
+        "fc40a1dbd421df4903f168c37ffdfa331c45697d00aa86cbf51d5d1584f68e2d",
+        "b051b183608d419be967d83c94a61145c36844db184ad5b7ddc731ca5fcae4c3",
+        "cdaca36cab31600c4afbd933b655bf97e3d7ad21b4ac146a7a670364fd01eeaf",
+        "6bd9e80817ef10479db55c445165a9da9a24bbfc9472444710c87ae04549baf2",
+        "c046f1d869b1c9dfbd183ea9fee37c83dd0f6cfbd88cea34fb8ca7097690e970",
+        "e53e971512f5da734d647f0dd996ab8e410c40f300ee2cd5693c43389bc88a1f",
+        "6121bb012c77732eab8321cead43b9c38a5617655a80660acaadaafce18da4d0",
+        "818b10d9865ae2bb5a4698efccad21b276027fd06d281534240bc021c517e365",
+        "56cd958e341c94c5d02a95d05b7534cc72d1a3a8db84f10254ab9365864450d2",
+        "3c04fe5f62720c16117823ba571d93c219918558bd7dfd0558bae9401fd524ee",
+        "0dc762e5f5cc25b45f501a1f44ef4d15f1a822f42f20986a5b9c43cfda6860d1",
+        "86e04600955ae578cdac8a7cf04be091d0fa35807df24a9385078d9c77bb410b",
+        "31efaeb0a48dad36525ba53547e88fa0fcdfe3e7ac0b45a9b8c012391130e02a",
+        "84b968df03c393f7491ce445a1065a4452fe33daf4b7d99de73e03018de64639",
+        "4e405505de1c0009ad4113ac7a296c4af645e717301d8b22a3b71f01e784a1d8",
+        "0f26fbfb39b2d6a49787fbcb8b78ca8f6cac9cf18e66cdfa595aecf996c84e3c",
+        "59d2deaccf87f727008ceadd5d1eeef53efa31890feab516ca3da7fbec4c6917",
+        "0b972f3611e6eb23e447f3079c5a736f110b3bac970efe90c58381788f0b8a84",
+        "bcb81c5f534ebf448edad58943e3de045b535aa3bdb59efc5c5ff40b9069666c",
+        "185f66a54e683e63bcf751e664cf0c8c9e359f81c264b3fa4b733875f3eadab2",
+        "d5fdb3b86f18c7de3ecbb0f7020e71205117a09a00d2d36edb05f82b8403fac1",
+        "acc26f01f7aa94136f1597bb5673d903a87734e0f7770af28097f68957926dc5",
+        "6c1a67dfc91be5e2b7ffd650155d714be0bbde7c3305be27a3e68d5c4283dc49",
+        "a7bd159f54e8fdc5e743cda9cfbac5637d9f6c4eee928d84cbfd4a86c8efbe44",
+        "030ca854be96cf14354d1dbf50a06b80eaf99eee56cb554c4c8bf378075d137d",
+        "ac5d89379a91ea5ef8e0b73a3a2c4d1e3c77304e1eec87a47ed35c9822e954f2",
+        "4248177ca00eb9d0105b822ac9d54f3572ecb64c0c93b9107ac5995f23cb448f",
+        "51ef0c718971c37b06abe4182588b1c628830ab037d2f5eedf914c873aa1ea8b",
+        "34448dd212a9372403c28b1e770162e1ca515b045c80e8d8c8e4b0e55dfacf06",
+        "7e6b296d46f9eae92dc5be33e7ba81c891e78113e4a72cb0bfa2779ec1376370",
+        "25cbaccfcf94ab5a00066daa09d0924f4f555f00b4759a7e8b740a15f0c5ed4b",
+        "e010ffa82bdc1a1786e2b304b4bd172d83a8a455f7d5cc2a551e4311d03e19ca",
+        "26effa33ad6e5350b2a3eee8c25255990eb29de6ccbb2f912e044ce76131269f",
+        "a32a3c267303c718acf77437e6f9b8e469c0dd4e0ebdbb7ce81ba6ffaccfad40",
+        "519863ed68738c2bcee43ce176ce83771c32c8979ed48478168be2613c1058ba",
+        "3b2281cc1ceb4619c4fb16ffa0b55115d88c8b2f227b43d1e1ed2a954a9e34d1",
+        "1c9317da03f28baa57921fe24c681ca1b2a0dee90e4998a62d1cb668db40e648",
+        "217b75d9ab72234d485082edf5964eadaa6a677645b02ef479534ad3b6d9ecdf",
+        "be7f6fc6c227c74b952f7f0ec148d84765ca3f424fad70d1d6dc1c9fbe1904ec",
+        "a3238122d7226344019393fd7866a99fa217430d28a8b435b6ef74d804e2083d",
+        "24bc24f80c16fb18ba489dec9c7d3f4b482c32ffabf7f99f4012dd5e989b9abf",
+        "da646a50efb6284e4e27d17131d6719c0846e3908efbcfacedb9e428b80a22c2",
+        "d35609ebaed9fe0a022b0d4fb474053489142f382cf911a5f0dbf48f4ff9edbe",
+        "3ed0b4f6f112b772b37b961073f4a6cd4929d1a67b56c22210b444e51ad555f5",
+        "0edc111099951c0042d2ba01988af600a599d61af87427c66db1e115458d9f77",
+        "cad7f1c5fba3e8a93dabe01089c19a5c22f799168f19afe72e4f90386d860d10",
+        "fa6028694efbf500404c572a1764ec3106f53356182269f18a9f2e6eee65b448",
+        "ba810277a13518e09444f7432dc6cc68cfce7433faa0bd4fbad95ae80ca19c04",
+        "c18b0f93ac4d631086db11d652913946f22e71ffb76fb0aef5965a03a598a504",
+        "56cb54b41bfea37bb5250f34f6ca68bc9e249de72dd4e7ff87ba081d2d97491d",
+        "ee1b80cb4e4b68fb3324219ac4443805f51e89bbac9e2c7327e1cf788ad3e746",
+        "8ee7bde2380249585fa29b6c18df842df8d1821e8f01c0efcfabf255bc26fe06",
+        "3498d531dd6b8faff288e21f936bc8aff67ac9f7d44d7419aaf45c702f884443",
+        "55c3676899b048255b93435bd87920d167b82c8917234aa6f8a704431878bd24",
+        "bd7ca1bf6332079971195e58c1c812de98323fd5df0e58bb809e7f01777995e1",
+        "911e8d56c0198fbc96463fedd6230931fc83ffcdd417bc5058fdda17031ed1e1",
+        "795cea8b540d46479af8711d62847ff06571b53d887bd30838c6137fcd684d50",
+        "a37792702e9aac3c6eb04a00eb19b07035eccc4962587b17c7fff9e3528359da",
+        "df798604d5a1ab5a2ba06c95bb5357aaee78174e3774f3c77d8c415a153020ee",
+        "d1ff1ed16d3b340a89a71d772906976129b0987b902fed4fe4d791e91b80572f",
+        "db4c8118a863bf7a6581acf46acbea9ba197b6e66e7d84db7b110de7f3f91ba5",
+        "d27aba66d2165625d2de1264a2851b95f4170a4489c9c8e993cceb7c8f01e315",
+        "900d8af95a176eba1cb13bc583cc8ffd1df43d260830e2337414a3077271d071",
+        "293faf360d6a2eced7a55064e6adc6745e37d11aaf223f4ea50d9f6d3c84695f",
+        "ad392826581dba84dc13a7a578438e2b12b752fa4d000b17360629a2eb2d63a0",
+        "b01769a98af7887b4cef40e604c23c5c3f10e86034c4efa208127568321fa0c7",
+        "a93f3880906df8d474c3f305a463a27888b89361c202e2ad3fc31cb88ad0c6ba",
+        "f9487a93ff8c0a9708a027fa8210534981809ae028078d629940342c3d001426",
+        "f7af7dfd0403e5931f319b50251351eed551449405123c6b6c9d8444eb73c3a0",
+        "5d3d96990083691ed45440aec6b428344318b98d4ed0da620cd3eb389eb1bafe",
+        "bef96221897dfc36e10d32e326177a3d9eca9ccd3c6cb27e44b5fdd0533f9407",
+        "098f20b670bf4d3f54cbf648232fb077a34a85742ceb8323541100f261945a7a",
+        "2d08153801141f01e1d03948d31ed68e20ad2dc91d0255d0b1183d19087c3057",
+        "f2043509cfe1de43be3719db60df9e59b1fa5145e7f2cc5f40860d8f4c47194b",
+        "77e71bfb22234f144dc952604db880911c5a52a64776f73fb5847feac5c21272",
+        "ed524198847754b5ef81758bb6ab2470fc425db434aa3af201dd86fc79ace716",
+        "0e1af84b590d5cfcdf9f6ac98e10c8b73f19232de3bd7e0915a8e139e1f9cb4f",
+        "458f1f094e49ab41d3a5180a4bece3f95afda2924a465da0ebcb2d75a1db2e13",
+        "9d4374b08c08aca1d2333db1785d7afaff7d2210e8aee14fba015ed3eada158a"
+      ],
+      "validation_ids": [
+        "274ab2fa99cb430114f216938cbe1af0700eabb187eb52949ac8efacc620f2d2",
+        "86b7a3753ed3fda39ee9f4aef357478a12f5ad9f7eb349b95635882137ba1bda",
+        "be0f81df7b46033d468b56f236231ca195eec3fe920096d86c2d3942c22f7f02",
+        "b7b04ecea3db3cbf210abe57dc72f786081c39933cfae67e5a08641b8eaf19cd",
+        "2460f14038ee25624d4c8c03d0bd91cbcd64f94964e3853019c98512c17350ce",
+        "260540a6604a16819daf468ab26e6672e325efe020b33cf7c967c6eeb2f32cbe",
+        "7143a0625a2234953f3a42ffaeab94e794f7d5da57cdee40d43e02b0cc95e5bc",
+        "de5ea6582d425b19a9d53dd13878b47e7bcc9e3953f69991e8f7939e264ec2a3",
+        "9cd8a0931e1fe4a2afc4ca7dc7910dad6dbd4fc28cd6f0ed60db297a5f75abd4",
+        "e9b2c13f6ea0d54f3cd4151056754ca07fe698595da4cea5df4fb1d378dfb32f",
+        "75708e09ee4d9e7799f412c59c25e82002f1b25daad18250521a6a2b18e5838d",
+        "d2aafbfad518e7249218987dbdb7cb59dcc2bbcdad6ab6a394335245ca1e00b0",
+        "ca957cbb6ff6bca0429fbff06ecef6a168609eb66ce78ce412c431acb8a59b5a",
+        "c4b02679413efb21b443358eac2bcbf8937aaad2e1cebda482367d30f305f8ab",
+        "a18fa129199273ec20af20a5ee91f17fcb453c908d12a2895f20b3cdc72c1853",
+        "e102d9ca9d03f7a37f24cc09684b7b0e81061d5e822d4376c0984488b60e0bce",
+        "32df66203e80dbc21a9c1d40248c348751b68503f8571e64eead1e7710812926",
+        "439b017e339d9a5eab973b28b3af9c6f3e172e535c9c7e4b049b1135d2924120",
+        "e3282719a46a85452ffb89b88df8fe5dc6c1a56bfa2ff3f45643da041fc735c0",
+        "3ba285526b9563980ed18738477d8cbf1e2746a205e6f7103cc7069b36963f41",
+        "b487615407de3ea16b9cb04bb276c8002e0b3d62230bf25be24f885f39b67aef",
+        "bb8ed74d5454302572d13fd5a684e5c3f1e7dd5a2913a64852fedb33f43a3f0f",
+        "ce1b72e61062ac155ed1b9ef389ccd87d7a2f8c35d6a73a753ad3a08becc059e",
+        "c8a472e4cd2a24d208e83bec7ee228f1d54051fa602b6ecd8b992df7e41156d2",
+        "a948298da1b6a2736f20ce17481d771628567d742cc61cac788ce876bac97391",
+        "6e79770e7fa8e21779a4d51899df65177bad9088cdbcf3262aab7682059b6522"
+      ]
+    }
+  ]
+}

@@ -36,6 +36,8 @@ npm-debug.log*
 data/**
 !data/**/
 !data/**/.gitkeep
+!data/manifests/*.json
+!data/manifests/*.sha256
 models/**
 !models/**/
 !models/**/.gitkeep

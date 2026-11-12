@@ -4,10 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-7%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 7 of 26 stages" /></a>
-  <a href="reports/label-distribution.md"><img src="https://img.shields.io/badge/STAGE-G%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage G complete" /></a>
-  <img src="https://img.shields.io/badge/TESTS-128%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="128 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-90.33%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="90.33 percent coverage" />
+  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-8%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 8 of 26 stages" /></a>
+  <a href="reports/split-audit.md"><img src="https://img.shields.io/badge/STAGE-H%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage H complete" /></a>
+  <img src="https://img.shields.io/badge/TESTS-138%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="138 tests passing" />
+  <img src="https://img.shields.io/badge/COVERAGE-91.21%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.21 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage G complete · Stage H next |
+| **Current milestone** | Stage H complete · Stage I next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -214,8 +214,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 128 passed |
-| Statement + branch coverage | ✅ 90.33% |
+| Pytest | ✅ 138 passed |
+| Statement + branch coverage | ✅ 91.21% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -254,15 +254,15 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 | Product scope & zero-cost constraints | A–B | ✅ Complete |
 | Repository & data contract foundation | C–D | ✅ Complete |
 | Market-data pipeline & quality | E–F | ✅ Complete |
-| Labels, splits, baseline & backtest | G–J | ◉ G complete · H next |
+| Labels, splits, baseline & backtest | G–J | ◉ H complete · I next |
 | Image + numeric intelligence | K–P | ○ Planned |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `7 / 26 stages` · `26.92%`
+**Overall progress:** `8 / 26 stages` · `30.77%`
 
-**Next gate:** Stage H — create leakage-safe time splits
+**Next gate:** Stage I — build and lock reproducible baselines
 
 Follow the live checklist in [`plan.md`](plan.md).
 
@@ -296,6 +296,7 @@ See [`ZERO_COST.md`](docs/ZERO_COST.md), [`HARDWARE.md`](docs/HARDWARE.md), [`.g
 | [`INGESTION.md`](docs/INGESTION.md) | Public REST/WebSocket operations, recovery and raw audit |
 | [`DATA_QUALITY.md`](docs/DATA_QUALITY.md) | Validation, quarantine, UTC resampling and idempotent clean publication |
 | [`LABEL_SPEC.md`](docs/LABEL_SPEC.md) | Cost-aware triple-barrier labels, timelines and ambiguity policy |
+| [`SPLIT_POLICY.md`](docs/SPLIT_POLICY.md) | Purged walk-forward folds, fit scopes and sealed final holdout |
 | [`ZERO_COST.md`](docs/ZERO_COST.md) | Enforceable zero-new-cash-cost policy |
 | [`HARDWARE.md`](docs/HARDWARE.md) | Local resource budget and benchmark evidence |
 | [`decisions/`](docs/decisions/) | Versioned architecture and product decisions |

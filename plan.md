@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn G hoàn tất / 7 trên 26 giai đoạn / 26,92%**
+> Trạng thái hiện tại: **Giai đoạn H hoàn tất / 8 trên 26 giai đoạn / 30,77%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -52,7 +52,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] E — Thu thập dữ liệu Binance
 - [x] F — Làm sạch và kiểm định dữ liệu
 - [x] G — Định nghĩa nhãn dự đoán
-- [ ] H — Chia tập dữ liệu chống leakage
+- [x] H — Chia tập dữ liệu chống leakage
 - [ ] I — Xây baseline
 - [ ] J — Xây backtest đáng tin cậy
 - [ ] K — Đặc tả ảnh đầu vào
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `7/26 giai đoạn = 26,92%`
-**Giai đoạn đang làm:** `H`
+**Tiến độ hiện tại:** `8/26 giai đoạn = 30,77%`
+**Giai đoạn đang làm:** `I`
 **Ngày cập nhật:** `13/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -183,18 +183,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### H — Chia tập dữ liệu chống leakage
 
-- [ ] Chốt train/validation/test theo thời gian.
-- [ ] Khóa final holdout và lưu hash/manifest.
-- [ ] Áp dụng purged walk-forward + embargo ≥ prediction horizon.
-- [ ] Ngăn các window/sample chồng lấn đi qua split boundary.
-- [ ] Fit scaler/selector/calibrator chỉ trên partition hợp lệ.
-- [ ] Split sample gốc trước augmentation ảnh.
-- [ ] Viết automated leakage tests.
-- [ ] Ghi ai/khi nào được phép mở final holdout.
-- [ ] **Hoàn tất H — dataset split v1 bị khóa.**
+- [x] Chốt train/validation/test theo thời gian.
+- [x] Khóa final holdout và lưu hash/manifest.
+- [x] Áp dụng purged walk-forward + embargo ≥ prediction horizon.
+- [x] Ngăn các window/sample chồng lấn đi qua split boundary.
+- [x] Fit scaler/selector/calibrator chỉ trên partition hợp lệ.
+- [x] Split sample gốc trước augmentation ảnh.
+- [x] Viết automated leakage tests.
+- [x] Ghi ai/khi nào được phép mở final holdout.
+- [x] **Hoàn tất H — dataset split v1 bị khóa.**
 
 **Exit Gate H:** leakage test pass; final test chưa được dùng để chọn feature/model/threshold.  
-**Bằng chứng:** `data/manifests/split-v1.*`, `tests/leakage/`, `reports/split-audit.md`
+**Bằng chứng:** `data/manifests/split-v1.json`, `data/manifests/split-v1.sha256`, `configs/splits/purged-walk-forward-v1.toml`, `docs/SPLIT_POLICY.md`, `docs/decisions/0005-stage-h-split-policy.md`, `tests/leakage/`, `reports/split-audit.md`; manifest SHA-256 `2d7a0a201d371418d2282db85c82dfa28ebb52e9a21e7548560c015e1922a0b2`, final holdout `SEALED/opened=false`.
 
 ### I — Xây baseline
 

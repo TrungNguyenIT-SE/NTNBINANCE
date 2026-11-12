@@ -17,6 +17,7 @@ Thư mục này lưu các quyết định đã được chấp nhận của dự
 | ADR-0002 | Baseline ingest Stage E: base 1m, public REST + routed WebSocket | ACCEPTED | 11/11/2026 |
 | ADR-0003 | Stage F clean-data, quarantine and UTC resampling policy | ACCEPTED | 11/11/2026 |
 | ADR-0004 | Stage G cost-aware triple-barrier label policy | ACCEPTED | 13/11/2026 |
+| ADR-0005 | Stage H purged walk-forward and sealed final holdout | ACCEPTED | 13/11/2026 |
 
 ## Quy tắc thay đổi
 

@@ -31,6 +31,7 @@ ntnbinance-api = "ntnbinance.main:run"
 ntnbinance-ingest = "ntnbinance.ingestion.cli:main"
 ntnbinance-quality = "ntnbinance.data_quality.cli:main"
 ntnbinance-labels = "ntnbinance.labels.cli:main"
+ntnbinance-split = "ntnbinance.splits.cli:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
