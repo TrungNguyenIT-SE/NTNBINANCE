@@ -84,3 +84,5 @@ mypy strict: pass
 pip check: pass
 frontend lint/format/typecheck/test/build: pass
 ```
+
+The committed manifest checksum, packaged split CLI and the same quality gate passed in a detached clean worktree; see [`stage-h-clean-checkout.md`](stage-h-clean-checkout.md).

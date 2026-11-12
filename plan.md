@@ -194,7 +194,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất H — dataset split v1 bị khóa.**
 
 **Exit Gate H:** leakage test pass; final test chưa được dùng để chọn feature/model/threshold.  
-**Bằng chứng:** `data/manifests/split-v1.json`, `data/manifests/split-v1.sha256`, `configs/splits/purged-walk-forward-v1.toml`, `docs/SPLIT_POLICY.md`, `docs/decisions/0005-stage-h-split-policy.md`, `tests/leakage/`, `reports/split-audit.md`; manifest SHA-256 `2d7a0a201d371418d2282db85c82dfa28ebb52e9a21e7548560c015e1922a0b2`, final holdout `SEALED/opened=false`.
+**Bằng chứng:** `data/manifests/split-v1.json`, `data/manifests/split-v1.sha256`, `configs/splits/purged-walk-forward-v1.toml`, `docs/SPLIT_POLICY.md`, `docs/decisions/0005-stage-h-split-policy.md`, `tests/leakage/`, `reports/split-audit.md`, `reports/stage-h-clean-checkout.md`; manifest SHA-256 `2d7a0a201d371418d2282db85c82dfa28ebb52e9a21e7548560c015e1922a0b2`, final holdout `SEALED/opened=false`.
 
 ### I — Xây baseline
 
