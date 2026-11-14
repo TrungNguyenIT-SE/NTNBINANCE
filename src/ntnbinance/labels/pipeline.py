@@ -101,7 +101,7 @@ def _load_candles(clean_root: Path, interval: str) -> list[CandleRecord]:
     return records
 
 
-def _load_funding(raw_root: Path) -> list[FundingEvent]:
+def load_funding_events(raw_root: Path) -> list[FundingEvent]:
     events: list[FundingEvent] = []
     for envelope in iter_raw_envelopes(raw_root):
         raw = envelope.data
@@ -190,7 +190,7 @@ class LabelPipeline:
 
         base = _load_candles(self.clean_root, "15m")
         intrabars = _load_candles(self.clean_root, "1m")
-        funding = _load_funding(self.raw_root)
+        funding = load_funding_events(self.raw_root)
         base_by_symbol: dict[str, list[CandleRecord]] = defaultdict(list)
         intra_by_symbol: dict[str, list[CandleRecord]] = defaultdict(list)
         funding_by_symbol: dict[str, list[FundingEvent]] = defaultdict(list)

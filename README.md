@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage I complete · Stage J next |
+| **Current milestone** | Stage J complete · Stage K next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -214,8 +214,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 148 passed |
-| Statement + branch coverage | ✅ 91.08% |
+| Pytest | ✅ 160 passed |
+| Statement + branch coverage | ✅ 90.48% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -254,15 +254,20 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 | Product scope & zero-cost constraints | A–B | ✅ Complete |
 | Repository & data contract foundation | C–D | ✅ Complete |
 | Market-data pipeline & quality | E–F | ✅ Complete |
-| Labels, splits, baseline & backtest | G–J | ◉ I complete · J next |
+| Labels, splits, baseline & backtest | G–J | ✅ Complete |
 | Image + numeric intelligence | K–P | ○ Planned |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `9 / 26 stages` · `34.62%`
+**Overall progress:** `10 / 26 stages` · `38.46%`
 
-**Next gate:** Stage J — build and validate the full execution-aware backtest engine
+**Next gate:** Stage K — lock the chart-image input specification and golden set
+
+Stage J evidence: [`backtest methodology`](docs/BACKTEST_SPEC.md),
+[`validation report`](reports/backtest-validation.md) and the locked
+[`backtest artifact`](models/backtests/backtest-v1.json). The execution mechanics pass, while the
+current validation edge remains **NO-GO** after costs.
 
 Follow the live checklist in [`plan.md`](plan.md).
 

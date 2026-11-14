@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn I hoàn tất / 9 trên 26 giai đoạn / 34,62%**
+> Trạng thái hiện tại: **Giai đoạn J hoàn tất / 10 trên 26 giai đoạn / 38,46%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -54,7 +54,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] G — Định nghĩa nhãn dự đoán
 - [x] H — Chia tập dữ liệu chống leakage
 - [x] I — Xây baseline
-- [ ] J — Xây backtest đáng tin cậy
+- [x] J — Xây backtest đáng tin cậy
 - [ ] K — Đặc tả ảnh đầu vào
 - [ ] L — Xây upload ảnh an toàn
 - [ ] M — Xử lý và hiểu ảnh
@@ -72,9 +72,9 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `9/26 giai đoạn = 34,62%`
-**Giai đoạn tiếp theo:** `J`
-**Ngày cập nhật:** `13/11/2026`
+**Tiến độ hiện tại:** `10/26 giai đoạn = 38,46%`
+**Giai đoạn tiếp theo:** `K`
+**Ngày cập nhật:** `15/11/2026`
 
 ### A — Chốt bài toán và phạm vi
 
@@ -213,18 +213,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### J — Xây backtest đáng tin cậy
 
-- [ ] Viết event timeline: decision → latency → entry → manage → exit.
-- [ ] Không fill tại giá close lý tưởng nếu thực tế không thể biết/khớp.
-- [ ] Mô phỏng spread, slippage, fee, funding và partial/unfilled rule.
-- [ ] Áp dụng tick size, step size và minimum constraints cần thiết.
-- [ ] Unit test no-lookahead và giá trị PnL tính tay.
-- [ ] Báo cáo gross/net PnL, expectancy, PF, drawdown, Sharpe/Sortino.
-- [ ] Stress cost ×1, ×1.5, ×2 và latency tăng.
-- [ ] Phân tích theo symbol, long/short, tháng, regime và confidence bucket.
-- [ ] **Hoàn tất J — backtest engine v1 được nghiệm thu.**
+- [x] Viết event timeline: decision → latency → entry → manage → exit.
+- [x] Không fill tại giá close lý tưởng nếu thực tế không thể biết/khớp.
+- [x] Mô phỏng spread, slippage, fee, funding và partial/unfilled rule.
+- [x] Áp dụng tick size, step size và minimum constraints cần thiết.
+- [x] Unit test no-lookahead và giá trị PnL tính tay.
+- [x] Báo cáo gross/net PnL, expectancy, PF, drawdown, Sharpe/Sortino.
+- [x] Stress cost ×1, ×1.5, ×2 và latency tăng.
+- [x] Phân tích theo symbol, long/short, tháng, regime và confidence bucket.
+- [x] **Hoàn tất J — backtest engine v1 được nghiệm thu.**
 
 **Exit Gate J:** thay chi phí/latency làm kết quả biến đổi hợp lý; audit không phát hiện future data.  
-**Bằng chứng:** `tests/backtest/`, `reports/backtest-validation.md`
+**Bằng chứng:** `tests/backtest/`, `reports/backtest-validation.md`, `models/backtests/backtest-v1.json`, `docs/BACKTEST_SPEC.md`, `docs/decisions/0007-stage-j-backtest-policy.md`
 
 ### K — Đặc tả ảnh đầu vào
 

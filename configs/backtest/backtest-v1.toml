@@ -1,0 +1,41 @@
+version = "1.0.0"
+baseline_artifact = "models/baselines/baseline-v1.json"
+split_manifest = "data/manifests/split-v1.json"
+clean_run_id = "13f11d10018f9914"
+label_config = "configs/labels/triple-barrier-v1.toml"
+exchange_snapshot_manifest = "data/manifests/exchange-info-stage-j.json"
+starting_equity_usdt = "10000"
+target_notional_usdt = "100"
+horizon_ms = 3600000
+latency_ms = 1000
+taker_fee_rate_per_side = "0.0005"
+half_spread_bps_per_side = "0.5"
+slippage_bps_per_side = "1.0"
+max_candle_volume_participation = "0.001"
+barrier_atr_multiplier = "1.0"
+same_minute_policy = "STOP_FIRST"
+partial_fill_policy = "IOC_CANCEL_REMAINDER"
+cost_multipliers = ["1.0", "1.5", "2.0"]
+latency_stress_ms = [1000, 61000, 121000]
+confidence_edges = ["0.45", "0.60"]
+periods_per_year = 35040
+
+[exchange_snapshot]
+endpoint = "/fapi/v1/exchangeInfo"
+observed_server_time_utc = "2026-11-13T06:02:01.708Z"
+captured_client_date = "2026-11-15"
+historical_at_decision_time = false
+
+[instruments.BTCUSDT]
+price_tick_size = "0.10"
+quantity_step_size = "0.001"
+min_quantity = "0.001"
+max_market_quantity = "120"
+min_notional = "50"
+
+[instruments.ETHUSDT]
+price_tick_size = "0.01"
+quantity_step_size = "0.001"
+min_quantity = "0.001"
+max_market_quantity = "2000"
+min_notional = "20"

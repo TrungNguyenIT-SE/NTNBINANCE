@@ -1,0 +1,41 @@
+{
+  "captured_client_date": "2026-11-15",
+  "endpoint": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+  "historical_at_decision_time": false,
+  "market": "USD-M_PERPETUAL",
+  "observed_server_time_ms": 1794549721708,
+  "observed_server_time_utc": "2026-11-13T06:02:01.708Z",
+  "symbols": {
+    "BTCUSDT": {
+      "contract_type": "PERPETUAL",
+      "market_lot_size": {
+        "max_qty": "120",
+        "min_qty": "0.001",
+        "step_size": "0.001"
+      },
+      "min_notional": "50",
+      "price_filter": {
+        "max_price": "4529764",
+        "min_price": "556.80",
+        "tick_size": "0.10"
+      },
+      "status": "TRADING"
+    },
+    "ETHUSDT": {
+      "contract_type": "PERPETUAL",
+      "market_lot_size": {
+        "max_qty": "2000",
+        "min_qty": "0.001",
+        "step_size": "0.001"
+      },
+      "min_notional": "20",
+      "price_filter": {
+        "max_price": "306177",
+        "min_price": "39.86",
+        "tick_size": "0.01"
+      },
+      "status": "TRADING"
+    }
+  },
+  "timezone": "UTC"
+}

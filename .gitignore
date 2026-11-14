@@ -42,6 +42,7 @@ models/**
 !models/**/
 !models/**/.gitkeep
 !models/baselines/*.json
+!models/backtests/*.json
 var/**
 !var/**/
 !var/**/.gitkeep

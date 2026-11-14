@@ -48,7 +48,9 @@ def _sql_path(path: Path) -> str:
     return path.resolve().as_posix().replace("'", "''")
 
 
-def _load_candles(clean_root: Path) -> dict[tuple[str, str, str], list[dict[str, float | int]]]:
+def load_feature_candles(
+    clean_root: Path,
+) -> dict[tuple[str, str, str], list[dict[str, float | int]]]:
     connection = duckdb.connect(":memory:")
     try:
         rows = connection.execute(
@@ -89,7 +91,7 @@ def _ratio(current: float, previous: float) -> float:
     return 0.0 if previous == 0 else current / previous - 1.0
 
 
-def _features(
+def build_features(
     groups: dict[tuple[str, str, str], list[dict[str, float | int]]],
     symbol: str,
     decision_time_ms: int,
@@ -156,7 +158,7 @@ def load_development_samples(
 
     manifest = json.loads(split_path.read_text(encoding="utf-8"))
     assignments = manifest["assignments"]
-    groups = _load_candles(clean_root)
+    groups = load_feature_candles(clean_root)
     samples: list[BaselineSample] = []
     sealed_rows = 0
     with labels_path.open(encoding="utf-8") as source:
@@ -199,7 +201,7 @@ def load_development_samples(
                     execution_cost=execution_cost,
                     funding_cost=float(raw["funding_cost"]),
                     vertical_close=float(trade[-1]["close"]),
-                    features=_features(groups, symbol, decision),
+                    features=build_features(groups, symbol, decision),
                 )
             )
     return sorted(samples, key=lambda item: (item.decision_time_ms, item.symbol)), sealed_rows

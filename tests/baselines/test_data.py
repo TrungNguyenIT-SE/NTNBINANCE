@@ -38,7 +38,7 @@ def test_final_holdout_target_is_not_deserialized(
         f'"symbol":"{symbol}","label":BROKEN}}\n',
         encoding="utf-8",
     )
-    monkeypatch.setattr(data, "_load_candles", lambda _: {})
+    monkeypatch.setattr(data, "load_feature_candles", lambda _: {})
 
     samples, sealed = data.load_development_samples(
         split_path=split,
@@ -85,7 +85,7 @@ def test_point_in_time_features_use_only_closed_history() -> None:
         ("index_price_klines", symbol, "15m"): [candle(14, 101.3)],
     }
 
-    features = data._features(groups, symbol, 20)
+    features = data.build_features(groups, symbol, 20)
 
     assert len(features) == 13
     assert features[0] < 0.01
