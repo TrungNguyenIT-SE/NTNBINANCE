@@ -7,7 +7,7 @@
   <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-9%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 9 of 26 stages" /></a>
   <a href="reports/baseline-v1.md"><img src="https://img.shields.io/badge/STAGE-I%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage I complete" /></a>
   <img src="https://img.shields.io/badge/TESTS-148%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="148 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-91.08%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.08 percent coverage" />
+  <img src="https://img.shields.io/badge/COVERAGE-90.72%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="90.72 percent coverage" />
 </div>
 
 <div align="center">
