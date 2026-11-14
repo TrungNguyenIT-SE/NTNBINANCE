@@ -1,0 +1,30 @@
+version = "1.0.0"
+allowed_formats = ["PNG", "JPEG", "WEBP"]
+max_file_bytes = 10485760
+min_width_px = 800
+min_height_px = 600
+max_width_px = 4096
+max_height_px = 4096
+max_pixels = 16777216
+min_chart_width_px = 720
+min_chart_height_px = 480
+max_pair_capture_delta_seconds = 120
+max_live_age_seconds = 120
+max_future_clock_skew_seconds = 30
+ocr_conflict_threshold = "0.90"
+last_price_warning_relative = "0.0015"
+last_price_reject_relative = "0.0035"
+max_occluded_chart_fraction = "0.15"
+
+[timeframes."1h"]
+minimum_closed_candles = 60
+recommended_closed_candles = 80
+
+[timeframes."15m"]
+minimum_closed_candles = 80
+recommended_closed_candles = 96
+
+[review]
+minimum_pair_count = 12
+minimum_verdict_agreement = "0.90"
+minimum_cohen_kappa = "0.80"

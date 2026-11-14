@@ -1,0 +1,248 @@
+{
+  "generator": "scripts/generate-image-golden-set.py",
+  "height_px": 640,
+  "pairs": [
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": null,
+      "expected_decision": "ACCEPT",
+      "images": [
+        {
+          "path": "k01_1h.png",
+          "sha256": "15a7326aa28249399c2ecf4ce81ad4ec3a603d83226d3bc4c29681ab89542576",
+          "slot": "1h"
+        },
+        {
+          "path": "k01_15m.png",
+          "sha256": "a2edfcc460e20826afa8da3674a74c26358ea82ce03860aa44d396de7cc50c7f",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K01",
+      "primary_reason": "VALID_DARK",
+      "theme": "DARK"
+    },
+    {
+      "declared_symbol": "ETHUSDT",
+      "defect": null,
+      "expected_decision": "ACCEPT",
+      "images": [
+        {
+          "path": "k02_1h.png",
+          "sha256": "7a975715e3a08fa928eec34a06fae2aaef3eeaa56ce14f55bad4131044bf9019",
+          "slot": "1h"
+        },
+        {
+          "path": "k02_15m.png",
+          "sha256": "7aa75754d5553c1183ec10f248809f372eba5ed352315608981937de5fb8760a",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K02",
+      "primary_reason": "VALID_LIGHT",
+      "theme": "LIGHT"
+    },
+    {
+      "declared_symbol": "ETHUSDT",
+      "defect": null,
+      "expected_decision": "ACCEPT",
+      "images": [
+        {
+          "path": "k03_1h.png",
+          "sha256": "ad93d595b62e7e43dfdbd30bbdefd31b6d84bcd1f6e73335468b0943e9975a26",
+          "slot": "1h"
+        },
+        {
+          "path": "k03_15m.png",
+          "sha256": "9c279b8c564db33d0f8d044e1044bfb8efe2554c0c6741e3f9e2c47ac123f89c",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K03",
+      "primary_reason": "VALID_ALT_COLORS",
+      "theme": "ALT"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": null,
+      "expected_decision": "ACCEPT",
+      "images": [
+        {
+          "path": "k04_1h.png",
+          "sha256": "f5fa56d1f526ffa768cb07c7a88fda96287ab65e5dcd90cf73603b93d1853bdb",
+          "slot": "1h"
+        },
+        {
+          "path": "k04_15m.png",
+          "sha256": "f6f5c84d05a36626c280146b03efc0f93a30f2c0f7196c6d16a482d5091694e9",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K04",
+      "primary_reason": "VALID_LIGHT",
+      "theme": "LIGHT"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": "blur",
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k05_1h.png",
+          "sha256": "323544a10a996f79162f0ea61ae4f24439bb4993f8f98735a9a903414b666d4c",
+          "slot": "1h"
+        },
+        {
+          "path": "k05_15m.png",
+          "sha256": "323544a10a996f79162f0ea61ae4f24439bb4993f8f98735a9a903414b666d4c",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K05",
+      "primary_reason": "BLUR",
+      "theme": "DARK"
+    },
+    {
+      "declared_symbol": "ETHUSDT",
+      "defect": "crop",
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k06_1h.png",
+          "sha256": "4f36be77bb1a6740bd10ff6055896889b5111be61062d97f618b7ea08eee35ad",
+          "slot": "1h"
+        },
+        {
+          "path": "k06_15m.png",
+          "sha256": "1164e5f3d1222fdc43bb6a0d02e1e75af29747dc1532a7c7cf096614ac14fdf6",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K06",
+      "primary_reason": "CROP_AXES",
+      "theme": "LIGHT"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": "occluded",
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k07_1h.png",
+          "sha256": "b7f0db49ff5cfa5289b8935962b9854e28a237de9f9cb9fb35087036ea24283e",
+          "slot": "1h"
+        },
+        {
+          "path": "k07_15m.png",
+          "sha256": "e77626e41eff1d11cfb4ea6be8b97f6a16a1da884d33244e6db05d4d593a4bc7",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K07",
+      "primary_reason": "OCCLUSION",
+      "theme": "DARK"
+    },
+    {
+      "declared_symbol": "ETHUSDT",
+      "defect": null,
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k08_1h.png",
+          "sha256": "67f43bd2ec131eb86c8619d58f38629604cef4192a0dcd761462d078969ee3d9",
+          "slot": "1h"
+        },
+        {
+          "path": "k08_15m.png",
+          "sha256": "d352a207bc36c8c9aba52a2752d593497e39d4c4704ed026d981c10b59a6cef0",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K08",
+      "primary_reason": "THEME_CONTRAST",
+      "theme": "LOW_CONTRAST"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": null,
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k09_1h.png",
+          "sha256": "15a7326aa28249399c2ecf4ce81ad4ec3a603d83226d3bc4c29681ab89542576",
+          "slot": "1h"
+        },
+        {
+          "path": "k09_15m.png",
+          "sha256": "ab0228a0ac76b7d65dd4f20b9989a2fcb25715b2bae22d13497aed9ffbce3cf9",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K09",
+      "primary_reason": "PAIR_SYMBOL_MISMATCH",
+      "theme": "DARK"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": null,
+      "expected_decision": "REJECTED_INPUT",
+      "images": [
+        {
+          "path": "k10_1h.png",
+          "sha256": "f5fa56d1f526ffa768cb07c7a88fda96287ab65e5dcd90cf73603b93d1853bdb",
+          "slot": "1h"
+        },
+        {
+          "path": "k10_15m.png",
+          "sha256": "f5fa56d1f526ffa768cb07c7a88fda96287ab65e5dcd90cf73603b93d1853bdb",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K10",
+      "primary_reason": "PAIR_TIMEFRAME_MISMATCH",
+      "theme": "LIGHT"
+    },
+    {
+      "declared_symbol": "ETHUSDT",
+      "defect": null,
+      "expected_decision": "NO_TRADE",
+      "images": [
+        {
+          "path": "k11_1h.png",
+          "sha256": "f4586daf6c8c04f78ac561f860a9c8c2e3169577c2236eac4425e99391ea83a2",
+          "slot": "1h"
+        },
+        {
+          "path": "k11_15m.png",
+          "sha256": "ab0228a0ac76b7d65dd4f20b9989a2fcb25715b2bae22d13497aed9ffbce3cf9",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K11",
+      "primary_reason": "STALE_IMAGE",
+      "theme": "DARK"
+    },
+    {
+      "declared_symbol": "BTCUSDT",
+      "defect": null,
+      "expected_decision": "NO_TRADE",
+      "images": [
+        {
+          "path": "k12_1h.png",
+          "sha256": "f5fa56d1f526ffa768cb07c7a88fda96287ab65e5dcd90cf73603b93d1853bdb",
+          "slot": "1h"
+        },
+        {
+          "path": "k12_15m.png",
+          "sha256": "f6f5c84d05a36626c280146b03efc0f93a30f2c0f7196c6d16a482d5091694e9",
+          "slot": "15m"
+        }
+      ],
+      "pair_id": "K12",
+      "primary_reason": "LAST_PRICE_MISMATCH",
+      "theme": "LIGHT"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "width_px": 960
+}

@@ -1,0 +1,19 @@
+{
+  "blind_to_other_round": true,
+  "items": [
+    {"decision": "REJECTED_INPUT", "pair_id": "K08", "reason": "THEME_CONTRAST"},
+    {"decision": "ACCEPT", "pair_id": "K03", "reason": "VALID_ALT_COLORS"},
+    {"decision": "NO_TRADE", "pair_id": "K11", "reason": "STALE_IMAGE"},
+    {"decision": "REJECTED_INPUT", "pair_id": "K05", "reason": "BLUR"},
+    {"decision": "ACCEPT", "pair_id": "K01", "reason": "VALID_DARK"},
+    {"decision": "REJECTED_INPUT", "pair_id": "K10", "reason": "PAIR_TIMEFRAME_MISMATCH"},
+    {"decision": "NO_TRADE", "pair_id": "K12", "reason": "LAST_PRICE_MISMATCH"},
+    {"decision": "REJECTED_INPUT", "pair_id": "K06", "reason": "CROP_AXES"},
+    {"decision": "ACCEPT", "pair_id": "K04", "reason": "VALID_LIGHT"},
+    {"decision": "REJECTED_INPUT", "pair_id": "K09", "reason": "PAIR_SYMBOL_MISMATCH"},
+    {"decision": "ACCEPT", "pair_id": "K02", "reason": "VALID_LIGHT"},
+    {"decision": "REJECTED_INPUT", "pair_id": "K07", "reason": "OCCLUSION"}
+  ],
+  "review_id": "stage-k-round-b-reordered",
+  "rubric_version": "1.0.0"
+}

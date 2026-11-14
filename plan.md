@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn J hoàn tất / 10 trên 26 giai đoạn / 38,46%**
+> Trạng thái hiện tại: **Giai đoạn K hoàn tất / 11 trên 26 giai đoạn / 42,31%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -55,7 +55,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] H — Chia tập dữ liệu chống leakage
 - [x] I — Xây baseline
 - [x] J — Xây backtest đáng tin cậy
-- [ ] K — Đặc tả ảnh đầu vào
+- [x] K — Đặc tả ảnh đầu vào
 - [ ] L — Xây upload ảnh an toàn
 - [ ] M — Xử lý và hiểu ảnh
 - [ ] N — Xây numeric features
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `10/26 giai đoạn = 38,46%`
-**Giai đoạn tiếp theo:** `K`
+**Tiến độ hiện tại:** `11/26 giai đoạn = 42,31%`
+**Giai đoạn tiếp theo:** `L`
 **Ngày cập nhật:** `15/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -228,18 +228,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### K — Đặc tả ảnh đầu vào
 
-- [ ] Chốt PNG/JPEG/WebP, 10 MB, 800–4096 px hoặc điều chỉnh theo benchmark.
-- [ ] Định nghĩa số nến/vùng chart tối thiểu.
-- [ ] Tạo rubric pass/reject cho blur, crop, che chart và sai theme.
-- [ ] Tạo golden set ảnh hợp lệ và lỗi.
-- [ ] Quy định symbol/timeframe/timestamp do user khai báo và OCR đối chiếu.
-- [ ] Quy định stale threshold và tolerance giá cuối ảnh.
-- [ ] Quy định mismatch 1H/15m phải reject hoặc `NO_TRADE`.
-- [ ] Viết hướng dẫn chụp ảnh cho người dùng.
-- [ ] **Hoàn tất K — image input specification v1 được khóa.**
+- [x] Chốt PNG/JPEG/WebP, 10 MB, 800–4096 px hoặc điều chỉnh theo benchmark.
+- [x] Định nghĩa số nến/vùng chart tối thiểu.
+- [x] Tạo rubric pass/reject cho blur, crop, che chart và sai theme.
+- [x] Tạo golden set ảnh hợp lệ và lỗi.
+- [x] Quy định symbol/timeframe/timestamp do user khai báo và OCR đối chiếu.
+- [x] Quy định stale threshold và tolerance giá cuối ảnh.
+- [x] Quy định mismatch 1H/15m phải reject hoặc `NO_TRADE`.
+- [x] Viết hướng dẫn chụp ảnh cho người dùng.
+- [x] **Hoàn tất K — image input specification v1 được khóa.**
 
 **Exit Gate K:** hai người hoặc hai lượt review độc lập cho cùng golden set cho kết quả rubric nhất quán chấp nhận được.  
-**Bằng chứng:** `docs/IMAGE_SPEC.md`, `tests/fixtures/images/`, `reports/image-rubric.md`
+**Bằng chứng:** `docs/IMAGE_SPEC.md`, `docs/IMAGE_CAPTURE_GUIDE.md`, `tests/fixtures/images/`, `tests/image_contract/`, `reports/image-rubric.md`, `reports/image-review-round-a.json`, `reports/image-review-round-b.json`, `docs/decisions/0008-stage-k-image-input-policy.md`
 
 ### L — Xây upload ảnh an toàn
 

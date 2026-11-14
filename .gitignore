@@ -48,6 +48,7 @@ var/**
 !var/**/.gitkeep
 reports/*.log
 reports/*.json
+!reports/image-review-round-*.json
 reports/*.xml
 reports/*.html
 
