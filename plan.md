@@ -224,7 +224,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất J — backtest engine v1 được nghiệm thu.**
 
 **Exit Gate J:** thay chi phí/latency làm kết quả biến đổi hợp lý; audit không phát hiện future data.  
-**Bằng chứng:** `tests/backtest/`, `reports/backtest-validation.md`, `models/backtests/backtest-v1.json`, `docs/BACKTEST_SPEC.md`, `docs/decisions/0007-stage-j-backtest-policy.md`
+**Bằng chứng:** `tests/backtest/`, `reports/backtest-validation.md`, `reports/stage-j-clean-checkout.md`, `models/backtests/backtest-v1.json`, `docs/BACKTEST_SPEC.md`, `docs/decisions/0007-stage-j-backtest-policy.md`
 
 ### K — Đặc tả ảnh đầu vào
 

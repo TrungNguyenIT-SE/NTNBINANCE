@@ -221,7 +221,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Vitest | ✅ 5 passed |
 | Vite production build | ✅ Pass |
 
-Pre-commit and pre-push hooks enforce the same critical checks locally. Clean-checkout evidence is recorded in [`reports/setup-smoke.txt`](reports/setup-smoke.txt).
+Pre-commit and pre-push hooks enforce the same critical checks locally. Stage J clean-checkout
+evidence is recorded in [`reports/stage-j-clean-checkout.md`](reports/stage-j-clean-checkout.md).
 
 ---
 
