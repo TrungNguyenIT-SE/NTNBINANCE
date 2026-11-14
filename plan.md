@@ -239,7 +239,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất K — image input specification v1 được khóa.**
 
 **Exit Gate K:** hai người hoặc hai lượt review độc lập cho cùng golden set cho kết quả rubric nhất quán chấp nhận được.  
-**Bằng chứng:** `docs/IMAGE_SPEC.md`, `docs/IMAGE_CAPTURE_GUIDE.md`, `tests/fixtures/images/`, `tests/image_contract/`, `reports/image-rubric.md`, `reports/image-review-round-a.json`, `reports/image-review-round-b.json`, `docs/decisions/0008-stage-k-image-input-policy.md`
+**Bằng chứng:** `docs/IMAGE_SPEC.md`, `docs/IMAGE_CAPTURE_GUIDE.md`, `tests/fixtures/images/`, `tests/image_contract/`, `reports/image-rubric.md`, `reports/image-review-round-a.json`, `reports/image-review-round-b.json`, `reports/stage-k-clean-checkout.md`, `docs/decisions/0008-stage-k-image-input-policy.md`
 
 ### L — Xây upload ảnh an toàn
 
