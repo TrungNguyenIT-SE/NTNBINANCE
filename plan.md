@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn M hoàn tất / 13 trên 26 giai đoạn / 50,00%**
+> Trạng thái hiện tại: **Giai đoạn N hoàn tất / 14 trên 26 giai đoạn / 53,85%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -58,7 +58,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] K — Đặc tả ảnh đầu vào
 - [x] L — Xây upload ảnh an toàn
 - [x] M — Xử lý và hiểu ảnh
-- [ ] N — Xây numeric features
+- [x] N — Xây numeric features
 - [ ] O — Huấn luyện và chọn mô hình hybrid
 - [ ] P — Calibration, uncertainty và `NO_TRADE`
 - [ ] Q — Risk engine
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `13/26 giai đoạn = 50,00%`
-**Giai đoạn tiếp theo:** `N`
+**Tiến độ hiện tại:** `14/26 giai đoạn = 53,85%`
+**Giai đoạn tiếp theo:** `O`
 **Ngày cập nhật:** `16/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -273,15 +273,15 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### N — Xây numeric features
 
-- [ ] Implement returns, volatility, ATR, range và wick/body.
-- [ ] Implement trend 1H và trigger 15m.
-- [ ] Implement volume/taker/trade-count features có coverage đủ.
-- [ ] Thêm funding/OI/basis chỉ khi point-in-time coverage đạt.
-- [ ] Định nghĩa missing-value rule cho từng feature.
-- [ ] Viết feature registry: công thức, window, timestamp, version.
-- [ ] Point-in-time correctness test cho mọi feature.
-- [ ] Ablation loại feature không ổn định/không có giá trị.
-- [ ] **Hoàn tất N — feature set v1 bị khóa.**
+- [x] Implement returns, volatility, ATR, range và wick/body.
+- [x] Implement trend 1H và trigger 15m.
+- [x] Implement volume/taker/trade-count features có coverage đủ.
+- [x] Thêm funding/OI/basis chỉ khi point-in-time coverage đạt. *(Basis được include; funding/OI bị loại khỏi v2 vì chưa đạt lịch sử tối thiểu 30 ngày.)*
+- [x] Định nghĩa missing-value rule cho từng feature.
+- [x] Viết feature registry: công thức, window, timestamp, version.
+- [x] Point-in-time correctness test cho mọi feature.
+- [x] Ablation loại feature không ổn định/không có giá trị.
+- [x] **Hoàn tất N — feature set v2 bị khóa; v1 Stage I được giữ bất biến để tái lập.**
 
 **Exit Gate N:** tạo feature tại thời điểm T không truy cập record có event_time > T.  
 **Bằng chứng:** `docs/FEATURE_REGISTRY.md`, `tests/features/`, `reports/feature-ablation.md`

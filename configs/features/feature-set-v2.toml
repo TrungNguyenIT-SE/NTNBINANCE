@@ -1,0 +1,21 @@
+version = "2.0.0"
+decision_rule = "event_time_ms < decision_time_ms"
+minimum_15m_bars = 20
+minimum_1h_bars = 4
+atr_window = 14
+short_volatility_window = 4
+long_volatility_window = 16
+volume_window = 20
+
+[coverage]
+basis_minimum_percent = 99.9
+basis_minimum_span_days = 1
+funding_minimum_percent = 99.0
+funding_minimum_span_days = 30
+open_interest_minimum_percent = 99.0
+open_interest_minimum_span_days = 30
+
+[optional_context]
+mark_index_basis = true
+funding = false
+open_interest = false

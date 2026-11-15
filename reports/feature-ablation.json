@@ -1,0 +1,214 @@
+{
+  "feature_version": "2.0.0",
+  "clean_run_id": "13f11d10018f9914",
+  "samples": 152,
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "maximum_lineage_lag_ms": 1,
+  "median_lineage_lag_ms": 1.0,
+  "feature_stats": [
+    {
+      "feature": "return_15m_1",
+      "finite": 152,
+      "variance": 1.1668364991842338e-05,
+      "minimum": -0.025389716147045136,
+      "maximum": 0.008263261201444253
+    },
+    {
+      "feature": "return_15m_4",
+      "finite": 152,
+      "variance": 3.576542922801381e-05,
+      "minimum": -0.03352239953855028,
+      "maximum": 0.00892763878130473
+    },
+    {
+      "feature": "return_15m_16",
+      "finite": 152,
+      "variance": 8.232416935635776e-05,
+      "minimum": -0.038931987323802285,
+      "maximum": 0.009394973876768097
+    },
+    {
+      "feature": "realized_volatility_4",
+      "finite": 152,
+      "variance": 4.244835483165825e-06,
+      "minimum": 0.0003746591942650649,
+      "maximum": 0.012281970678715408
+    },
+    {
+      "feature": "realized_volatility_16",
+      "finite": 152,
+      "variance": 2.482640084297807e-06,
+      "minimum": 0.0011738739138335845,
+      "maximum": 0.007768230362059139
+    },
+    {
+      "feature": "atr_ratio_14",
+      "finite": 152,
+      "variance": 5.124420235726852e-06,
+      "minimum": 0.0020044276165837914,
+      "maximum": 0.011993467315685737
+    },
+    {
+      "feature": "range_ratio_15m",
+      "finite": 152,
+      "variance": 2.11805338466535e-05,
+      "minimum": 0.0011002371888142552,
+      "maximum": 0.04056066451993463
+    },
+    {
+      "feature": "body_ratio_15m",
+      "finite": 152,
+      "variance": 1.1956499412862006e-05,
+      "minimum": -0.02605114738444093,
+      "maximum": 0.008195539319361662
+    },
+    {
+      "feature": "upper_wick_ratio_15m",
+      "finite": 152,
+      "variance": 1.4618741530860294e-06,
+      "minimum": 0.0,
+      "maximum": 0.006691234915817617
+    },
+    {
+      "feature": "lower_wick_ratio_15m",
+      "finite": 152,
+      "variance": 4.137847724583677e-06,
+      "minimum": 0.0,
+      "maximum": 0.020379449392242757
+    },
+    {
+      "feature": "trend_1h_1",
+      "finite": 152,
+      "variance": 4.4014843096291825e-05,
+      "minimum": -0.028645670728485728,
+      "maximum": 0.00892763878130473
+    },
+    {
+      "feature": "trend_1h_3",
+      "finite": 152,
+      "variance": 6.649677585989934e-06,
+      "minimum": -0.012046948625316543,
+      "maximum": 0.002146210417693788
+    },
+    {
+      "feature": "trigger_15m_atr",
+      "finite": 152,
+      "variance": 1.1353530735982973,
+      "minimum": -3.1862171460917783,
+      "maximum": 1.8532005397024867
+    },
+    {
+      "feature": "volume_ratio_4",
+      "finite": 152,
+      "variance": 6.1196197818351985,
+      "minimum": -0.8528666088690331,
+      "maximum": 22.67535804065181
+    },
+    {
+      "feature": "volume_zscore_20",
+      "finite": 152,
+      "variance": 1.0967725673438238,
+      "minimum": -1.3216608462088537,
+      "maximum": 4.289765497470095
+    },
+    {
+      "feature": "taker_buy_ratio",
+      "finite": 152,
+      "variance": 0.006283282854010159,
+      "minimum": 0.3087056868581962,
+      "maximum": 0.680676524536792
+    },
+    {
+      "feature": "trade_count_ratio_4",
+      "finite": 152,
+      "variance": 1.9700064302944118,
+      "minimum": -0.6799387526242534,
+      "maximum": 11.606217007264934
+    },
+    {
+      "feature": "mark_trade_basis",
+      "finite": 152,
+      "variance": 1.8270834753598287e-08,
+      "minimum": -0.0006829774590549635,
+      "maximum": 0.0006398324802233597
+    },
+    {
+      "feature": "index_trade_basis",
+      "finite": 152,
+      "variance": 3.40284241008089e-08,
+      "minimum": -0.0003795890981739764,
+      "maximum": 0.001144732002287886
+    },
+    {
+      "feature": "symbol_is_eth",
+      "finite": 152,
+      "variance": 0.25,
+      "minimum": 0.0,
+      "maximum": 1.0
+    }
+  ],
+  "high_correlation_pairs": [
+    {
+      "left": "return_15m_1",
+      "right": "body_ratio_15m",
+      "correlation": 0.9999298208999075
+    }
+  ],
+  "coverage": {
+    "basis": {
+      "decision": "INCLUDE",
+      "percentage": 100.0,
+      "span_days": 2,
+      "reason_codes": []
+    },
+    "funding": {
+      "decision": "EXCLUDE",
+      "percentage": 100.0,
+      "span_days": 1,
+      "reason_codes": [
+        "HISTORY_SPAN_TOO_SHORT"
+      ]
+    },
+    "open_interest": {
+      "decision": "EXCLUDE",
+      "percentage": 100.0,
+      "span_days": 2,
+      "reason_codes": [
+        "HISTORY_SPAN_TOO_SHORT"
+      ]
+    }
+  },
+  "removed_candidates": {
+    "raw_price_level": "non-stationary scale and symbol leakage",
+    "quote_volume_ratio": "redundant with base-volume activity in v2 audit",
+    "taker_imbalance": "exact affine duplicate of taker_buy_ratio",
+    "funding_features": "history span below 30-day gate",
+    "open_interest_features": "history span below 30-day gate"
+  },
+  "final_features": [
+    "return_15m_1",
+    "return_15m_4",
+    "return_15m_16",
+    "realized_volatility_4",
+    "realized_volatility_16",
+    "atr_ratio_14",
+    "range_ratio_15m",
+    "body_ratio_15m",
+    "upper_wick_ratio_15m",
+    "lower_wick_ratio_15m",
+    "trend_1h_1",
+    "trend_1h_3",
+    "trigger_15m_atr",
+    "volume_ratio_4",
+    "volume_zscore_20",
+    "taker_buy_ratio",
+    "trade_count_ratio_4",
+    "mark_trade_basis",
+    "index_trade_basis",
+    "symbol_is_eth"
+  ],
+  "final_holdout_opened": false
+}

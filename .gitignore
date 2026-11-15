@@ -53,6 +53,7 @@ reports/*.log
 reports/*.json
 !reports/image-review-round-*.json
 !reports/image-pipeline-benchmark.json
+!reports/feature-ablation.json
 reports/*.xml
 reports/*.html
 
