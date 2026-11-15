@@ -269,7 +269,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất M — image pipeline đạt tiêu chí golden set.**
 
 **Exit Gate M:** lỗi mismatch/stale/ảnh không phải chart được bắt theo ngưỡng đã khóa; không tune bằng final test.  
-**Bằng chứng:** `reports/image-pipeline.md`, `tests/image_pipeline/`
+**Bằng chứng:** `reports/image-pipeline.md`, `reports/stage-m-clean-checkout.md`, `tests/image_pipeline/`
 
 ### N — Xây numeric features
 

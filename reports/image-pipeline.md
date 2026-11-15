@@ -52,6 +52,7 @@ future real-world holdout must be consented, versioned and kept sealed.
 - Contract: `docs/IMAGE_PIPELINE.md`
 - Decision: `docs/decisions/0010-stage-m-image-pipeline-policy.md`
 - Dependency audit: `reports/stage-m-license-audit.md`
+- Clean-checkout verification: `reports/stage-m-clean-checkout.md`
 
 Conclusion: mismatch, stale and non-chart paths are caught under locked v1 thresholds; Stage M may
 close and Stage N may begin.
