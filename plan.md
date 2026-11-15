@@ -254,7 +254,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất L — secure upload tests pass.**
 
 **Exit Gate L:** không thể đọc file người khác hoặc ghi file ra ngoài storage root qua API.  
-**Bằng chứng:** `tests/security_upload/`, `reports/upload-security.md`, `docs/SECURE_UPLOAD.md`, `docs/decisions/0009-stage-l-secure-upload-policy.md`, `reports/stage-l-license-audit.md`
+**Bằng chứng:** `tests/security_upload/`, `reports/upload-security.md`, `reports/stage-l-clean-checkout.md`, `docs/SECURE_UPLOAD.md`, `docs/decisions/0009-stage-l-secure-upload-policy.md`, `reports/stage-l-license-audit.md`
 
 ### M — Xử lý và hiểu ảnh
 
