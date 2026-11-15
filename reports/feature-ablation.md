@@ -64,3 +64,6 @@ model-level ablation are deferred to Stage O with TRAIN/VALIDATION only.
 
 Machine-readable per-feature min/max/variance and correlations are stored in
 `reports/feature-ablation.json`.
+
+Clean-checkout setup and full repository verification are recorded in
+`reports/stage-n-clean-checkout.md`.

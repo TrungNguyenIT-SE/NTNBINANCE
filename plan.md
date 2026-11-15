@@ -284,7 +284,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] **Hoàn tất N — feature set v2 bị khóa; v1 Stage I được giữ bất biến để tái lập.**
 
 **Exit Gate N:** tạo feature tại thời điểm T không truy cập record có event_time > T.  
-**Bằng chứng:** `docs/FEATURE_REGISTRY.md`, `tests/features/`, `reports/feature-ablation.md`
+**Bằng chứng:** `docs/FEATURE_REGISTRY.md`, `tests/features/`, `reports/feature-ablation.md`, `reports/stage-n-clean-checkout.md`
 
 ### O — Huấn luyện và chọn mô hình hybrid
 
