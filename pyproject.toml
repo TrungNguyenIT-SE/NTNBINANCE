@@ -13,6 +13,7 @@ dependencies = [
     "duckdb==2.0.0",
     "fastapi==0.162.2",
     "httpx2==2.16.0",
+    "Pillow==13.0.0",
     "scikit-learn==1.9.1",
     "uvicorn==0.54.0",
     "websockets==17.4",

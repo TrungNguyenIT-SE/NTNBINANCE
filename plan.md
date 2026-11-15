@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn K hoàn tất / 11 trên 26 giai đoạn / 42,31%**
+> Trạng thái hiện tại: **Giai đoạn L hoàn tất / 12 trên 26 giai đoạn / 46,15%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -56,7 +56,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] I — Xây baseline
 - [x] J — Xây backtest đáng tin cậy
 - [x] K — Đặc tả ảnh đầu vào
-- [ ] L — Xây upload ảnh an toàn
+- [x] L — Xây upload ảnh an toàn
 - [ ] M — Xử lý và hiểu ảnh
 - [ ] N — Xây numeric features
 - [ ] O — Huấn luyện và chọn mô hình hybrid
@@ -72,9 +72,9 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `11/26 giai đoạn = 42,31%`
-**Giai đoạn tiếp theo:** `L`
-**Ngày cập nhật:** `15/11/2026`
+**Tiến độ hiện tại:** `12/26 giai đoạn = 46,15%`
+**Giai đoạn tiếp theo:** `M`
+**Ngày cập nhật:** `16/11/2026`
 
 ### A — Chốt bài toán và phạm vi
 
@@ -243,18 +243,18 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### L — Xây upload ảnh an toàn
 
-- [ ] Giới hạn request bytes trước khi đọc toàn bộ file.
-- [ ] Kiểm tra magic bytes/MIME và decode thật.
-- [ ] Giới hạn tổng pixel để chống decompression bomb.
-- [ ] Re-encode, loại metadata/EXIF và đặt tên bằng UUID/hash.
-- [ ] Lưu ngoài web root; chặn path traversal.
-- [ ] Kiểm tra quyền đọc/xóa theo user/session.
-- [ ] Rate limit local và cleanup upload hết hạn.
-- [ ] Test ảnh giả MIME, file hỏng, quá lớn, trùng và malicious filename.
-- [ ] **Hoàn tất L — secure upload tests pass.**
+- [x] Giới hạn request bytes trước khi đọc toàn bộ file.
+- [x] Kiểm tra magic bytes/MIME và decode thật.
+- [x] Giới hạn tổng pixel để chống decompression bomb.
+- [x] Re-encode, loại metadata/EXIF và đặt tên bằng UUID/hash.
+- [x] Lưu ngoài web root; chặn path traversal.
+- [x] Kiểm tra quyền đọc/xóa theo user/session.
+- [x] Rate limit local và cleanup upload hết hạn.
+- [x] Test ảnh giả MIME, file hỏng, quá lớn, trùng và malicious filename.
+- [x] **Hoàn tất L — secure upload tests pass.**
 
 **Exit Gate L:** không thể đọc file người khác hoặc ghi file ra ngoài storage root qua API.  
-**Bằng chứng:** `tests/security_upload/`, `reports/upload-security.md`
+**Bằng chứng:** `tests/security_upload/`, `reports/upload-security.md`, `docs/SECURE_UPLOAD.md`, `docs/decisions/0009-stage-l-secure-upload-policy.md`, `reports/stage-l-license-audit.md`
 
 ### M — Xử lý và hiểu ảnh
 

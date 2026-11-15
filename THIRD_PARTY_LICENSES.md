@@ -1,7 +1,7 @@
 # THIRD-PARTY LICENSE REGISTER
 
-> Version: `0.5 — Stage I tabular baseline dependency review`
-> Date: `13/11/2026`
+> Version: `0.6 — Stage L secure image dependency review`
+> Date: `16/11/2026`
 > Policy: Chưa có package nào được phê duyệt cho release chỉ dựa trên tên/license trong bảng này. Version pin ở Stage C phải được scan và lưu license text thực tế.
 
 ## 1. Quy tắc phê duyệt dependency
@@ -40,7 +40,7 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | NumPy | 2.4.2 | BSD-3-Clause; artifact có `LICENSE.txt` và third-party license directory | Numeric compute | CONDITIONAL |
 | scikit-learn | 1.9.0 | BSD-3-Clause; artifact có `COPYING` | Baseline/model | CONDITIONAL |
 | pandas | 3.0.3 | BSD-3-Clause; metadata/artifact có license | Data inspection | CONDITIONAL |
-| Pillow | 12.1.1 | HPND/PIL-style; artifact có `LICENSE` | Image decode/re-encode | CONDITIONAL |
+| Pillow | 13.0.0 | MIT-CMU; artifact có `licenses/LICENSE` | Image decode/re-encode | APPROVED |
 
 `CONDITIONAL` nghĩa là package có vẻ phù hợp cho spike nhưng Stage C vẫn phải pin version, copy/record license text, scan transitives và chạy compatibility tests trong project environment.
 
@@ -67,12 +67,14 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | joblib / cloudpickle | 1.6.0 / 3.1.2 | BSD-3-Clause | scikit-learn runtime | APPROVED |
 | narwhals | 2.28.0 | MIT | scikit-learn runtime | APPROVED |
 | threadpoolctl | 3.8.0 | BSD-3-Clause | Native thread control | APPROVED |
+| Pillow | 13.0.0 | MIT-CMU (`licenses/LICENSE` verified) | Secure image decode/re-encode | APPROVED |
 
 Python lock có 51 third-party distributions ngoài local package và pip; license metadata của các
 dependency Stage I không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại
 `reports/stage-c-license-audit.md`; Stage E bổ sung `websockets==17.4` (BSD-3-Clause), Stage F bổ
 sung `duckdb==2.0.0` (MIT), Stage I bổ sung stack scikit-learn/XGBoost CPU và audit tại
-`reports/stage-i-license-audit.md`. `requirements.lock` là nguồn version đầy đủ.
+`reports/stage-i-license-audit.md`, Stage L bổ sung `Pillow==13.0.0` và audit tại
+`reports/stage-l-license-audit.md`. `requirements.lock` là nguồn version đầy đủ.
 
 ### Frontend direct dependencies
 
@@ -102,7 +104,7 @@ Frontend lock chứa 161 package entries tại thời điểm audit cuối Stage
 | PyTorch | Vision/sequence candidate | Verify pinned artifact + CUDA bundled notices | PENDING |
 | LightGBM | Tabular alternative not needed in Stage I because XGBoost CPU passed | Verify if later pinned | PENDING |
 | XGBoost | `xgboost-cpu==3.4.1`, Apache-2.0 wheel verified | Baseline only | APPROVED |
-| OpenCV | Image processing | Verify pinned artifact + bundled codecs | PENDING |
+| OpenCV | Image processing beyond Pillow's secure decode/re-encode role | Verify pinned artifact + bundled codecs | PENDING |
 | Tesseract OCR | OCR candidate | Verify installed distribution/language data | PENDING |
 | Tailwind CSS | Styling candidate | Verify pinned package | PENDING |
 | OWASP ZAP Community | Security self-test | Verify distribution terms | PENDING |

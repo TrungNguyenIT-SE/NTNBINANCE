@@ -9,6 +9,7 @@ from uvicorn import run as uvicorn_run
 
 from ntnbinance import __version__
 from ntnbinance.config import Settings, load_settings
+from ntnbinance.uploads.api import register_upload_api
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -23,6 +24,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         redoc_url=None,
     )
     app.state.settings = active
+    register_upload_api(app, active)
 
     @app.get("/health/live", tags=["health"])
     def live() -> dict[str, str]:

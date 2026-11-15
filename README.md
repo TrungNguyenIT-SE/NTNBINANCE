@@ -7,7 +7,7 @@
   <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-9%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 9 of 26 stages" /></a>
   <a href="reports/baseline-v1.md"><img src="https://img.shields.io/badge/STAGE-I%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage I complete" /></a>
   <img src="https://img.shields.io/badge/TESTS-148%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="148 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-90.72%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="90.72 percent coverage" />
+  <img src="https://img.shields.io/badge/COVERAGE-90.97%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="90.97 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage K complete · Stage L next |
+| **Current milestone** | Stage L complete · Stage M next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -214,8 +214,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\quality.ps1
 | Ruff lint + format | ✅ Pass |
 | mypy strict | ✅ Pass |
 | Python dependency consistency | ✅ Pass |
-| Pytest | ✅ 176 passed |
-| Statement + branch coverage | ✅ 90.72% |
+| Pytest | ✅ 201 passed |
+| Statement + branch coverage | ✅ 90.97% |
 | ESLint + Prettier | ✅ Pass |
 | TypeScript | ✅ Pass |
 | Vitest | ✅ 5 passed |
@@ -256,19 +256,19 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 | Repository & data contract foundation | C–D | ✅ Complete |
 | Market-data pipeline & quality | E–F | ✅ Complete |
 | Labels, splits, baseline & backtest | G–J | ✅ Complete |
-| Image + numeric intelligence | K–P | ◉ K complete · L next |
+| Image + numeric intelligence | K–P | ◉ L complete · M next |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `11 / 26 stages` · `42.31%`
+**Overall progress:** `12 / 26 stages` · `46.15%`
 
-**Next gate:** Stage L — implement and verify secure local image upload
+**Next gate:** Stage M — implement chart detection, quality measurement and OCR reconciliation
 
-Stage K evidence: [`image specification`](docs/IMAGE_SPEC.md),
-[`capture guide`](docs/IMAGE_CAPTURE_GUIDE.md), [`rubric report`](reports/image-rubric.md) and the
-locked [`golden set`](tests/fixtures/images/). Two blind reordered reviews reached 100% agreement and
-Cohen's κ `1.00` across 12 image pairs.
+Stage L evidence: [`secure-upload contract`](docs/SECURE_UPLOAD.md),
+[`security acceptance report`](reports/upload-security.md) and
+[`adversarial tests`](tests/security_upload/). Raw-body streaming limits, decoder verification,
+metadata stripping, owner-scoped UUID storage, rate limiting and expiration cleanup all pass.
 
 Follow the live checklist in [`plan.md`](plan.md).
 

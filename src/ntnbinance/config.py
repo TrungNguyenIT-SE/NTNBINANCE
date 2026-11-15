@@ -29,6 +29,10 @@ class Settings:
     data_root: Path
     runtime_root: Path
     max_upload_bytes: int
+    max_image_pixels: int
+    upload_rate_limit: int
+    upload_rate_window_seconds: int
+    upload_ttl_seconds: int
     workers: int
 
 
@@ -39,6 +43,12 @@ def _resolve_local_path(value: object, field_name: str) -> Path:
     if candidate.is_absolute() or ".." in candidate.parts:
         raise ConfigurationError(f"{field_name} must remain inside the project root")
     return (PROJECT_ROOT / candidate).resolve()
+
+
+def _positive_int(value: object, field_name: str) -> int:
+    if not isinstance(value, int) or value <= 0:
+        raise ConfigurationError(f"{field_name} must be a positive integer")
+    return value
 
 
 def load_settings(profile: str | None = None, config_dir: Path | None = None) -> Settings:
@@ -66,12 +76,22 @@ def load_settings(profile: str | None = None, config_dir: Path | None = None) ->
     port = raw.get("port")
     workers = raw.get("workers")
     max_upload_bytes = raw.get("max_upload_bytes")
+    max_image_pixels = raw.get("max_image_pixels")
+    upload_rate_limit = _positive_int(raw.get("upload_rate_limit"), "upload_rate_limit")
+    upload_rate_window_seconds = _positive_int(
+        raw.get("upload_rate_window_seconds"), "upload_rate_window_seconds"
+    )
+    upload_ttl_seconds = _positive_int(raw.get("upload_ttl_seconds"), "upload_ttl_seconds")
     if not isinstance(port, int) or not 1 <= port <= 65535:
         raise ConfigurationError("port must be between 1 and 65535")
     if workers != 1:
         raise ConfigurationError("Stage C resource policy requires exactly one worker")
-    if not isinstance(max_upload_bytes, int) or max_upload_bytes <= 0:
-        raise ConfigurationError("max_upload_bytes must be a positive integer")
+    if not isinstance(max_upload_bytes, int) or not 0 < max_upload_bytes <= 10 * 1024 * 1024:
+        raise ConfigurationError("max_upload_bytes must be between 1 byte and 10 MiB")
+    if not isinstance(max_image_pixels, int) or not 0 < max_image_pixels <= 4096 * 4096:
+        raise ConfigurationError("max_image_pixels must be between 1 and 16777216")
+    if upload_ttl_seconds > 30 * 24 * 60 * 60:
+        raise ConfigurationError("upload_ttl_seconds cannot exceed the 30-day retention policy")
 
     debug = raw.get("debug")
     log_level = raw.get("log_level")
@@ -89,5 +109,9 @@ def load_settings(profile: str | None = None, config_dir: Path | None = None) ->
         data_root=_resolve_local_path(raw.get("data_root"), "data_root"),
         runtime_root=_resolve_local_path(raw.get("runtime_root"), "runtime_root"),
         max_upload_bytes=max_upload_bytes,
+        max_image_pixels=max_image_pixels,
+        upload_rate_limit=upload_rate_limit,
+        upload_rate_window_seconds=upload_rate_window_seconds,
+        upload_ttl_seconds=upload_ttl_seconds,
         workers=workers,
     )

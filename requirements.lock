@@ -1,4 +1,4 @@
-# Generated from the Stage C Python 3.14.2 environment on 2026-11-09.
+# Generated from the Stage C Python 3.14.2 environment; updated for Stage L on 2026-11-16.
 # Install this lock first, then install the local package with --no-deps.
 annotated-doc==0.0.5
 annotated-types==0.8.0
@@ -29,6 +29,7 @@ numpy==2.5.4
 opentelemetry-api==1.45.2
 packaging==26.3
 pathspec==1.1.1
+Pillow==13.0.0
 platformdirs==4.14.5
 pluggy==1.7.0
 pre_commit==4.7.0
