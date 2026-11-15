@@ -10,6 +10,8 @@
 *.css text eol=lf
 *.html text eol=lf
 *.ps1 text eol=crlf
+models/ocr/LICENSE.tessdata-fast text eol=lf
+*.traineddata binary
 *.png binary
 *.jpg binary
 *.jpeg binary
