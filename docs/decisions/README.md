@@ -22,6 +22,7 @@ Thư mục này lưu các quyết định đã được chấp nhận của dự
 | ADR-0007 | Stage J execution-aware backtest policy | ACCEPTED | 15/11/2026 |
 | ADR-0008 | Stage K image-input policy | ACCEPTED | 15/11/2026 |
 | ADR-0009 | Stage L secure-upload policy | ACCEPTED | 16/11/2026 |
+| ADR-0010 | Stage M fail-safe image pipeline | ACCEPTED | 16/11/2026 |
 
 ## Quy tắc thay đổi
 

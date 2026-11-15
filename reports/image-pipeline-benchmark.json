@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T18:33:13.446871+00:00",
+  "python": "3.14.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "matrix_cases": 27,
+  "accepted": 27,
+  "ocr_correct": 27,
+  "latency_ms": {
+    "median": 1837.75,
+    "p95": 4598.94,
+    "max": 4715.45
+  },
+  "cases": [
+    {
+      "theme": "DARK",
+      "resolution": "960x640",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.841,
+      "latency_ms": 1165.48
+    },
+    {
+      "theme": "DARK",
+      "resolution": "960x640",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.88,
+      "latency_ms": 1101.34
+    },
+    {
+      "theme": "DARK",
+      "resolution": "960x640",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8856,
+      "latency_ms": 1256.75
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1280x720",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8356,
+      "latency_ms": 1878.21
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1280x720",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8222,
+      "latency_ms": 1793.38
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1280x720",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.9078,
+      "latency_ms": 1837.75
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1920x1080",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.7467,
+      "latency_ms": 4598.94
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1920x1080",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.7782,
+      "latency_ms": 4233.52
+    },
+    {
+      "theme": "DARK",
+      "resolution": "1920x1080",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.92,
+      "latency_ms": 4687.97
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "960x640",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.826,
+      "latency_ms": 1190.49
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "960x640",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8889,
+      "latency_ms": 1100.8
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "960x640",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8778,
+      "latency_ms": 1283.26
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1280x720",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8533,
+      "latency_ms": 1672.41
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1280x720",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8233,
+      "latency_ms": 1889.71
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1280x720",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.9033,
+      "latency_ms": 1697.83
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1920x1080",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.7382,
+      "latency_ms": 4421.44
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1920x1080",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.806,
+      "latency_ms": 4128.46
+    },
+    {
+      "theme": "LIGHT",
+      "resolution": "1920x1080",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.92,
+      "latency_ms": 4715.45
+    },
+    {
+      "theme": "ALT",
+      "resolution": "960x640",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.802,
+      "latency_ms": 1324.31
+    },
+    {
+      "theme": "ALT",
+      "resolution": "960x640",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8422,
+      "latency_ms": 1194.54
+    },
+    {
+      "theme": "ALT",
+      "resolution": "960x640",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8833,
+      "latency_ms": 1141.23
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1280x720",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8567,
+      "latency_ms": 1803.54
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1280x720",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8322,
+      "latency_ms": 1859.53
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1280x720",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.9111,
+      "latency_ms": 1954.18
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1920x1080",
+      "source": "SYNTHETIC",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.7458,
+      "latency_ms": 4539.63
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1920x1080",
+      "source": "BINANCE_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.8036,
+      "latency_ms": 4237.76
+    },
+    {
+      "theme": "ALT",
+      "resolution": "1920x1080",
+      "source": "TRADINGVIEW_LIKE",
+      "quality_decision": "ACCEPT",
+      "ocr_fields_correct": true,
+      "ocr_confidence": 0.9133,
+      "latency_ms": 4547.32
+    }
+  ]
+}

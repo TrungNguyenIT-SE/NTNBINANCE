@@ -1,0 +1,25 @@
+schema_version = 1
+policy = "fail-safe"
+supported_symbols = ["BTCUSDT", "ETHUSDT"]
+supported_timeframes = ["1h", "15m"]
+trusted_source_layouts = ["BINANCE", "TRADINGVIEW", "SYNTHETIC"]
+minimum_width = 800
+minimum_height = 600
+minimum_ocr_confidence = 0.70
+maximum_ocr_capture_delta_ms = 120000
+
+[quality]
+minimum_contrast = 0.035
+minimum_blur_score = 1.2
+minimum_edge_density = 0.006
+minimum_right_axis_score = 0.004
+minimum_bottom_axis_score = 0.002
+maximum_occlusion_fraction = 0.15
+minimum_candle_components_1h = 38
+minimum_candle_components_15m = 48
+
+[augmentation]
+allowed_partition = "TRAIN"
+horizontal_flip = false
+vertical_flip = false
+time_reversal = false

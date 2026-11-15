@@ -15,6 +15,7 @@ dependencies = [
     "httpx2==2.16.0",
     "Pillow==13.0.0",
     "scikit-learn==1.9.1",
+    "tesserocr==2.13.0",
     "uvicorn==0.54.0",
     "websockets==17.4",
     "xgboost-cpu==3.4.1",
@@ -82,5 +83,5 @@ warn_unused_configs = true
 show_error_codes = true
 
 [[tool.mypy.overrides]]
-module = ["sklearn", "sklearn.*", "uvicorn"]
+module = ["scipy", "scipy.*", "sklearn", "sklearn.*", "tesserocr", "uvicorn"]
 ignore_missing_imports = true

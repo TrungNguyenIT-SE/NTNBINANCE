@@ -2,7 +2,7 @@
 
 > Phiên bản: 1.2 — bổ sung checklist thực thi A–Z  
 > Ngày lập: 09/11/2026  
-> Trạng thái hiện tại: **Giai đoạn L hoàn tất / 12 trên 26 giai đoạn / 46,15%**
+> Trạng thái hiện tại: **Giai đoạn M hoàn tất / 13 trên 26 giai đoạn / 50,00%**
 > Phạm vi mặc định: Binance USDⓈ-M Perpetual, phát tín hiệu `LONG / SHORT / NO_TRADE`; chưa tự động đặt lệnh ở MVP.  
 > Ràng buộc bắt buộc: **chi phí tiền mặt tăng thêm để xây và chạy MVP = 0 VNĐ**.
 
@@ -57,7 +57,7 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [x] J — Xây backtest đáng tin cậy
 - [x] K — Đặc tả ảnh đầu vào
 - [x] L — Xây upload ảnh an toàn
-- [ ] M — Xử lý và hiểu ảnh
+- [x] M — Xử lý và hiểu ảnh
 - [ ] N — Xây numeric features
 - [ ] O — Huấn luyện và chọn mô hình hybrid
 - [ ] P — Calibration, uncertainty và `NO_TRADE`
@@ -72,8 +72,8 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 - [ ] Y — Nghiệm thu Go/No-Go
 - [ ] Z — Đóng gói local release và bàn giao
 
-**Tiến độ hiện tại:** `12/26 giai đoạn = 46,15%`
-**Giai đoạn tiếp theo:** `M`
+**Tiến độ hiện tại:** `13/26 giai đoạn = 50,00%`
+**Giai đoạn tiếp theo:** `N`
 **Ngày cập nhật:** `16/11/2026`
 
 ### A — Chốt bài toán và phạm vi
@@ -258,15 +258,15 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### M — Xử lý và hiểu ảnh
 
-- [ ] Phát hiện/crop vùng chart và giữ aspect ratio.
-- [ ] Đo blur/quality/layout bằng pipeline local.
-- [ ] OCR symbol, timeframe, timestamp/price khi nhìn thấy.
-- [ ] Cross-check OCR với input user và market data.
-- [ ] Render synthetic chart từ OHLCV mà không chứa tương lai.
-- [ ] Augment chỉ trong train; không lật ngang/thay đổi ý nghĩa thời gian.
-- [ ] Đo performance theo theme sáng/tối, độ phân giải và nguồn ảnh.
-- [ ] Fail-safe về reject/`NO_TRADE` khi OOD hoặc quality thấp.
-- [ ] **Hoàn tất M — image pipeline đạt tiêu chí golden set.**
+- [x] Phát hiện/crop vùng chart và giữ aspect ratio.
+- [x] Đo blur/quality/layout bằng pipeline local.
+- [x] OCR symbol, timeframe, timestamp/price khi nhìn thấy.
+- [x] Cross-check OCR với input user và market data.
+- [x] Render synthetic chart từ OHLCV mà không chứa tương lai.
+- [x] Augment chỉ trong train; không lật ngang/thay đổi ý nghĩa thời gian.
+- [x] Đo performance theo theme sáng/tối, độ phân giải và nguồn ảnh.
+- [x] Fail-safe về reject/`NO_TRADE` khi OOD hoặc quality thấp.
+- [x] **Hoàn tất M — image pipeline đạt tiêu chí golden set.**
 
 **Exit Gate M:** lỗi mismatch/stale/ảnh không phải chart được bắt theo ngưỡng đã khóa; không tune bằng final test.  
 **Bằng chứng:** `reports/image-pipeline.md`, `tests/image_pipeline/`

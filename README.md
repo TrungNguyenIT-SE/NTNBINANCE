@@ -4,10 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-9%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 9 of 26 stages" /></a>
-  <a href="reports/baseline-v1.md"><img src="https://img.shields.io/badge/STAGE-I%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage I complete" /></a>
-  <img src="https://img.shields.io/badge/TESTS-148%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="148 tests passing" />
-  <img src="https://img.shields.io/badge/COVERAGE-90.97%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="90.97 percent coverage" />
+  <a href="plan.md"><img src="https://img.shields.io/badge/ROADMAP-13%20%2F%2026-22D3EE?style=for-the-badge&labelColor=0B1220" alt="Roadmap: 13 of 26 stages" /></a>
+  <a href="reports/image-pipeline.md"><img src="https://img.shields.io/badge/STAGE-M%20COMPLETE-34D399?style=for-the-badge&labelColor=0B1220" alt="Stage M complete" /></a>
+  <img src="https://img.shields.io/badge/TESTS-236%20PASSING-A78BFA?style=for-the-badge&labelColor=0B1220" alt="236 tests passing" />
+  <img src="https://img.shields.io/badge/COVERAGE-91.43%25-FBBF24?style=for-the-badge&labelColor=0B1220" alt="91.43 percent coverage" />
 </div>
 
 <div align="center">
@@ -53,7 +53,7 @@ Most trading prototypes optimize for a promising chart. NTNBINANCE starts with t
 | **Output contract** | `LONG` · `SHORT` · `NO_TRADE` |
 | **Forecast horizon** | 4 × 15m candles; 2 and 8 candles are secondary analysis |
 | **Runtime** | Windows · local loopback only |
-| **Current milestone** | Stage L complete · Stage M next |
+| **Current milestone** | Stage M complete · Stage N next |
 | **New cash cost target** | **0 VNĐ** |
 
 ---
@@ -256,19 +256,19 @@ The project follows 26 sequential stages. A stage is checked only after every ch
 | Repository & data contract foundation | C–D | ✅ Complete |
 | Market-data pipeline & quality | E–F | ✅ Complete |
 | Labels, splits, baseline & backtest | G–J | ✅ Complete |
-| Image + numeric intelligence | K–P | ◉ L complete · M next |
+| Image + numeric intelligence | K–P | ◉ M complete · N next |
 | Risk, API & web product | Q–S | ○ Planned |
 | System validation & operations | T–W | ○ Planned |
 | Security, acceptance & release | X–Z | ○ Planned |
 
-**Overall progress:** `12 / 26 stages` · `46.15%`
+**Overall progress:** `13 / 26 stages` · `50.00%`
 
-**Next gate:** Stage M — implement chart detection, quality measurement and OCR reconciliation
+**Next gate:** Stage N — implement point-in-time numeric features
 
-Stage L evidence: [`secure-upload contract`](docs/SECURE_UPLOAD.md),
-[`security acceptance report`](reports/upload-security.md) and
-[`adversarial tests`](tests/security_upload/). Raw-body streaming limits, decoder verification,
-metadata stripping, owner-scoped UUID storage, rate limiting and expiration cleanup all pass.
+Stage M evidence: [`image-pipeline contract`](docs/IMAGE_PIPELINE.md),
+[`acceptance report`](reports/image-pipeline.md) and
+[`golden tests`](tests/image_pipeline/). Chart ROI, local quality/OCR, point-in-time rendering,
+TRAIN-only augmentation and mismatch/stale/OOD fail-safe gates all pass.
 
 Follow the live checklist in [`plan.md`](plan.md).
 

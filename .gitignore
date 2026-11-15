@@ -43,12 +43,16 @@ models/**
 !models/**/.gitkeep
 !models/baselines/*.json
 !models/backtests/*.json
+!models/ocr/eng.traineddata
+!models/ocr/LICENSE.tessdata-fast
+!models/ocr/MANIFEST.json
 var/**
 !var/**/
 !var/**/.gitkeep
 reports/*.log
 reports/*.json
 !reports/image-review-round-*.json
+!reports/image-pipeline-benchmark.json
 reports/*.xml
 reports/*.html
 

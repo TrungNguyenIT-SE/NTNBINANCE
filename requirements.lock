@@ -45,6 +45,7 @@ scikit-learn==1.9.1
 scipy==1.18.1
 starlette==1.10.0
 threadpoolctl==3.8.0
+tesserocr==2.13.0
 truststore==0.10.5
 typing_extensions==4.16.0
 typing-inspection==0.4.5

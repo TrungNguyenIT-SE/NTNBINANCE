@@ -68,6 +68,8 @@ Docker không là dependency bắt buộc của MVP. Đường chạy chuẩn l�
 | narwhals | 2.28.0 | MIT | scikit-learn runtime | APPROVED |
 | threadpoolctl | 3.8.0 | BSD-3-Clause | Native thread control | APPROVED |
 | Pillow | 13.0.0 | MIT-CMU (`licenses/LICENSE` verified) | Secure image decode/re-encode | APPROVED |
+| tesserocr | 2.13.0 | MIT wrapper + bundled runtime notices verified | Local OCR binding; bundled Tesseract 5.5.4 | APPROVED |
+| tessdata_fast `eng` | commit `87416418657359cb625c412a48b6e1d6d41c29bd` | Apache-2.0; model/license SHA-256 pinned | English OCR model | APPROVED |
 
 Python lock có 51 third-party distributions ngoài local package và pip; license metadata của các
 dependency Stage I không có mục `UNKNOWN`. Chi tiết audit Stage C được lưu tại
@@ -105,7 +107,7 @@ Frontend lock chứa 161 package entries tại thời điểm audit cuối Stage
 | LightGBM | Tabular alternative not needed in Stage I because XGBoost CPU passed | Verify if later pinned | PENDING |
 | XGBoost | `xgboost-cpu==3.4.1`, Apache-2.0 wheel verified | Baseline only | APPROVED |
 | OpenCV | Image processing beyond Pillow's secure decode/re-encode role | Verify pinned artifact + bundled codecs | PENDING |
-| Tesseract OCR | OCR candidate | Verify installed distribution/language data | PENDING |
+| Tesseract OCR | `tesserocr==2.13.0`, bundled Tesseract 5.5.4 + pinned `tessdata_fast` | MIT/Apache-2.0 and bundled notices verified | APPROVED |
 | Tailwind CSS | Styling candidate | Verify pinned package | PENDING |
 | OWASP ZAP Community | Security self-test | Verify distribution terms | PENDING |
 
