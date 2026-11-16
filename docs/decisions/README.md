@@ -24,6 +24,7 @@ Thư mục này lưu các quyết định đã được chấp nhận của dự
 | ADR-0009 | Stage L secure-upload policy | ACCEPTED | 16/11/2026 |
 | ADR-0010 | Stage M fail-safe image pipeline | ACCEPTED | 16/11/2026 |
 | ADR-0011 | Stage N numeric feature set v2 | ACCEPTED | 16/11/2026 |
+| ADR-0012 | Stage O NO-GO và không phát hành champion | ACCEPTED | 16/11/2026 |
 
 ## Quy tắc thay đổi
 

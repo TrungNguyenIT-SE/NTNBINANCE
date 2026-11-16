@@ -46,6 +46,8 @@ models/**
 !models/ocr/eng.traineddata
 !models/ocr/LICENSE.tessdata-fast
 !models/ocr/MANIFEST.json
+!models/candidates/champion-v1.joblib
+!models/candidates/model-selection-v1.json
 var/**
 !var/**/
 !var/**/.gitkeep

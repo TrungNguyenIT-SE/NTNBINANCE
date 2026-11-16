@@ -288,18 +288,24 @@ Phân biệt rõ hai loại “chi phí” trong tài liệu:
 
 ### O — Huấn luyện và chọn mô hình hybrid
 
-- [ ] Train numeric-only champion candidate.
-- [ ] Train image-only benchmark để đo giá trị thật của ảnh.
-- [ ] Train fusion candidate 1H + 15m + numeric + quality.
-- [ ] Cố định seed/config/data/model version.
-- [ ] So sánh chất lượng, latency, RAM và kích thước artifact.
-- [ ] Chỉ tune trên train/validation.
-- [ ] Chạy ablation numeric-only/image-only/hybrid.
+- [x] Train numeric-only champion candidate.
+- [x] Train image-only benchmark để đo giá trị thật của ảnh.
+- [x] Train fusion candidate 1H + 15m + numeric + quality.
+- [x] Cố định seed/config/data/model version.
+- [x] So sánh chất lượng, latency, RAM và kích thước artifact.
+- [x] Chỉ tune trên train/validation.
+- [x] Chạy ablation numeric-only/image-only/hybrid.
 - [ ] Chọn model đơn giản nhất đạt cải thiện có ý nghĩa.
 - [ ] **Hoàn tất O — champion candidate được chọn.**
 
+**Trạng thái NO-GO ngày 16/11/2026:** toàn bộ thí nghiệm và ablation đã chạy, nhưng chưa có
+candidate đạt ngưỡng khóa. Macro F1 tốt nhất là `0,4586`, thấp hơn baseline Stage I `0,4607`
+và ngưỡng Exit Gate `0,4707`; mọi candidate đều có net return validation âm. Không tạo champion,
+không mở FINAL_HOLDOUT và không chuyển sang P. Cần thêm lịch sử độc lập cùng corpus ảnh thật có
+version rồi chạy lại O; không tiếp tục tune trên cùng 26 mẫu validation.
+
 **Exit Gate O:** candidate vượt baseline trên validation và phù hợp resource budget; nếu vision không tăng giá trị thì dùng numeric model + image quality validation.  
-**Bằng chứng:** `reports/model-selection.md`, `models/candidates/`
+**Bằng chứng:** `reports/model-selection.md`, `models/candidates/model-selection-v1.json`, `tests/model_selection/`, `docs/decisions/0012-stage-o-no-go.md`
 
 ### P — Calibration, uncertainty và `NO_TRADE`
 

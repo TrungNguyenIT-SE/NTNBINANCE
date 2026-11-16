@@ -13,6 +13,7 @@ dependencies = [
     "duckdb==2.0.0",
     "fastapi==0.162.2",
     "httpx2==2.16.0",
+    "joblib==1.6.0",
     "Pillow==13.0.0",
     "scikit-learn==1.9.1",
     "tesserocr==2.13.0",
@@ -83,5 +84,5 @@ warn_unused_configs = true
 show_error_codes = true
 
 [[tool.mypy.overrides]]
-module = ["scipy", "scipy.*", "sklearn", "sklearn.*", "tesserocr", "uvicorn"]
+module = ["joblib", "scipy", "scipy.*", "sklearn", "sklearn.*", "tesserocr", "uvicorn"]
 ignore_missing_imports = true

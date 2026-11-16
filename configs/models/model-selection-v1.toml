@@ -1,0 +1,50 @@
+version = "1.0.0"
+seed = 20261116
+feature_version = "2.0.0"
+image_pipeline_version = "1.0.0"
+class_order = ["LONG", "SHORT", "NO_TRADE"]
+split_manifest = "data/manifests/split-v1.json"
+label_run_id = "8780c5a42857c830"
+clean_run_id = "13f11d10018f9914"
+label_config = "configs/labels/triple-barrier-v1.toml"
+baseline_macro_f1 = 0.4607
+minimum_macro_f1_gain = 0.01
+minimum_vision_macro_f1_gain = 0.02
+
+[image]
+width = 800
+height = 600
+embedding_width = 16
+embedding_height = 12
+pca_components = 16
+theme = "DARK"
+
+[logistic]
+C = 1.0
+max_iter = 2000
+class_weight = "balanced"
+
+[xgboost]
+n_estimators = 50
+max_depth = 2
+learning_rate = 0.05
+subsample = 0.8
+colsample_bytree = 0.8
+n_jobs = 1
+
+[sensitivity]
+depths = [1, 2, 3]
+estimators = [25, 50, 100]
+learning_rates = [0.03, 0.05, 0.10]
+time_series_splits = 3
+gap_samples = 4
+svc_cs = [0.1, 1.0, 10.0, 100.0]
+svc_gammas = ["scale", "auto"]
+tree_depths = [2, 4, 8]
+tree_min_samples_leaf = [1, 3, 5]
+tree_estimators = 200
+
+[resources]
+maximum_prediction_latency_ms = 50.0
+maximum_python_peak_memory_mb = 256.0
+maximum_artifact_bytes = 10000000
