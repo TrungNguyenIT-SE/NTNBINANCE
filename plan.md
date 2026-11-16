@@ -305,7 +305,7 @@ không mở FINAL_HOLDOUT và không chuyển sang P. Cần thêm lịch sử đ
 version rồi chạy lại O; không tiếp tục tune trên cùng 26 mẫu validation.
 
 **Exit Gate O:** candidate vượt baseline trên validation và phù hợp resource budget; nếu vision không tăng giá trị thì dùng numeric model + image quality validation.  
-**Bằng chứng:** `reports/model-selection.md`, `models/candidates/model-selection-v1.json`, `tests/model_selection/`, `docs/decisions/0012-stage-o-no-go.md`
+**Bằng chứng:** `reports/model-selection.md`, `models/candidates/model-selection-v1.json`, `tests/model_selection/`, `docs/decisions/0012-stage-o-no-go.md`, `reports/stage-o-clean-checkout.md`
 
 ### P — Calibration, uncertainty và `NO_TRADE`
 
